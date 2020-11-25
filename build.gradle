@@ -1,0 +1,36 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        compose_version = "1.0.0-alpha07"
+    }
+    ext.kotlin_version = "1.4.10"
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        // Need this because Compose, AGP 4.2.0-alpha14 and above,
+        // and SQLDelight don't play nice together.
+        // https://github.com/cashapp/sqldelight/issues/2058
+        classpath("xml-apis:xml-apis:1.4.01")
+        classpath("com.android.tools.build:gradle:4.2.0-alpha16")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+        classpath("com.squareup.sqldelight:gradle-plugin:1.4.4")
+        classpath("com.google.dagger:hilt-android-gradle-plugin:2.30-alpha")
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

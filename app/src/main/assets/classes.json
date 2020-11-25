@@ -1,0 +1,824 @@
+{ "name" : "Acid Splash", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Acid Splash", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Acid Splash", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Animal Messenger", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Animal Messenger", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Animal Messenger", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Aid", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Aid", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Aid", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Alarm", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Alarm", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Alarm", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Animal Friendship", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Animal Friendship", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Animal Friendship", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Animate Dead", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Animate Dead", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Alter Self", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Alter Self", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Alter Self", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Animal Shapes", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Antimagic Field", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Antimagic Field", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Arcane Lock", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Arcane Lock", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Antilife Shell", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Arcane Eye", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Arcane Eye", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Antipathy/Sympathy", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Antipathy/Sympathy", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Awaken", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Awaken", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Astral Projection", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Astral Projection", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Astral Projection", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Animate Objects", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Animate Objects", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Animate Objects", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Animate Objects", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Barkskin", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Barkskin", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Augury", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Blade Barrier", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Bane", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Bane", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Banishment", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Banishment", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Banishment", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Banishment", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Banishment", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Bestow Curse", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Bestow Curse", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Bestow Curse", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Bless", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Bless", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Beacon of Hope", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Blur", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Blur", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Blur", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Blight", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Blight", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Blight", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Blight", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Blink", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Blink", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Blink", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Blindness/Deafness", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Blindness/Deafness", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Blindness/Deafness", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Blindness/Deafness", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Branding Smite", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Chain Lightning", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Chain Lightning", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Burning Hands", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Burning Hands", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Call Lightning", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Calm Emotions", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Calm Emotions", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Circle of Death", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Circle of Death", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Circle of Death", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Clone", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Charm Person", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Charm Person", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Charm Person", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Charm Person", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Charm Person", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Chill Touch", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Chill Touch", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Chill Touch", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Clairvoyance", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Clairvoyance", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Clairvoyance", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Clairvoyance", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Color Spray", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Color Spray", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Commune", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Cloudkill", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Cloudkill", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Comprehend Languages", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Comprehend Languages", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Comprehend Languages", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Comprehend Languages", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Command", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Command", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Compulsion", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Commune with Nature", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Commune with Nature", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Cone of Cold", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Cone of Cold", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Conjure Celestial", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Conjure Animals", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Conjure Animals", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Conjure Fey", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Conjure Fey", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Conjure Elemental", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Conjure Elemental", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Contact Other Plane", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Contact Other Plane", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Conjure Woodland Beings", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Conjure Woodland Beings", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Confusion", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Confusion", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Confusion", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Confusion", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Conjure Minor Elementals", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Conjure Minor Elementals", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Contingency", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Continual Flame", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Continual Flame", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Continual Flame", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Contagion", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Contagion", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Control Water", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Control Water", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Control Water", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Counterspell", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Counterspell", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Counterspell", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Control Weather", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Control Weather", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Control Weather", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Create Undead", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Create Undead", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Create Undead", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Create Food and Water", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Create Food and Water", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Create Food and Water", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Darkvision", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Darkvision", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Darkvision", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Darkvision", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Darkvision", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Create or Destroy Water", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Create or Destroy Water", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Creation", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Creation", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Creation", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Dancing Lights", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Dancing Lights", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Dancing Lights", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Dancing Lights", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Cure Wounds", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Cure Wounds", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Cure Wounds", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Cure Wounds", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Cure Wounds", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Cure Wounds", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Delayed Blast Fireball", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Delayed Blast Fireball", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Demiplane", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Demiplane", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Detect Evil and Good", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Detect Evil and Good", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Darkness", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Darkness", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Darkness", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Death Ward", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Death Ward", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Death Ward", "className" : "Artificer", "classSource" : "UAArtificer" }
+{ "name" : "Daylight", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Daylight", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Daylight", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Daylight", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Daylight", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Detect Poison and Disease", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Detect Poison and Disease", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Detect Poison and Disease", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Detect Poison and Disease", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Detect Magic", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Detect Magic", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Detect Magic", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Detect Magic", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Detect Magic", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Detect Magic", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Detect Magic", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Detect Magic", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Dimension Door", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Dimension Door", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Dimension Door", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Dimension Door", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Detect Thoughts", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Detect Thoughts", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Detect Thoughts", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Disintegrate", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Disintegrate", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Dispel Evil and Good", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Dispel Evil and Good", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Divine Favor", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Divine Word", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Disguise Self", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Disguise Self", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Disguise Self", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Disguise Self", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Dispel Magic", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Dispel Magic", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Dispel Magic", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Dispel Magic", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Dispel Magic", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Dispel Magic", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Dispel Magic", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Dispel Magic", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Divination", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Dominate Monster", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Dominate Monster", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Dominate Monster", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Dominate Monster", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Druidcraft", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Dominate Beast", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Dominate Beast", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Entangle", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Eldritch Blast", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Dream", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Dream", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Dream", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Earthquake", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Earthquake", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Earthquake", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Dominate Person", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Dominate Person", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Dominate Person", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Etherealness", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Etherealness", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Etherealness", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Etherealness", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Etherealness", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Expeditious Retreat", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Expeditious Retreat", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Expeditious Retreat", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Expeditious Retreat", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Enlarge/Reduce", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Enlarge/Reduce", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Enlarge/Reduce", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Enhance Ability", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Enhance Ability", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Enhance Ability", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Enhance Ability", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Enhance Ability", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Fabricate", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Fabricate", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Enthrall", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Enthrall", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Eyebite", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Eyebite", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Eyebite", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Eyebite", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "False Life", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "False Life", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "False Life", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Faerie Fire", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Faerie Fire", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Faerie Fire", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Find Steed", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Feather Fall", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Feather Fall", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Feather Fall", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Feather Fall", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Find Familiar", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Find the Path", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Find the Path", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Find the Path", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Feeblemind", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Feeblemind", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Feeblemind", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Feeblemind", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Find Traps", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Find Traps", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Find Traps", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Fear", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Fear", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Fear", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Fear", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Finger of Death", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Finger of Death", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Finger of Death", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Fire Bolt", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Fire Bolt", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Fire Bolt", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Fire Storm", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Fire Storm", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Fire Storm", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Fire Shield", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Flame Blade", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Fireball", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Fireball", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Flesh to Stone", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Flesh to Stone", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Fly", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Fly", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Fly", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Fly", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Flame Strike", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Flaming Sphere", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Flaming Sphere", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Forbiddance", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Foresight", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Foresight", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Foresight", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Foresight", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Fog Cloud", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Fog Cloud", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Fog Cloud", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Fog Cloud", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Forcecage", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Forcecage", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Forcecage", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Gate", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Gate", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Gate", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Geas", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Geas", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Geas", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Geas", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Geas", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Freedom of Movement", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Freedom of Movement", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Freedom of Movement", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Freedom of Movement", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Freedom of Movement", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Glibness", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Glibness", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Gaseous Form", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Gaseous Form", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Gaseous Form", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Gentle Repose", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Gentle Repose", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Globe of Invulnerability", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Globe of Invulnerability", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Giant Insect", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Goodberry", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Goodberry", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Grease", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Grease", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Greater Restoration", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Greater Restoration", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Greater Restoration", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Greater Restoration", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Greater Invisibility", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Greater Invisibility", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Greater Invisibility", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Glyph of Warding", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Glyph of Warding", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Glyph of Warding", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Glyph of Warding", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Guidance", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Guidance", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Guidance", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Guards and Wards", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Guards and Wards", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Guardian of Faith", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Guiding Bolt", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Harm", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Hallucinatory Terrain", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Hallucinatory Terrain", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Hallucinatory Terrain", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Hallucinatory Terrain", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Gust of Wind", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Gust of Wind", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Gust of Wind", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Heal", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Heal", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Healing Word", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Healing Word", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Healing Word", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Hellish Rebuke", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Hallow", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Haste", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Haste", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Haste", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Heroes' Feast", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Heroes' Feast", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Heat Metal", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Heat Metal", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Heat Metal", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Holy Aura", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Hold Monster", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Hold Monster", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Hold Monster", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Hold Monster", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Heroism", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Heroism", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Hunter's Mark", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Identify", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Identify", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Identify", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Hypnotic Pattern", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Hypnotic Pattern", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Hypnotic Pattern", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Hypnotic Pattern", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Hold Person", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Hold Person", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Hold Person", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Hold Person", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Hold Person", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Hold Person", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Ice Storm", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Ice Storm", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Ice Storm", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Incendiary Cloud", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Incendiary Cloud", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Illusory Script", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Illusory Script", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Illusory Script", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Imprisonment", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Imprisonment", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Inflict Wounds", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Knock", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Knock", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Knock", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Jump", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Jump", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Jump", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Jump", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Jump", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Legend Lore", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Legend Lore", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Legend Lore", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Lesser Restoration", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Lesser Restoration", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Lesser Restoration", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Lesser Restoration", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Lesser Restoration", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Lesser Restoration", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Invisibility", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Invisibility", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Invisibility", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Invisibility", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Invisibility", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Levitate", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Levitate", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Levitate", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Insect Plague", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Insect Plague", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Insect Plague", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Longstrider", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Longstrider", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Longstrider", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Longstrider", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Longstrider", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Light", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Light", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Light", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Light", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Light", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Locate Animals or Plants", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Locate Animals or Plants", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Locate Animals or Plants", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Lightning Bolt", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Lightning Bolt", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Locate Object", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Locate Object", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Locate Object", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Locate Object", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Locate Object", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Locate Object", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Locate Creature", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Locate Creature", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Locate Creature", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Locate Creature", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Locate Creature", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Locate Creature", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Mage Armor", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Mage Armor", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Magic Jar", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Magic Missile", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Magic Missile", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Magic Mouth", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Magic Mouth", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Magic Mouth", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Magic Circle", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Magic Circle", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Magic Circle", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Magic Circle", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Mass Heal", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Mage Hand", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Mage Hand", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Mage Hand", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Mage Hand", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Mage Hand", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Maze", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Mass Healing Word", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Major Image", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Major Image", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Major Image", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Major Image", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Mass Cure Wounds", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Mass Cure Wounds", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Mass Cure Wounds", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Mass Suggestion", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Mass Suggestion", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Mass Suggestion", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Mass Suggestion", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Magic Weapon", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Magic Weapon", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Magic Weapon", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Meld into Stone", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Meld into Stone", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Meteor Swarm", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Meteor Swarm", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Mind Blank", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Mind Blank", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Message", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Message", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Message", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Message", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Mending", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Mending", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Mending", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Mending", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Mending", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Mending", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Mirage Arcane", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Mirage Arcane", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Mirage Arcane", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Mislead", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Mislead", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Minor Illusion", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Minor Illusion", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Minor Illusion", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Minor Illusion", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Mirror Image", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Mirror Image", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Mirror Image", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Misty Step", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Misty Step", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Misty Step", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Moonbeam", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Move Earth", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Move Earth", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Move Earth", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Nondetection", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Nondetection", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Nondetection", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Modify Memory", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Modify Memory", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Passwall", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Pass without Trace", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Pass without Trace", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Phantom Steed", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Planar Ally", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Phantasmal Killer", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Plane Shift", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Plane Shift", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Plane Shift", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Plane Shift", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Plane Shift", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Poison Spray", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Poison Spray", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Poison Spray", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Poison Spray", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Poison Spray", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Planar Binding", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Planar Binding", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Planar Binding", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Planar Binding", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Plant Growth", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Plant Growth", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Plant Growth", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Power Word Stun", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Power Word Stun", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Power Word Stun", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Power Word Stun", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Power Word Kill", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Power Word Kill", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Power Word Kill", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Power Word Kill", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Prayer of Healing", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Polymorph", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Polymorph", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Polymorph", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Polymorph", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Prestidigitation", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Prestidigitation", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Prestidigitation", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Prestidigitation", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Prestidigitation", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Prismatic Spray", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Prismatic Spray", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Produce Flame", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Programmed Illusion", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Programmed Illusion", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Project Image", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Project Image", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Prismatic Wall", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Protection from Poison", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Protection from Poison", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Protection from Poison", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Protection from Poison", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Protection from Poison", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Purify Food and Drink", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Purify Food and Drink", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Purify Food and Drink", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Purify Food and Drink", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Protection from Evil and Good", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Protection from Evil and Good", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Protection from Evil and Good", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Protection from Evil and Good", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Regenerate", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Regenerate", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Regenerate", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Raise Dead", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Raise Dead", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Raise Dead", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Ray of Frost", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Ray of Frost", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Ray of Frost", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Remove Curse", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Remove Curse", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Remove Curse", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Remove Curse", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Ray of Enfeeblement", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Ray of Enfeeblement", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Resistance", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Resistance", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Resistance", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Resurrection", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Resurrection", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Reverse Gravity", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Reverse Gravity", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Reverse Gravity", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Protection from Energy", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Protection from Energy", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Protection from Energy", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Protection from Energy", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Protection from Energy", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Protection from Energy", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Rope Trick", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Rope Trick", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Sacred Flame", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Reincarnate", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Revivify", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Revivify", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Revivify", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Sanctuary", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Sanctuary", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "See Invisibility", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "See Invisibility", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "See Invisibility", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "See Invisibility", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Sequester", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Seeming", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Seeming", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Seeming", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Sending", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Sending", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Sending", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Scorching Ray", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Scorching Ray", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Shapechange", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Shapechange", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Scrying", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Scrying", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Scrying", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Scrying", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Scrying", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Shield of Faith", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Shield of Faith", "className" : "Paladin", "classSource" : "SRD" }
+{ "name" : "Shield of Faith", "className" : "Artificer", "classSource" : "UAArtificer" }
+{ "name" : "Shillelagh", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Shield", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Shield", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Shocking Grasp", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Shocking Grasp", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Shocking Grasp", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Shatter", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Shatter", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Shatter", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Shatter", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Silent Image", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Silent Image", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Silent Image", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Silence", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Silence", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Silence", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Simulacrum", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Spare the Dying", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Spare the Dying", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Slow", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Slow", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Speak with Animals", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Speak with Animals", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Speak with Animals", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Sleep", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Sleep", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Sleep", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Sleet Storm", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Sleet Storm", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Sleet Storm", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Speak with Plants", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Speak with Plants", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Speak with Plants", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Stinking Cloud", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Stinking Cloud", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Stinking Cloud", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Spider Climb", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Spider Climb", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Spider Climb", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Spider Climb", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Spiritual Weapon", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Speak with Dead", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Speak with Dead", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Spirit Guardians", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Spike Growth", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Spike Growth", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Stone Shape", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Stone Shape", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Stone Shape", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Stone Shape", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Storm of Vengeance", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Suggestion", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Suggestion", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Suggestion", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Suggestion", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Stoneskin", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Stoneskin", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Stoneskin", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Stoneskin", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Stoneskin", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Sunburst", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Sunburst", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Sunburst", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Sunbeam", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Sunbeam", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Sunbeam", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Telekinesis", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Telekinesis", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Time Stop", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Time Stop", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Teleportation Circle", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Teleportation Circle", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Teleportation Circle", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Symbol", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Symbol", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Symbol", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Teleport", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Teleport", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Teleport", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Transport via Plants", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Tree Stride", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Tree Stride", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Tongues", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Tongues", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Tongues", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Tongues", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Tongues", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Thaumaturgy", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "True Strike", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "True Strike", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "True Strike", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "True Strike", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "True Seeing", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "True Seeing", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "True Seeing", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "True Seeing", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "True Seeing", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "True Resurrection", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "True Resurrection", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Thunderwave", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Thunderwave", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Thunderwave", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Thunderwave", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "True Polymorph", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "True Polymorph", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "True Polymorph", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Unseen Servant", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Unseen Servant", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Unseen Servant", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Vicious Mockery", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Vampiric Touch", "className" : "Warlock", "classSource" : "SRD" }
+{ "name" : "Vampiric Touch", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Wall of Force", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Wall of Thorns", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Wall of Ice", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Warding Bond", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Wall of Fire", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Wall of Fire", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Wall of Fire", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Wall of Stone", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Wall of Stone", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Wall of Stone", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Wall of Stone", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Weird", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Wind Walk", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Word of Recall", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Wind Wall", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Wind Wall", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Water Walk", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Water Walk", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Water Walk", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Water Walk", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Water Walk", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Water Breathing", "className" : "Druid", "classSource" : "SRD" }
+{ "name" : "Water Breathing", "className" : "Ranger", "classSource" : "SRD" }
+{ "name" : "Water Breathing", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Water Breathing", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Water Breathing", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Web", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Web", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Web", "className" : "Artificer", "classSource" : "ERLW" }
+{ "name" : "Wish", "className" : "Sorcerer", "classSource" : "SRD" }
+{ "name" : "Wish", "className" : "Wizard", "classSource" : "SRD" }
+{ "name" : "Zone of Truth", "className" : "Bard", "classSource" : "SRD" }
+{ "name" : "Zone of Truth", "className" : "Cleric", "classSource" : "SRD" }
+{ "name" : "Zone of Truth", "className" : "Paladin", "classSource" : "SRD" }

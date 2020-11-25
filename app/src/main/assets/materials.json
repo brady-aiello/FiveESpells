@@ -1,0 +1,168 @@
+{ "name" : "Animal Messenger", "material" : "a morsel of food" }
+{ "name" : "Aid", "material" : "a tiny strip of white cloth" }
+{ "name" : "Alarm", "material" : "a tiny bell and a piece of fine silver wire" }
+{ "name" : "Animal Friendship", "material" : "a morsel of food" }
+{ "name" : "Animate Dead", "material" : "a drop of blood, a piece of flesh, and a pinch of bone dust" }
+{ "name" : "Antimagic Field", "material" : "a pinch of powdered iron or iron filings" }
+{ "name" : "Arcane Lock", "material" : "gold dust worth at least 25 gp, which the spell consumes" }
+{ "name" : "Arcane Eye", "material" : "a bit of bat fur" }
+{ "name" : "Antipathy/Sympathy", "material" : "either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect" }
+{ "name" : "Awaken", "material" : "an agate worth at least 1,000 gp, which the spell consumes" }
+{ "name" : "Astral Projection", "material" : "for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes" }
+{ "name" : "Barkskin", "material" : "a handful of oak bark" }
+{ "name" : "Augury", "material" : "specially marked sticks, bones, or similar tokens worth at least 25 gp" }
+{ "name" : "Bane", "material" : "a drop of blood" }
+{ "name" : "Banishment", "material" : "an item distasteful to the target" }
+{ "name" : "Bless", "material" : "a sprinkling of holy water" }
+{ "name" : "Chain Lightning", "material" : "a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins" }
+{ "name" : "Circle of Death", "material" : "the powder of a crushed black pearl worth at least 500 gp" }
+{ "name" : "Clone", "material" : "a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a huge urn, coffin, mud-filled cyst in the ground, or crystal container filled with salt water" }
+{ "name" : "Clairvoyance", "material" : "a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for seeing" }
+{ "name" : "Color Spray", "material" : "a pinch of powder or sand that is colored red, yellow, and blue" }
+{ "name" : "Commune", "material" : "incense and a vial of holy or unholy water" }
+{ "name" : "Comprehend Languages", "material" : "a pinch of soot and salt" }
+{ "name" : "Cone of Cold", "material" : "a small crystal or glass cone" }
+{ "name" : "Conjure Elemental", "material" : "burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water" }
+{ "name" : "Conjure Woodland Beings", "material" : "one holly berry per creature summoned" }
+{ "name" : "Confusion", "material" : "three nut shells" }
+{ "name" : "Contingency", "material" : "a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp" }
+{ "name" : "Continual Flame", "material" : "ruby dust worth 50 gp, which the spell consumes" }
+{ "name" : "Control Water", "material" : "a drop of water and a pinch of dust" }
+{ "name" : "Control Weather", "material" : "burning incense and bits of earth and wood mixed in water" }
+{ "name" : "Create Undead", "material" : "one clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse" }
+{ "name" : "Darkvision", "material" : "either a pinch of dried carrot or an agate" }
+{ "name" : "Create or Destroy Water", "material" : "a drop of water if creating water or a few grains of sand if destroying it" }
+{ "name" : "Creation", "material" : "a tiny piece of matter of the same type of the item you plan to create" }
+{ "name" : "Dancing Lights", "material" : "a bit of phosphorus or wychwood, or a glowworm" }
+{ "name" : "Delayed Blast Fireball", "material" : "a tiny ball of bat guano and sulfur" }
+{ "name" : "Darkness", "material" : "bat fur and a drop of pitch or piece of coal" }
+{ "name" : "Detect Poison and Disease", "material" : "a yew leaf" }
+{ "name" : "Detect Thoughts", "material" : "a copper piece" }
+{ "name" : "Disintegrate", "material" : "a lodestone and a pinch of dust" }
+{ "name" : "Dispel Evil and Good", "material" : "holy water or powdered silver and iron" }
+{ "name" : "Divination", "material" : "incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes" }
+{ "name" : "Dream", "material" : "a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird" }
+{ "name" : "Earthquake", "material" : "a pinch of dirt, a piece of rock, and a lump of clay" }
+{ "name" : "Enlarge/Reduce", "material" : "a pinch of powdered iron" }
+{ "name" : "Enhance Ability", "material" : "fur or a feather from a beast" }
+{ "name" : "False Life", "material" : "a small amount of alcohol or distilled spirits" }
+{ "name" : "Feather Fall", "material" : "a small feather or a piece of down" }
+{ "name" : "Find Familiar", "material" : "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier" }
+{ "name" : "Find the Path", "material" : "a set of divinatory tools—such as bones, ivory sticks, cards, teeth, or carved runes—worth 100 gp and an object from the location you wish to find" }
+{ "name" : "Feeblemind", "material" : "a handful of clay, crystal, glass, or mineral spheres" }
+{ "name" : "Fear", "material" : "a white feather or the heart of a hen" }
+{ "name" : "Fire Shield", "material" : "a bit of phosphorus or a firefly" }
+{ "name" : "Flame Blade", "material" : "leaf of sumac" }
+{ "name" : "Fireball", "material" : "a tiny ball of bat guano and sulfur" }
+{ "name" : "Flesh to Stone", "material" : "a pinch of lime, water, and earth" }
+{ "name" : "Fly", "material" : "a wing feather from any bird" }
+{ "name" : "Flame Strike", "material" : "pinch of sulfur" }
+{ "name" : "Flaming Sphere", "material" : "a bit of tallow, a pinch of brimstone, and a dusting of powdered iron" }
+{ "name" : "Forbiddance", "material" : "a sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp" }
+{ "name" : "Foresight", "material" : "a hummingbird feather" }
+{ "name" : "Forcecage", "material" : "ruby dust worth 1,500 gp" }
+{ "name" : "Gate", "material" : "a diamond worth at least 5,000 gp" }
+{ "name" : "Freedom of Movement", "material" : "a leather strap, bound around the arm or a similar appendage" }
+{ "name" : "Gaseous Form", "material" : "a bit of gauze and a wisp of smoke" }
+{ "name" : "Gentle Repose", "material" : "a pinch of salt and one copper piece placed on each of the corpse's eyes, which must remain there for the duration" }
+{ "name" : "Globe of Invulnerability", "material" : "a glass or crystal bead that shatters when the spell ends" }
+{ "name" : "Goodberry", "material" : "a sprig of mistletoe" }
+{ "name" : "Grease", "material" : "a bit of pork rind or butter" }
+{ "name" : "Greater Restoration", "material" : "diamond dust worth at least 100 gp, which the spell consumes" }
+{ "name" : "Glyph of Warding", "material" : "incense and powdered diamond worth at least 200 gp, which the spell consumes" }
+{ "name" : "Guards and Wards", "material" : "burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp" }
+{ "name" : "Hallucinatory Terrain", "material" : "a stone, a twig, and a bit of green plant" }
+{ "name" : "Gust of Wind", "material" : "a legume seed" }
+{ "name" : "Hallow", "material" : "herbs, oils, and incense worth at least 1,000 gp, which the spell consumes" }
+{ "name" : "Haste", "material" : "a shaving of licorice root" }
+{ "name" : "Heroes' Feast", "material" : "a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes" }
+{ "name" : "Heat Metal", "material" : "a piece of iron and a flame" }
+{ "name" : "Holy Aura", "material" : "a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a religious text" }
+{ "name" : "Hold Monster", "material" : "a small, straight piece of iron" }
+{ "name" : "Identify", "material" : "a pearl worth at least 100 gp and an owl feather" }
+{ "name" : "Hypnotic Pattern", "material" : "a glowing stick of incense or a crystal vial filled with phosphorescent material" }
+{ "name" : "Hold Person", "material" : "a small, straight piece of iron" }
+{ "name" : "Ice Storm", "material" : "a pinch of dust and a few drops of water" }
+{ "name" : "Illusory Script", "material" : "a lead-based ink worth at least 10 gp, which the spell consumes" }
+{ "name" : "Imprisonment", "material" : "a vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500 gp per Hit Die of the target" }
+{ "name" : "Jump", "material" : "a grasshopper's hind leg" }
+{ "name" : "Legend Lore", "material" : "incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each" }
+{ "name" : "Invisibility", "material" : "an eyelash encased in gum arabic" }
+{ "name" : "Levitate", "material" : "either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end" }
+{ "name" : "Insect Plague", "material" : "a few grains of sugar, some kernels of grain, and a smear of fat" }
+{ "name" : "Longstrider", "material" : "a pinch of dirt" }
+{ "name" : "Light", "material" : "a firefly or phosphorescent moss" }
+{ "name" : "Locate Animals or Plants", "material" : "a bit of fur from a bloodhound" }
+{ "name" : "Lightning Bolt", "material" : "a bit of fur and a rod of amber, crystal, or glass" }
+{ "name" : "Locate Object", "material" : "a forked twig" }
+{ "name" : "Locate Creature", "material" : "a bit of fur from a bloodhound" }
+{ "name" : "Mage Armor", "material" : "a piece of cured leather" }
+{ "name" : "Magic Jar", "material" : "a gem, crystal, reliquary, or some other ornamental container worth at least 500 gp" }
+{ "name" : "Magic Mouth", "material" : "a small bit of honeycomb and jade dust worth at least 10 gp, which the spell consumes" }
+{ "name" : "Magic Circle", "material" : "holy water or powdered silver and iron worth at least 100 gp, which the spell consumes" }
+{ "name" : "Major Image", "material" : "a bit of fleece" }
+{ "name" : "Mass Suggestion", "material" : "a snake's tongue and either a bit of honeycomb or a drop of sweet oil" }
+{ "name" : "Message", "material" : "a short piece of copper wire" }
+{ "name" : "Mending", "material" : "two lodestones" }
+{ "name" : "Minor Illusion", "material" : "a bit of fleece" }
+{ "name" : "Moonbeam", "material" : "several seeds of any moonseed plant and a piece of opalescent feldspar" }
+{ "name" : "Move Earth", "material" : "an iron blade and a small bag containing a mixture of soils—clay, loam, and sand" }
+{ "name" : "Nondetection", "material" : "a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes" }
+{ "name" : "Passwall", "material" : "a pinch of sesame seeds" }
+{ "name" : "Pass without Trace", "material" : "ashes from a burned leaf of mistletoe and a sprig of spruce" }
+{ "name" : "Plane Shift", "material" : "a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence" }
+{ "name" : "Planar Binding", "material" : "a jewel worth at least 1,000 gp, which the spell consumes" }
+{ "name" : "Polymorph", "material" : "a caterpillar cocoon" }
+{ "name" : "Programmed Illusion", "material" : "a bit of fleece and jade dust worth at least 25 gp" }
+{ "name" : "Project Image", "material" : "a small replica of you made from materials worth at least 5 gp" }
+{ "name" : "Protection from Evil and Good", "material" : "holy water or powdered silver and iron, which the spell consumes" }
+{ "name" : "Regenerate", "material" : "a prayer wheel and holy water" }
+{ "name" : "Raise Dead", "material" : "a diamond worth at least 500 gp, which the spell consumes" }
+{ "name" : "Resistance", "material" : "a miniature cloak" }
+{ "name" : "Resurrection", "material" : "a diamond worth at least 1,000 gp, which the spell consumes" }
+{ "name" : "Reverse Gravity", "material" : "a lodestone and iron filings" }
+{ "name" : "Rope Trick", "material" : "powdered corn extract and a twisted loop of parchment" }
+{ "name" : "Reincarnate", "material" : "rare oils and unguents worth at least 1,000 gp, which the spell consumes" }
+{ "name" : "Revivify", "material" : "diamonds worth 300 gp, which the spell consumes" }
+{ "name" : "Sanctuary", "material" : "a small silver mirror" }
+{ "name" : "See Invisibility", "material" : "a pinch of Talc and a small sprinkling of powdered silver" }
+{ "name" : "Sequester", "material" : "a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes" }
+{ "name" : "Sending", "material" : "a short piece of fine copper wire" }
+{ "name" : "Shapechange", "material" : "a jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell" }
+{ "name" : "Scrying", "material" : "a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water" }
+{ "name" : "Shield of Faith", "material" : "a small parchment with a bit of holy text written on it" }
+{ "name" : "Shillelagh", "material" : "mistletoe, a shamrock leaf, and a club or quarterstaff" }
+{ "name" : "Shatter", "material" : "a chip of mica" }
+{ "name" : "Silent Image", "material" : "a bit of fleece" }
+{ "name" : "Simulacrum", "material" : "snow or ice in quantities sufficient to made a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice; and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell" }
+{ "name" : "Slow", "material" : "a drop of molasses" }
+{ "name" : "Sleep", "material" : "a pinch of fine sand, rose petals, or a cricket" }
+{ "name" : "Sleet Storm", "material" : "a pinch of dust and a few drops of water" }
+{ "name" : "Stinking Cloud", "material" : "a rotten egg or several skunk cabbage leaves" }
+{ "name" : "Spider Climb", "material" : "a drop of bitumen and a spider" }
+{ "name" : "Speak with Dead", "material" : "burning incense" }
+{ "name" : "Spirit Guardians", "material" : "a holy symbol" }
+{ "name" : "Spike Growth", "material" : "seven sharp thorns or seven small twigs, each sharpened to a point" }
+{ "name" : "Stone Shape", "material" : "soft clay, which must be worked into roughly the desired shape of the stone object" }
+{ "name" : "Suggestion", "material" : "a snake's tongue and either a bit of honeycomb or a drop of sweet oil" }
+{ "name" : "Stoneskin", "material" : "diamond dust worth 100 gp, which the spell consumes" }
+{ "name" : "Sunburst", "material" : "fire and a piece of sunstone" }
+{ "name" : "Sunbeam", "material" : "a magnifying glass" }
+{ "name" : "Teleportation Circle", "material" : "rare chalks and inks infused with precious gems worth 50 gp, which the spell consumes" }
+{ "name" : "Symbol", "material" : "mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes" }
+{ "name" : "Tongues", "material" : "a small clay model of a ziggurat" }
+{ "name" : "True Seeing", "material" : "an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell" }
+{ "name" : "True Resurrection", "material" : "a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes" }
+{ "name" : "True Polymorph", "material" : "a drop of mercury, a dollop of gum arabic, and a wisp of smoke" }
+{ "name" : "Unseen Servant", "material" : "a piece of string and a bit of wood" }
+{ "name" : "Wall of Force", "material" : "a pinch of powder made by crushing a clear gemstone" }
+{ "name" : "Wall of Thorns", "material" : "a handful of thorns" }
+{ "name" : "Wall of Ice", "material" : "a small piece of quartz" }
+{ "name" : "Warding Bond", "material" : "a pair of platinum rings worth at least 50 gp each, which you and the target must wear for the duration" }
+{ "name" : "Wall of Fire", "material" : "a small piece of phosphorus" }
+{ "name" : "Wall of Stone", "material" : "a small block of granite" }
+{ "name" : "Wind Walk", "material" : "fire and holy water" }
+{ "name" : "Wind Wall", "material" : "a tiny fan and a feather of exotic origin" }
+{ "name" : "Water Walk", "material" : "a piece of cork" }
+{ "name" : "Water Breathing", "material" : "a short reed or piece of straw" }
+{ "name" : "Web", "material" : "a bit of spiderweb" }

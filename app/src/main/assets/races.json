@@ -1,0 +1,236 @@
+{ "name" : "Alarm", "race" : "Dwarf (Mark of Warding)", "raceSource" : "ERLW", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Animal Messenger", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Aid", "race" : "Halfling (Mark of Hospitality)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Animal Friendship", "race" : "Yuan-ti Pureblood", "raceSource" : "VGM", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Animal Friendship", "race" : "Human (Mark of Handling)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Alter Self", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Antilife Shell", "race" : "Dwarf (Mark of Warding)", "raceSource" : "ERLW", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Arcane Lock", "race" : "Tiefling (Mammon)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Arcane Lock", "race" : "Tiefling (Mammon)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Arcane Lock", "race" : "Dwarf (Mark of Warding)", "raceSource" : "ERLW", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Arcane Eye", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Arcane Eye", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Awaken", "race" : "Human (Mark of Handling)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Beacon of Hope", "race" : "Human (Mark of Handling)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Branding Smite", "race" : "Tiefling (Zariel)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Branding Smite", "race" : "Tiefling (Zariel)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Blink", "race" : "Human (Mark of Passage)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Chill Touch", "race" : "Elf (Eladrin)", "raceSource" : "UAEladrinAndGith", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Chill Touch", "race" : "Elf (Shadar-kai)", "raceSource" : "UAElfSubraces", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Chill Touch", "race" : "Elf (Zendikar) (Mul Daya Nation)", "raceSource" : "PSZ", "raceBaseName" : "Elf (Zendikar)", "raceBaseSource" : "PSZ" }
+{ "name" : "Calm Emotions", "race" : "Halfling (Mark of Hospitality)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Calm Emotions", "race" : "Human (Mark of Handling)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Charm Person", "race" : "Tiefling (Variant)", "raceSource" : "SCAG", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Charm Person", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Charm Person", "race" : "Tiefling (Fierna)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Charm Person", "race" : "Tiefling (Fierna)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Burning Hands", "race" : "Genasi (Fire)", "raceSource" : "EEPC", "raceBaseName" : "Genasi", "raceBaseSource" : "EEPC" }
+{ "name" : "Burning Hands", "race" : "Tiefling (Variant)", "raceSource" : "SCAG", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Burning Hands", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Burning Hands", "race" : "Tiefling (Mephistopheles)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Clairvoyance", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Clairvoyance", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Clairvoyance", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Clairvoyance", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Commune with Nature", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Commune with Nature", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Comprehend Languages", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Conjure Minor Elementals", "race" : "Half-Elf (Mark of Storm)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Conjure Elemental", "race" : "Half-Elf (Mark of Storm)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Conjure Animals", "race" : "Human (Mark of Handling)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Continual Flame", "race" : "Human (Mark of Making)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Confusion", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Control Water", "race" : "Half-Elf (Mark of Storm)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Create Food and Water", "race" : "Halfling (Mark of Hospitality)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Counterspell", "race" : "Human (Mark of Sentinel)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Create or Destroy Water", "race" : "Genasi (Water)", "raceSource" : "EEPC", "raceBaseName" : "Genasi", "raceBaseSource" : "EEPC" }
+{ "name" : "Dancing Lights", "race" : "Elf (Drow)", "raceSource" : "SRD", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Dancing Lights", "race" : "Half-Elf (Drow Descent)", "raceSource" : "SCAG", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Dancing Lights", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Cure Wounds", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Cure Wounds", "race" : "Halfling (Mark of Healing)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Creation", "race" : "Human (Mark of Making)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Detect Evil and Good", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Detect Poison and Disease", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Detect Magic", "race" : "Firbolg", "raceSource" : "VGM", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Detect Magic", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Death Ward", "race" : "Human (Mark of Sentinel)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Daylight", "race" : "Aasimar", "raceSource" : "DMG", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Elf (Drow)", "raceSource" : "SRD", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Elf (Zendikar) (Mul Daya Nation)", "raceSource" : "PSZ", "raceBaseName" : "Elf (Zendikar)", "raceBaseSource" : "PSZ" }
+{ "name" : "Darkness", "race" : "Half-Elf (Drow Descent)", "raceSource" : "SCAG", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Tiefling", "raceSource" : "SRD", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Tiefling (Variant)", "raceSource" : "SCAG", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Tiefling (Levistus)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Tiefling (Asmodeus)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Tiefling (Levistus)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Tiefling (Asmodeus)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Tiefling (Variant)", "raceSource" : "SCAG", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Darkness", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Detect Thoughts", "race" : "Gith (Githzerai)", "raceSource" : "UAEladrinAndGith", "raceBaseName" : "Gith", "raceBaseSource" : "UAEladrinAndGith" }
+{ "name" : "Detect Thoughts", "race" : "Gith (Githzerai)", "raceSource" : "MTF", "raceBaseName" : "Gith", "raceBaseSource" : "MTF" }
+{ "name" : "Detect Thoughts", "race" : "Tiefling (Dispater)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Detect Thoughts", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Dimension Door", "race" : "Human (Mark of Passage)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Disguise Self", "race" : "Firbolg", "raceSource" : "VGM", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Disguise Self", "race" : "Tiefling (Dispater)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Disguise Self", "race" : "Tiefling (Glasya)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Disguise Self", "race" : "Tiefling (Dispater)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Disguise Self", "race" : "Tiefling (Glasya)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Disguise Self", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Divination", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Divination", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Divination", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Dominate Beast", "race" : "Human (Mark of Handling)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Dream", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Enlarge/Reduce", "race" : "Dwarf (Duergar)", "raceSource" : "SCAG", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Enlarge/Reduce", "race" : "Dwarf (Duergar)", "raceSource" : "MTF", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Expeditious Retreat", "race" : "Human (Mark of Passage)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Enthrall", "race" : "Tiefling (Variant)", "raceSource" : "SCAG", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Fabricate", "race" : "Human (Mark of Making)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Feather Fall", "race" : "Half-Elf (Mark of Storm)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Faerie Fire", "race" : "Elf (Drow)", "raceSource" : "SRD", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Faerie Fire", "race" : "Half-Elf (Drow Descent)", "raceSource" : "SCAG", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Faerie Fire", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Faerie Fire", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Find Traps", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Fire Bolt", "race" : "Elf (Eladrin)", "raceSource" : "UAEladrinAndGith", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Flame Blade", "race" : "Tiefling (Mephistopheles)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Fog Cloud", "race" : "Triton", "raceSource" : "VGM", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Fog Cloud", "race" : "Half-Elf (Mark of Storm)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Goodberry", "race" : "Halfling (Mark of Hospitality)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Freedom of Movement", "race" : "Human (Mark of Passage)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Glyph of Warding", "race" : "Dwarf (Mark of Warding)", "raceSource" : "ERLW", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Greater Restoration", "race" : "Halfling (Mark of Healing)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Greater Invisibility", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Guardian of Faith", "race" : "Human (Mark of Sentinel)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Gust of Wind", "race" : "Triton", "raceSource" : "VGM", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Gust of Wind", "race" : "Half-Elf (Mark of Storm)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Hallucinatory Terrain", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Healing Word", "race" : "Halfling (Mark of Healing)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Hellish Rebuke", "race" : "Tiefling", "raceSource" : "SRD", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Hellish Rebuke", "race" : "Tiefling (Variant)", "raceSource" : "SCAG", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Hellish Rebuke", "race" : "Tiefling (Asmodeus)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Hellish Rebuke", "race" : "Tiefling (Asmodeus)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Hallow", "race" : "Halfling (Mark of Hospitality)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Hunter's Mark", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Hunter's Mark", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Identify", "race" : "Human (Mark of Making)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Illusory Script", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Knock", "race" : "Dwarf (Mark of Warding)", "raceSource" : "ERLW", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Jump", "race" : "Gith (Githyanki)", "raceSource" : "UAEladrinAndGith", "raceBaseName" : "Gith", "raceBaseSource" : "UAEladrinAndGith" }
+{ "name" : "Jump", "race" : "Gith (Githyanki)", "raceSource" : "MTF", "raceBaseName" : "Gith", "raceBaseSource" : "MTF" }
+{ "name" : "Jump", "race" : "Human (Mark of Passage)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Legend Lore", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Invisibility", "race" : "Dwarf (Duergar)", "raceSource" : "SCAG", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Invisibility", "race" : "Dwarf (Duergar)", "raceSource" : "MTF", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Invisibility", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Invisibility", "race" : "Tiefling (Dispater)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Invisibility", "race" : "Tiefling (Glasya)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Invisibility", "race" : "Tiefling (Glasya)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Invisibility", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Levitate", "race" : "Genasi (Air)", "raceSource" : "EEPC", "raceBaseName" : "Genasi", "raceBaseSource" : "EEPC" }
+{ "name" : "Levitate", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Levitate", "race" : "Half-Elf (Mark of Storm)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Lesser Restoration", "race" : "Aasimar", "raceSource" : "DMG", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Lesser Restoration", "race" : "Halfling (Mark of Healing)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Light", "race" : "Aasimar (Fallen)", "raceSource" : "VGM", "raceBaseName" : "Aasimar", "raceBaseSource" : "VGM" }
+{ "name" : "Light", "race" : "Aasimar (Protector)", "raceSource" : "VGM", "raceBaseName" : "Aasimar", "raceBaseSource" : "VGM" }
+{ "name" : "Light", "race" : "Aasimar (Scourge)", "raceSource" : "VGM", "raceBaseName" : "Aasimar", "raceBaseSource" : "VGM" }
+{ "name" : "Light", "race" : "Aasimar", "raceSource" : "DMG", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Light", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Locate Animals or Plants", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Locate Animals or Plants", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Mage Armor", "race" : "Dwarf (Mark of Warding)", "raceSource" : "ERLW", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Locate Object", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Locate Object", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Magic Circle", "race" : "Dwarf (Mark of Warding)", "raceSource" : "ERLW", "raceBaseName" : "Dwarf", "raceBaseSource" : null }
+{ "name" : "Longstrider", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Longstrider", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Magic Mouth", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Magic Missile", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Magic Missile", "race" : "Tiefling (Mephistopheles)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Locate Creature", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Locate Creature", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Mage Hand", "race" : "Gith (Githyanki)", "raceSource" : "UAEladrinAndGith", "raceBaseName" : "Gith", "raceBaseSource" : "UAEladrinAndGith" }
+{ "name" : "Mage Hand", "race" : "Gith (Githzerai)", "raceSource" : "UAEladrinAndGith", "raceBaseName" : "Gith", "raceBaseSource" : "UAEladrinAndGith" }
+{ "name" : "Mage Hand", "race" : "Gith (Githyanki)", "raceSource" : "MTF", "raceBaseName" : "Gith", "raceBaseSource" : "MTF" }
+{ "name" : "Mage Hand", "race" : "Gith (Githzerai)", "raceSource" : "MTF", "raceBaseName" : "Gith", "raceBaseSource" : "MTF" }
+{ "name" : "Mage Hand", "race" : "Tiefling (Mammon)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Mage Hand", "race" : "Tiefling (Mephistopheles)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Mage Hand", "race" : "Tiefling (Mammon)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Mage Hand", "race" : "Tiefling (Mephistopheles)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Mass Healing Word", "race" : "Halfling (Mark of Healing)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Major Image", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Magic Weapon", "race" : "Human (Mark of Making)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Mending", "race" : "Human (Mark of Making)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Message", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Message", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Mirror Image", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Minor Illusion", "race" : "Elf (Eladrin)", "raceSource" : "UAEladrinAndGith", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Minor Illusion", "race" : "Gnome (Forest)", "raceSource" : "SRD", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Minor Illusion", "race" : "Tiefling (Glasya)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Minor Illusion", "race" : "Tiefling (Glasya)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Minor Illusion", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Mislead", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Misty Step", "race" : "Elf (Eladrin; DMG)", "raceSource" : "DMG", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Misty Step", "race" : "Gith (Githyanki)", "raceSource" : "UAEladrinAndGith", "raceBaseName" : "Gith", "raceBaseSource" : "UAEladrinAndGith" }
+{ "name" : "Misty Step", "race" : "Gith (Githyanki)", "raceSource" : "MTF", "raceBaseName" : "Gith", "raceBaseSource" : "MTF" }
+{ "name" : "Misty Step", "race" : "Human (Mark of Passage)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Nondetection", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Phantom Steed", "race" : "Human (Mark of Passage)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Pass without Trace", "race" : "Genasi (Earth)", "raceSource" : "EEPC", "raceBaseName" : "Genasi", "raceBaseSource" : "EEPC" }
+{ "name" : "Pass without Trace", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Pass without Trace", "race" : "Human (Mark of Passage)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Poison Spray", "race" : "Yuan-ti Pureblood", "raceSource" : "VGM", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Prayer of Healing", "race" : "Halfling (Mark of Healing)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Prestidigitation", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Prestidigitation", "race" : "Halfling (Mark of Hospitality)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Produce Flame", "race" : "Genasi (Fire)", "raceSource" : "EEPC", "raceBaseName" : "Genasi", "raceBaseSource" : "EEPC" }
+{ "name" : "Purify Food and Drink", "race" : "Halfling (Mark of Hospitality)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Ray of Frost", "race" : "Tiefling (Levistus)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Ray of Frost", "race" : "Tiefling (Levistus)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Protection from Energy", "race" : "Human (Mark of Sentinel)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "See Invisibility", "race" : "Half-Elf (Mark of Detection)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Sending", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Shield of Faith", "race" : "Human (Mark of Sentinel)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Shield", "race" : "Gith (Githzerai)", "raceSource" : "UAEladrinAndGith", "raceBaseName" : "Gith", "raceBaseSource" : "UAEladrinAndGith" }
+{ "name" : "Shield", "race" : "Gith (Githzerai)", "raceSource" : "MTF", "raceBaseName" : "Gith", "raceBaseSource" : "MTF" }
+{ "name" : "Shield", "race" : "Human (Mark of Sentinel)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Silent Image", "race" : "Elf (Mark of Shadow)", "raceSource" : "ERLW", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Silence", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Sleet Storm", "race" : "Half-Elf (Mark of Storm)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Spare the Dying", "race" : "Elf (Shadar-kai)", "raceSource" : "UAElfSubraces", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Spare the Dying", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Speak with Animals", "race" : "Human (Mark of Handling)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Speak with Plants", "race" : "Half-Orc (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Half-Orc", "raceBaseSource" : null }
+{ "name" : "Speak with Plants", "race" : "Human (Mark of Finding)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Sleep", "race" : "Halfling (Mark of Hospitality)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Spider Climb", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Stone Shape", "race" : "Human (Mark of Making)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Suggestion", "race" : "Tiefling (Fierna)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Suggestion", "race" : "Tiefling (Fierna)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Suggestion", "race" : "Yuan-ti Pureblood", "raceSource" : "VGM", "raceBaseName" : null, "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Elf (Shadar-kai)", "raceSource" : "UAElfSubraces", "raceBaseName" : "Elf", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Zariel)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Variant)", "raceSource" : "SCAG", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Variant)", "raceSource" : "SCAG", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Asmodeus)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Baalzebul)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling", "raceSource" : "SRD", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Zariel)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Asmodeus)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Baalzebul)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Dispater)", "raceSource" : "MTF", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Thaumaturgy", "race" : "Tiefling (Dispater)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Tongues", "race" : "Gnome (Mark of Scribing)", "raceSource" : "ERLW", "raceBaseName" : "Gnome", "raceBaseSource" : null }
+{ "name" : "Teleportation Circle", "race" : "Human (Mark of Passage)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Unseen Servant", "race" : "Halfling (Mark of Hospitality)", "raceSource" : "ERLW", "raceBaseName" : "Halfling", "raceBaseSource" : null }
+{ "name" : "Thunderwave", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "True Strike", "race" : "Tiefling (Abyssal)", "raceSource" : "UAThatOldBlackMagic", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Vicious Mockery", "race" : "Tiefling (Variant)", "raceSource" : "SCAG", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Web", "race" : "Tiefling (Mephistopheles)", "raceSource" : "UAFiendishOptions", "raceBaseName" : "Tiefling", "raceBaseSource" : null }
+{ "name" : "Warding Bond", "race" : "Human (Mark of Sentinel)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }
+{ "name" : "Wind Wall", "race" : "Half-Elf (Mark of Storm)", "raceSource" : "ERLW", "raceBaseName" : "Half-Elf", "raceBaseSource" : null }
+{ "name" : "Zone of Truth", "race" : "Human (Mark of Sentinel)", "raceSource" : "ERLW", "raceBaseName" : "Human", "raceBaseSource" : null }

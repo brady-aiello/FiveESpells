@@ -1,0 +1,727 @@
+{ "name" : "Aid", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Protection (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Aid", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Solidarity (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Aid", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Unity (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Alarm", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Clockwork Soul (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Alarm", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Watchers (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Animal Friendship", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Nature", "subclassSource" : "SRD" }
+{ "name" : "Animate Dead", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Death", "subclassSource" : "DMG" }
+{ "name" : "Animate Dead", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Oathbreaker", "subclassSource" : "DMG" }
+{ "name" : "Animate Dead", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores (UA)", "subclassSource" : "UAThreeSubclasses" }
+{ "name" : "Animate Dead", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores", "subclassSource" : "GGR" }
+{ "name" : "Alter Self", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Alter Self", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Alchemist", "subclassSource" : "ERLW" }
+{ "name" : "Antilife Shell", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Death", "subclassSource" : "DMG" }
+{ "name" : "Antilife Shell", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Protection (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Antilife Shell", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Antilife Shell", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Arcane Eye", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Arcana", "subclassSource" : "SCAG" }
+{ "name" : "Arcane Eye", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Arcane Eye", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Arcane Eye", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Arcane Eye", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Clockwork Soul (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Animate Objects", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Animate Objects", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge", "subclassSource" : "XGE" }
+{ "name" : "Animate Objects", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Clockwork Soul (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Barkskin", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Nature", "subclassSource" : "SRD" }
+{ "name" : "Barkskin", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Augury", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Augury", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Augury", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Kraken (Stream)", "subclassSource" : "Stream" }
+{ "name" : "Augury", "subclassBaseName" : "Barbarian", "subclassBaseSource" : "SRD", "subclassName" : "Ancestral Guardian", "subclassSource" : "XGE" }
+{ "name" : "Augury", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Watchers (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Bane", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Bane", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Bane", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Bane", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Bane", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Divine Soul", "subclassSource" : "XGE" }
+{ "name" : "Bane", "subclassBaseName" : "Wizard", "subclassBaseSource" : "SRD", "subclassName" : "Onomancy (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Banishment", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Crown", "subclassSource" : "SCAG" }
+{ "name" : "Banishment", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Banishment", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Banishment", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker", "subclassSource" : "XGE" }
+{ "name" : "Banishment", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Banishment", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer", "subclassSource" : "XGE" }
+{ "name" : "Banishment", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Fey Wanderer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Banishment", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Watchers (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Bestow Curse", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Oathbreaker", "subclassSource" : "DMG" }
+{ "name" : "Bestow Curse", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Bestow Curse", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Bestow Curse", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest v2 (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Bestow Curse", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest", "subclassSource" : "XGE" }
+{ "name" : "Bless", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Bless", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Solidarity (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Bless", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Divine Soul", "subclassSource" : "XGE" }
+{ "name" : "Bless", "subclassBaseName" : "Wizard", "subclassBaseSource" : "SRD", "subclassName" : "Onomancy (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Beacon of Hope", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Beacon of Hope", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Beacon of Hope", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Solidarity (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Beacon of Hope", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Beauty (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Beacon of Hope", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Unity (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Beacon of Hope", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Love (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Blur", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Blur", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade", "subclassSource" : "XGE" }
+{ "name" : "Blight", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Death", "subclassSource" : "DMG" }
+{ "name" : "Blight", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Blight", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Blight", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Blight", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Oathbreaker", "subclassSource" : "DMG" }
+{ "name" : "Blight", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Blight", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Darkness (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Blight", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores (UA)", "subclassSource" : "UAThreeSubclasses" }
+{ "name" : "Blight", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores", "subclassSource" : "GGR" }
+{ "name" : "Blight", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Alchemist", "subclassSource" : "ERLW" }
+{ "name" : "Blink", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Blink", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Archfey", "subclassSource" : "SRD" }
+{ "name" : "Blink", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Blink", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade", "subclassSource" : "XGE" }
+{ "name" : "Blindness/Deafness", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Death", "subclassSource" : "DMG" }
+{ "name" : "Blindness/Deafness", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Blindness/Deafness", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying", "subclassSource" : "SCAG" }
+{ "name" : "Blindness/Deafness", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Darkness (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Blindness/Deafness", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores (UA)", "subclassSource" : "UAThreeSubclasses" }
+{ "name" : "Blindness/Deafness", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores", "subclassSource" : "GGR" }
+{ "name" : "Branding Smite", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Branding Smite", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade", "subclassSource" : "XGE" }
+{ "name" : "Branding Smite", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Stone (UA)", "subclassSource" : "UASorcerer" }
+{ "name" : "Branding Smite", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Battle Smith", "subclassSource" : "ERLW" }
+{ "name" : "Burning Hands", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Burning Hands", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Burning Hands", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Burning Hands", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying Light (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Burning Hands", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Burning Hands", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Call Lightning", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Tempest", "subclassSource" : "SRD" }
+{ "name" : "Call Lightning", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Call Lightning", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Kraken (Stream)", "subclassSource" : "Stream" }
+{ "name" : "Calm Emotions", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Archfey", "subclassSource" : "SRD" }
+{ "name" : "Calm Emotions", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption", "subclassSource" : "XGE" }
+{ "name" : "Calm Emotions", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Aberrant Mind (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Charm Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Charm Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Charm Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Beauty (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Charm Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Love (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Charm Person", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Fey Wanderer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Clairvoyance", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Great Old One", "subclassSource" : "SRD" }
+{ "name" : "Clairvoyance", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Clairvoyance", "subclassBaseName" : "Barbarian", "subclassBaseSource" : "SRD", "subclassName" : "Ancestral Guardian", "subclassSource" : "XGE" }
+{ "name" : "Commune", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Commune", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Raven Queen (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Commune", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Commune", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }
+{ "name" : "Commune", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Cloudkill", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Death", "subclassSource" : "DMG" }
+{ "name" : "Cloudkill", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Cloudkill", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest v2 (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Cloudkill", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest", "subclassSource" : "XGE" }
+{ "name" : "Cloudkill", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Cloudkill", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Destruction (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Cloudkill", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores", "subclassSource" : "GGR" }
+{ "name" : "Cloudkill", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores (UA)", "subclassSource" : "UAThreeSubclasses" }
+{ "name" : "Cloudkill", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Alchemist", "subclassSource" : "ERLW" }
+{ "name" : "Comprehend Languages", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "City (UA)", "subclassSource" : "UAModernMagic" }
+{ "name" : "Command", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Command", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Command", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Crown", "subclassSource" : "SCAG" }
+{ "name" : "Command", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Command", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Command", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest v2 (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Command", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest", "subclassSource" : "XGE" }
+{ "name" : "Command", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Command", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }
+{ "name" : "Compulsion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Compulsion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Beauty (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Compulsion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }
+{ "name" : "Compulsion", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Aberrant Mind (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Compulsion", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Commune with Nature", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Commune with Nature", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Commune with Nature", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Ancients", "subclassSource" : "SRD" }
+{ "name" : "Commune with Nature", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Kraken (Stream)", "subclassSource" : "Stream" }
+{ "name" : "Commune with Nature", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lurker in the Deep (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Commune with Nature", "subclassBaseName" : "Barbarian", "subclassBaseSource" : "SRD", "subclassName" : "Totem Warrior", "subclassSource" : "SRD" }
+{ "name" : "Cone of Cold", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Cone of Cold", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Raven Queen (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Cone of Cold", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Cone of Cold", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade", "subclassSource" : "XGE" }
+{ "name" : "Cone of Cold", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Kraken (Stream)", "subclassSource" : "Stream" }
+{ "name" : "Cone of Cold", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lurker in the Deep (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Cone of Cold", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Conjure Animals", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Primeval Guardian (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Conjure Elemental", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Confusion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Confusion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Confusion", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Oathbreaker", "subclassSource" : "DMG" }
+{ "name" : "Confusion", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Confusion", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores (UA)", "subclassSource" : "UAThreeSubclasses" }
+{ "name" : "Confusion", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores", "subclassSource" : "GGR" }
+{ "name" : "Confusion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Love (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Contagion", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Oathbreaker", "subclassSource" : "DMG" }
+{ "name" : "Contagion", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying", "subclassSource" : "SCAG" }
+{ "name" : "Contagion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Darkness (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Contagion", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores", "subclassSource" : "GGR" }
+{ "name" : "Contagion", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores (UA)", "subclassSource" : "UAThreeSubclasses" }
+{ "name" : "Control Water", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Tempest", "subclassSource" : "SRD" }
+{ "name" : "Control Water", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Control Water", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Kraken (Stream)", "subclassSource" : "Stream" }
+{ "name" : "Control Water", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lurker in the Deep (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Counterspell", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Counterspell", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption", "subclassSource" : "XGE" }
+{ "name" : "Counterspell", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Clockwork Soul (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Counterspell", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Watchers (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Create Food and Water", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Create Food and Water", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Noble Genie (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Create Food and Water", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Create or Destroy Water", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Kraken (Stream)", "subclassSource" : "Stream" }
+{ "name" : "Create or Destroy Water", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lurker in the Deep (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Creation", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Creation", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge", "subclassSource" : "XGE" }
+{ "name" : "Creation", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Noble Genie (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Creation", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Cure Wounds", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Cure Wounds", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Cure Wounds", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Cure Wounds", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Divine Soul", "subclassSource" : "XGE" }
+{ "name" : "Detect Evil and Good", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Darkness", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Darkness", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Oathbreaker", "subclassSource" : "DMG" }
+{ "name" : "Darkness", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Darkness", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Darkness (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Darkness", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Twilight (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Death Ward", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Death", "subclassSource" : "DMG" }
+{ "name" : "Death Ward", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Death Ward", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying", "subclassSource" : "SCAG" }
+{ "name" : "Death Ward", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Death Ward", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Death Ward", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Death Ward", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Alchemist", "subclassSource" : "ERLW" }
+{ "name" : "Daylight", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Daylight", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Daylight", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Daylight", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying Light (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Daylight", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Detect Magic", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Arcana", "subclassSource" : "SCAG" }
+{ "name" : "Dimension Door", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Dimension Door", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Dimension Door", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Dimension Door", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Detect Thoughts", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Great Old One", "subclassSource" : "SRD" }
+{ "name" : "Detect Thoughts", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Aberrant Mind (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Divine Favor", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "War", "subclassSource" : "SRD" }
+{ "name" : "Divine Favor", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Strength (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Disguise Self", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Disguise Self", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Disguise Self", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Deep Stalker (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Disguise Self", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Gloom Stalker", "subclassSource" : "XGE" }
+{ "name" : "Dispel Magic", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Arcana", "subclassSource" : "SCAG" }
+{ "name" : "Dispel Magic", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Dispel Magic", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Dispel Magic", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Fey Wanderer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Divination", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Divination", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Druidcraft", "subclassBaseName" : "Fighter", "subclassBaseSource" : "SRD", "subclassName" : "Arcane Archer", "subclassSource" : "XGE" }
+{ "name" : "Dominate Beast", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Nature", "subclassSource" : "SRD" }
+{ "name" : "Dominate Beast", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Archfey", "subclassSource" : "SRD" }
+{ "name" : "Dominate Beast", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Great Old One", "subclassSource" : "SRD" }
+{ "name" : "Dominate Beast", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Dominate Beast", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest v2 (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Dominate Beast", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest", "subclassSource" : "XGE" }
+{ "name" : "Dominate Beast", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Strength (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Entangle", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Primeval Guardian (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Entangle", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Dream", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Dream", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Twilight (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Oathbreaker", "subclassSource" : "DMG" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Archfey", "subclassSource" : "SRD" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Great Old One", "subclassSource" : "SRD" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest v2 (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest", "subclassSource" : "XGE" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Beauty (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }
+{ "name" : "Dominate Person", "subclassBaseName" : "Wizard", "subclassBaseSource" : "SRD", "subclassName" : "Psionics (UA)", "subclassSource" : "UAFighterRogueWizard" }
+{ "name" : "Expeditious Retreat", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Enlarge/Reduce", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Enlarge/Reduce", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Destruction (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Enlarge/Reduce", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Noble Genie (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Enhance Ability", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Strength (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Enhance Ability", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Primeval Guardian (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Enhance Ability", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Enhance Ability", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Fabricate", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Fabricate", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge", "subclassSource" : "XGE" }
+{ "name" : "Enthrall", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Beauty (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Enthrall", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Love (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "False Life", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Death", "subclassSource" : "DMG" }
+{ "name" : "False Life", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying", "subclassSource" : "SCAG" }
+{ "name" : "False Life", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "False Life", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Raven Queen (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "False Life", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Faerie Fire", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Faerie Fire", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Archfey", "subclassSource" : "SRD" }
+{ "name" : "Faerie Fire", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Faerie Fire", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Twilight (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Faerie Fire", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Swarmkeeper (UA)", "subclassSource" : "UAFighterRangerRogue" }
+{ "name" : "Feather Fall", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Find Traps", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Clockwork Soul (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Fear", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Fear", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest v2 (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Fear", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest", "subclassSource" : "XGE" }
+{ "name" : "Fear", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Gloom Stalker", "subclassSource" : "XGE" }
+{ "name" : "Fear", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Fear", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Darkness (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Fire Bolt", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Fire Shield", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Fire Shield", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying Light (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Fire Shield", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Zeal (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Fire Shield", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Wildfire (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Fire Shield", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Battle Smith", "subclassSource" : "ERLW" }
+{ "name" : "Fire Shield", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Fire Shield", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Fireball", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Fireball", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Fireball", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Zeal (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Fireball", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Destruction (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Fireball", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Wildfire (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Fireball", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Fireball", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "War", "subclassSource" : "SRD" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying Light (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Zeal (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Wildfire (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Flame Strike", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Flaming Sphere", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Flaming Sphere", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Flaming Sphere", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying Light (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Flaming Sphere", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Flaming Sphere", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Flaming Sphere", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Alchemist", "subclassSource" : "ERLW" }
+{ "name" : "Fog Cloud", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Tempest", "subclassSource" : "SRD" }
+{ "name" : "Fog Cloud", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Fog Cloud", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Noble Genie (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Geas", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Crown", "subclassSource" : "SCAG" }
+{ "name" : "Freedom of Movement", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "War", "subclassSource" : "SRD" }
+{ "name" : "Freedom of Movement", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Freedom of Movement", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Freedom of Movement", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Freedom of Movement", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Freedom of Movement", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Freedom of Movement", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Freedom of Movement", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Zeal (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Freedom of Movement", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Gaseous Form", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Gaseous Form", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Gaseous Form", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores (UA)", "subclassSource" : "UAThreeSubclasses" }
+{ "name" : "Gaseous Form", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores", "subclassSource" : "GGR" }
+{ "name" : "Gaseous Form", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Swarmkeeper (UA)", "subclassSource" : "UAFighterRangerRogue" }
+{ "name" : "Gaseous Form", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Alchemist", "subclassSource" : "ERLW" }
+{ "name" : "Gentle Repose", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Gentle Repose", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Gentle Repose", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores", "subclassSource" : "GGR" }
+{ "name" : "Gentle Repose", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores (UA)", "subclassSource" : "UAThreeSubclasses" }
+{ "name" : "Giant Insect", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Primeval Guardian (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Giant Insect", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Giant Insect", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Swarmkeeper (UA)", "subclassSource" : "UAFighterRangerRogue" }
+{ "name" : "Greater Restoration", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Greater Restoration", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Greater Restoration", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Unity (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Greater Restoration", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Love (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Greater Invisibility", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Greater Invisibility", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Archfey", "subclassSource" : "SRD" }
+{ "name" : "Greater Invisibility", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Greater Invisibility", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Deep Stalker (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Greater Invisibility", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Gloom Stalker", "subclassSource" : "XGE" }
+{ "name" : "Greater Invisibility", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Twilight (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Greater Invisibility", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Greater Invisibility", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Glyph of Warding", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Deep Stalker (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Glyph of Warding", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Clockwork Soul (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Guardian of Faith", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Guardian of Faith", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Guardian of Faith", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Crown", "subclassSource" : "SCAG" }
+{ "name" : "Guardian of Faith", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Guardian of Faith", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Protection (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Guardian of Faith", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Solidarity (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Guardian of Faith", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Guardian of Faith", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Guardian of Faith", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Unity (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Guiding Bolt", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Solidarity (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Guiding Bolt", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Guiding Bolt", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Hallucinatory Terrain", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Gust of Wind", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Tempest", "subclassSource" : "SRD" }
+{ "name" : "Gust of Wind", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Kraken (Stream)", "subclassSource" : "Stream" }
+{ "name" : "Gust of Wind", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Gust of Wind", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lurker in the Deep (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Gust of Wind", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Healing Word", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Alchemist", "subclassSource" : "ERLW" }
+{ "name" : "Hellish Rebuke", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Oathbreaker", "subclassSource" : "DMG" }
+{ "name" : "Hallow", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Hallow", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Watchers (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Haste", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Haste", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Haste", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Haste", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Strength (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Haste", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Zeal (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Haste", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker", "subclassSource" : "XGE" }
+{ "name" : "Haste", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Heat Metal", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "City (UA)", "subclassSource" : "UAModernMagic" }
+{ "name" : "Heat Metal", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Heat Metal", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge", "subclassSource" : "XGE" }
+{ "name" : "Heat Metal", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Clockwork Soul (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Hold Monster", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "War", "subclassSource" : "SRD" }
+{ "name" : "Hold Monster", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Hold Monster", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Hold Monster", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption", "subclassSource" : "XGE" }
+{ "name" : "Hold Monster", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Hold Monster", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Beauty (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Hold Monster", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Love (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Hold Monster", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Watchers (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Heroism", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Heroism", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Heroism", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Beauty (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Heroism", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }
+{ "name" : "Heroism", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Battle Smith", "subclassSource" : "ERLW" }
+{ "name" : "Heroism", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Unity (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Heroism", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Love (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Heroism", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Hunter's Mark", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Identify", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Identify", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Identify", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge", "subclassSource" : "XGE" }
+{ "name" : "Hypnotic Pattern", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Hypnotic Pattern", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption", "subclassSource" : "XGE" }
+{ "name" : "Hypnotic Pattern", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Beauty (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Hypnotic Pattern", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Love (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Hypnotic Pattern", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Hold Person", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Hold Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Hold Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Hold Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest v2 (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Hold Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest", "subclassSource" : "XGE" }
+{ "name" : "Hold Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Hold Person", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption", "subclassSource" : "XGE" }
+{ "name" : "Hold Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Hold Person", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Hold Person", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }
+{ "name" : "Ice Storm", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Tempest", "subclassSource" : "SRD" }
+{ "name" : "Ice Storm", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Ice Storm", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Ancients", "subclassSource" : "SRD" }
+{ "name" : "Ice Storm", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Raven Queen (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Ice Storm", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Destruction (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Ice Storm", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Inflict Wounds", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Oathbreaker", "subclassSource" : "DMG" }
+{ "name" : "Inflict Wounds", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Divine Soul", "subclassSource" : "XGE" }
+{ "name" : "Inflict Wounds", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Destruction (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Jump", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Jump", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Legend Lore", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Legend Lore", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Legend Lore", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying", "subclassSource" : "SCAG" }
+{ "name" : "Legend Lore", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Lesser Restoration", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Lesser Restoration", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Lesser Restoration", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Lesser Restoration", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Invisibility", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Invisibility", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Invisibility", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Invisibility", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Twilight (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Levitate", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Nature", "subclassSource" : "SRD" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Tempest", "subclassSource" : "SRD" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Strength (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Primeval Guardian (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Insect Plague", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Swarmkeeper (UA)", "subclassSource" : "UAFighterRangerRogue" }
+{ "name" : "Light", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying Light (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Light", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Locate Animals or Plants", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Wildfire (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Lightning Bolt", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Lightning Bolt", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "City (UA)", "subclassSource" : "UAModernMagic" }
+{ "name" : "Lightning Bolt", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Destruction (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Lightning Bolt", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lurker in the Deep (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Lightning Bolt", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Locate Object", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Locate Creature", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Locate Creature", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "City (UA)", "subclassSource" : "UAModernMagic" }
+{ "name" : "Locate Creature", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Raven Queen (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Locate Creature", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Locate Creature", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Locate Creature", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }
+{ "name" : "Magic Missile", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Arcana", "subclassSource" : "SCAG" }
+{ "name" : "Magic Missile", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Magic Circle", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Arcana", "subclassSource" : "SCAG" }
+{ "name" : "Magic Circle", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Magic Circle", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer", "subclassSource" : "XGE" }
+{ "name" : "Mage Hand", "subclassBaseName" : "Fighter", "subclassBaseSource" : "SRD", "subclassName" : "Psychic Warrior (UA)", "subclassSource" : "UAFighterRogueWizard" }
+{ "name" : "Mage Hand", "subclassBaseName" : "Wizard", "subclassBaseSource" : "SRD", "subclassName" : "Psionics (UA)", "subclassSource" : "UAFighterRogueWizard" }
+{ "name" : "Mass Healing Word", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Mass Healing Word", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }
+{ "name" : "Mass Healing Word", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Alchemist", "subclassSource" : "ERLW" }
+{ "name" : "Mass Cure Wounds", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Mass Cure Wounds", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Solidarity (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Mass Cure Wounds", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Battle Smith", "subclassSource" : "ERLW" }
+{ "name" : "Magic Weapon", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Arcana", "subclassSource" : "SCAG" }
+{ "name" : "Magic Weapon", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "War", "subclassSource" : "SRD" }
+{ "name" : "Magic Weapon", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Magic Weapon", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Magic Weapon", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Stone (UA)", "subclassSource" : "UASorcerer" }
+{ "name" : "Magic Weapon", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Zeal (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Magic Weapon", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge", "subclassSource" : "XGE" }
+{ "name" : "Magic Weapon", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Meld into Stone", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Meld into Stone", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Message", "subclassBaseName" : "Wizard", "subclassBaseSource" : "SRD", "subclassName" : "Psionics (UA)", "subclassSource" : "UAFighterRogueWizard" }
+{ "name" : "Mending", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Mending", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Battle Smith", "subclassSource" : "ERLW" }
+{ "name" : "Mislead", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Fey Wanderer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Minor Illusion", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Mirror Image", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Mirror Image", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Mirror Image", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Mirror Image", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Mirror Image", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Misty Step", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Misty Step", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Ancients", "subclassSource" : "SRD" }
+{ "name" : "Misty Step", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Misty Step", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker", "subclassSource" : "XGE" }
+{ "name" : "Misty Step", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Fey Wanderer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Moonbeam", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Ancients", "subclassSource" : "SRD" }
+{ "name" : "Moonbeam", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Watchers (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Nondetection", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Nondetection", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Nondetection", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Watchers (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Modify Memory", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Modify Memory", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Modify Memory", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Aberrant Mind (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Passwall", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Passwall", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Passwall", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Treachery (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Passwall", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Pass without Trace", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Pass without Trace", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Phantasmal Killer", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Phantasmal Killer", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade", "subclassSource" : "XGE" }
+{ "name" : "Phantasmal Killer", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Noble Genie (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Phantasmal Killer", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Planar Binding", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Arcana", "subclassSource" : "SCAG" }
+{ "name" : "Planar Binding", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Planar Binding", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer", "subclassSource" : "XGE" }
+{ "name" : "Plant Growth", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Nature", "subclassSource" : "SRD" }
+{ "name" : "Plant Growth", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Plant Growth", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Ancients", "subclassSource" : "SRD" }
+{ "name" : "Plant Growth", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Archfey", "subclassSource" : "SRD" }
+{ "name" : "Plant Growth", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Wildfire (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Polymorph", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Trickery", "subclassSource" : "SRD" }
+{ "name" : "Polymorph", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Noble Genie (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Prestidigitation", "subclassBaseName" : "Fighter", "subclassBaseSource" : "SRD", "subclassName" : "Arcane Archer", "subclassSource" : "XGE" }
+{ "name" : "Protection from Poison", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Strength (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Protection from Poison", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Protection (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Protection from Evil and Good", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Protection from Evil and Good", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Protection (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Protection from Evil and Good", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Protection from Evil and Good", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker", "subclassSource" : "XGE" }
+{ "name" : "Protection from Evil and Good", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Protection from Evil and Good", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer", "subclassSource" : "XGE" }
+{ "name" : "Protection from Evil and Good", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Divine Soul", "subclassSource" : "XGE" }
+{ "name" : "Protection from Evil and Good", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Clockwork Soul (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Raise Dead", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Raise Dead", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Raise Dead", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Raise Dead", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Wildfire (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Raise Dead", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Alchemist", "subclassSource" : "ERLW" }
+{ "name" : "Ray of Frost", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Ray of Enfeeblement", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Death", "subclassSource" : "DMG" }
+{ "name" : "Ray of Enfeeblement", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Ray of Enfeeblement", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Ray of Enfeeblement", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Ray of Enfeeblement", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Ray of Enfeeblement", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Spores (UA)", "subclassSource" : "UAThreeSubclasses" }
+{ "name" : "Resistance", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Ancients", "subclassSource" : "SRD" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Protection (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Strength (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge", "subclassSource" : "XGE" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Noble Genie (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Protection from Energy", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Glory", "subclassSource" : "MOT" }
+{ "name" : "Rope Trick", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Deep Stalker (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Rope Trick", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Gloom Stalker", "subclassSource" : "XGE" }
+{ "name" : "Sacred Flame", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying Light (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Sacred Flame", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Revivify", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Revivify", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Revivify", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Revivify", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Revivify", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Sanctuary", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Sanctuary", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption", "subclassSource" : "XGE" }
+{ "name" : "Sanctuary", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Raven Queen (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Sanctuary", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Seeming", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Archfey", "subclassSource" : "SRD" }
+{ "name" : "Seeming", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Deep Stalker (UA)", "subclassSource" : "UALightDarkUnderdark" }
+{ "name" : "Seeming", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Gloom Stalker", "subclassSource" : "XGE" }
+{ "name" : "Seeming", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Sending", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Great Old One", "subclassSource" : "SRD" }
+{ "name" : "Sending", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Seeker (UA)", "subclassSource" : "UATheFaithful" }
+{ "name" : "Sending", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Aberrant Mind (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Sending", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Unity (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Scorching Ray", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Scorching Ray", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Scorching Ray", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Wildfire (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Scorching Ray", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Scorching Ray", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Scrying", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Scrying", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Scrying", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Scrying", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Scrying", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Scrying", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Vengeance", "subclassSource" : "SRD" }
+{ "name" : "Scrying", "subclassBaseName" : "Wizard", "subclassBaseSource" : "SRD", "subclassName" : "Psionics (UA)", "subclassSource" : "UAFighterRogueWizard" }
+{ "name" : "Shield of Faith", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "War", "subclassSource" : "SRD" }
+{ "name" : "Shield of Faith", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Strength (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Shield of Faith", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Unity (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Shillelagh", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Shield", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Shield", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Shield", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Hexblade", "subclassSource" : "XGE" }
+{ "name" : "Shield", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Shield", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Shield", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Battle Smith", "subclassSource" : "ERLW" }
+{ "name" : "Shield", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Shocking Grasp", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Shatter", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Tempest", "subclassSource" : "SRD" }
+{ "name" : "Shatter", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Zeal (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Shatter", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Destruction (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Shatter", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lurker in the Deep (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Shatter", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Shatter", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Silence", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Silence", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying", "subclassSource" : "SCAG" }
+{ "name" : "Silence", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Raven Queen (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Slow", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Slow", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Protection (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Slow", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order (UA)", "subclassSource" : "UAOrderDomain" }
+{ "name" : "Slow", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }
+{ "name" : "Speak with Animals", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Nature", "subclassSource" : "SRD" }
+{ "name" : "Speak with Animals", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Ancients", "subclassSource" : "SRD" }
+{ "name" : "Speak with Animals", "subclassBaseName" : "Barbarian", "subclassBaseSource" : "SRD", "subclassName" : "Totem Warrior", "subclassSource" : "SRD" }
+{ "name" : "Sleep", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Archfey", "subclassSource" : "SRD" }
+{ "name" : "Sleep", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Sleep", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption", "subclassSource" : "XGE" }
+{ "name" : "Sleep", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Twilight (UA)", "subclassSource" : "UAClericDruidWizard" }
+{ "name" : "Sleep", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Noble Genie (UA)", "subclassSource" : "UA2020SubclassesPt1" }
+{ "name" : "Sleet Storm", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Tempest", "subclassSource" : "SRD" }
+{ "name" : "Sleet Storm", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Sleet Storm", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lurker in the Deep (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Stinking Cloud", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Stinking Cloud", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Stinking Cloud", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Spider Climb", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Spider Climb", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Spider Climb", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Spiritual Weapon", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Life", "subclassSource" : "SRD" }
+{ "name" : "Spiritual Weapon", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "War", "subclassSource" : "SRD" }
+{ "name" : "Spiritual Weapon", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Raven Queen (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Spiritual Weapon", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest (UA)", "subclassSource" : "UAPaladin" }
+{ "name" : "Spiritual Weapon", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest v2 (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Spiritual Weapon", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest", "subclassSource" : "XGE" }
+{ "name" : "Speak with Dead", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Speak with Dead", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Speak with Dead", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Undying", "subclassSource" : "SCAG" }
+{ "name" : "Speak with Dead", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Raven Queen (UA)", "subclassSource" : "UAWarlockAndWizard" }
+{ "name" : "Spirit Guardians", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "War", "subclassSource" : "SRD" }
+{ "name" : "Spirit Guardians", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Crown", "subclassSource" : "SCAG" }
+{ "name" : "Spike Growth", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Nature", "subclassSource" : "SRD" }
+{ "name" : "Spike Growth", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Spike Growth", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Spike Growth", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Spike Growth", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Stone Shape", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Stone Shape", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Stone Shape", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Suggestion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge", "subclassSource" : "SRD" }
+{ "name" : "Suggestion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Knowledge (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Suggestion", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Beauty (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Stoneskin", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "War", "subclassSource" : "SRD" }
+{ "name" : "Stoneskin", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Stoneskin", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Ancients", "subclassSource" : "SRD" }
+{ "name" : "Stoneskin", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest v2 (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Stoneskin", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Conquest", "subclassSource" : "XGE" }
+{ "name" : "Stoneskin", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Stoneskin", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption", "subclassSource" : "XGE" }
+{ "name" : "Stoneskin", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Strength (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Telekinesis", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Great Old One", "subclassSource" : "SRD" }
+{ "name" : "Telekinesis", "subclassBaseName" : "Wizard", "subclassBaseSource" : "SRD", "subclassName" : "Psionics (UA)", "subclassSource" : "UAFighterRogueWizard" }
+{ "name" : "Teleportation Circle", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Arcana", "subclassSource" : "SCAG" }
+{ "name" : "Teleportation Circle", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker (UA)", "subclassSource" : "UARangerAndRogue" }
+{ "name" : "Teleportation Circle", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Horizon Walker", "subclassSource" : "XGE" }
+{ "name" : "Tree Stride", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Nature", "subclassSource" : "SRD" }
+{ "name" : "Tree Stride", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Tree Stride", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Ancients", "subclassSource" : "SRD" }
+{ "name" : "Thunderwave", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Tempest", "subclassSource" : "SRD" }
+{ "name" : "Thunderwave", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Kraken (Stream)", "subclassSource" : "Stream" }
+{ "name" : "Thunderwave", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Giant Soul (UA)", "subclassSource" : "UAGiantSoulSorcerer" }
+{ "name" : "Thunderwave", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lurker in the Deep (UA)", "subclassSource" : "UASorcererAndWarlock" }
+{ "name" : "Thunderwave", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Thunderwave", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Vampiric Touch", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Death", "subclassSource" : "DMG" }
+{ "name" : "Vampiric Touch", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Vampiric Touch", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Ambition (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Vampiric Touch", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Grave", "subclassSource" : "XGE" }
+{ "name" : "Vampiric Touch", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Vampiric Touch", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Darkness (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Wall of Force", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Protection (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Wall of Force", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Wall of Force", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Redemption", "subclassSource" : "XGE" }
+{ "name" : "Wall of Force", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Wall of Force", "subclassBaseName" : "Sorcerer", "subclassBaseSource" : "SRD", "subclassName" : "Clockwork Soul (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Wall of Force", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Armorer (UA)", "subclassSource" : "UA2020SubclassesPt3" }
+{ "name" : "Warding Bond", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Crown", "subclassSource" : "SCAG" }
+{ "name" : "Warding Bond", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Solidarity (PSA)", "subclassSource" : "PSA" }
+{ "name" : "Warding Bond", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Battle Smith", "subclassSource" : "ERLW" }
+{ "name" : "Warding Bond", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Unity (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Warding Bond", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Love (UA)", "subclassSource" : "UA2020SubclassesPt2" }
+{ "name" : "Wall of Fire", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Light", "subclassSource" : "SRD" }
+{ "name" : "Wall of Fire", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Fiend", "subclassSource" : "SRD" }
+{ "name" : "Wall of Fire", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge (UA)", "subclassSource" : "UAClericDivineDomains" }
+{ "name" : "Wall of Fire", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial (UA)", "subclassSource" : "UARevisedClassOptions" }
+{ "name" : "Wall of Fire", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Celestial", "subclassSource" : "XGE" }
+{ "name" : "Wall of Fire", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Forge", "subclassSource" : "XGE" }
+{ "name" : "Wall of Fire", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Wall of Stone", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Wall of Stone", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Wall of Stone", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Wind Wall", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Nature", "subclassSource" : "SRD" }
+{ "name" : "Wind Wall", "subclassBaseName" : "Artificer", "subclassBaseSource" : "ERLW", "subclassName" : "Artillerist", "subclassSource" : "ERLW" }
+{ "name" : "Wind Wall", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Water Walk", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Water Walk", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Water Breathing", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Water Breathing", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Kraken (Stream)", "subclassSource" : "Stream" }
+{ "name" : "Web", "subclassBaseName" : "Druid", "subclassBaseSource" : "SRD", "subclassName" : "Land", "subclassSource" : "SRD" }
+{ "name" : "Web", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Lolth (Twitter)", "subclassSource" : "Twitter" }
+{ "name" : "Web", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Swarmkeeper (UA)", "subclassSource" : "UAFighterRangerRogue" }
+{ "name" : "Wish", "subclassBaseName" : "Warlock", "subclassBaseSource" : "SRD", "subclassName" : "Genie (UA)", "subclassSource" : "UA2020SubclassesRevisited" }
+{ "name" : "Zone of Truth", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Devotion", "subclassSource" : "SRD" }
+{ "name" : "Zone of Truth", "subclassBaseName" : "Paladin", "subclassBaseSource" : "SRD", "subclassName" : "Crown", "subclassSource" : "SCAG" }
+{ "name" : "Zone of Truth", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer (UA)", "subclassSource" : "UAATrioOfSubclasses" }
+{ "name" : "Zone of Truth", "subclassBaseName" : "Ranger", "subclassBaseSource" : "SRD", "subclassName" : "Monster Slayer", "subclassSource" : "XGE" }
+{ "name" : "Zone of Truth", "subclassBaseName" : "Cleric", "subclassBaseSource" : "SRD", "subclassName" : "Order", "subclassSource" : "GGR" }

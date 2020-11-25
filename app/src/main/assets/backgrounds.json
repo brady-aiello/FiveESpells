@@ -1,0 +1,111 @@
+{ "name" : "Acid Splash", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Animal Messenger", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Aid", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Aid", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Animal Friendship", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Animate Dead", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Alter Self", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Arcane Lock", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Arcane Eye", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Awaken", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Animate Objects", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Bestow Curse", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Beacon of Hope", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Blight", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Burning Hands", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Call Lightning", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Calm Emotions", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Calm Emotions", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Charm Person", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Clairvoyance", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Cloudkill", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Command", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Command", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Compulsion", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Commune with Nature", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Conjure Animals", "background" : "Gruul Anarch", "backgroundSource" : "GGR" }
+{ "name" : "Conjure Elemental", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Confusion", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Conjure Minor Elementals", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Conjure Minor Elementals", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Counterspell", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Create or Destroy Water", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Creation", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Dancing Lights", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Death Ward", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Death Ward", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Detect Poison and Disease", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Detect Thoughts", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Disguise Self", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Divination", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Divination", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Druidcraft", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Druidcraft", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Dominate Beast", "background" : "Gruul Anarch", "backgroundSource" : "GGR" }
+{ "name" : "Entangle", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Dominate Person", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Dominate Person", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Expeditious Retreat", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Enlarge/Reduce", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Enhance Ability", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Enthrall", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Enthrall", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Fear", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Fire Bolt", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Fire Bolt", "background" : "Gruul Anarch", "backgroundSource" : "GGR" }
+{ "name" : "Fire Bolt", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Flame Strike", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Flaming Sphere", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Geas", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Freedom of Movement", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Freedom of Movement", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Gaseous Form", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Gaseous Form", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Giant Insect", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Glyph of Warding", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Guidance", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Guiding Bolt", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Hellish Rebuke", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Haste", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Heat Metal", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Heroism", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Hold Person", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Illusory Script", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Jump", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Insect Plague", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Mage Hand", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Meld into Stone", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Message", "background" : "Azorius Functionary", "backgroundSource" : "GGR" }
+{ "name" : "Nondetection", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Modify Memory", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Pass without Trace", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Plant Growth", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Plant Growth", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Polymorph", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Produce Flame", "background" : "Gruul Anarch", "backgroundSource" : "GGR" }
+{ "name" : "Produce Flame", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Protection from Poison", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Ray of Enfeeblement", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Ray of Enfeeblement", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Rope Trick", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Sacred Flame", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Scorching Ray", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Shocking Grasp", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Shatter", "background" : "Gruul Anarch", "backgroundSource" : "GGR" }
+{ "name" : "Spare the Dying", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Speak with Animals", "background" : "Gruul Anarch", "backgroundSource" : "GGR" }
+{ "name" : "Sleep", "background" : "Dimir Operative", "backgroundSource" : "GGR" }
+{ "name" : "Speak with Plants", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Spider Climb", "background" : "Golgari Agent", "backgroundSource" : "GGR" }
+{ "name" : "Speak with Dead", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Spirit Guardians", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }
+{ "name" : "Stoneskin", "background" : "Gruul Anarch", "backgroundSource" : "GGR" }
+{ "name" : "Thunderwave", "background" : "Gruul Anarch", "backgroundSource" : "GGR" }
+{ "name" : "Unseen Servant", "background" : "Izzet Engineer", "backgroundSource" : "GGR" }
+{ "name" : "Vicious Mockery", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Warding Bond", "background" : "Selesnya Initiate", "backgroundSource" : "GGR" }
+{ "name" : "Wall of Fire", "background" : "Boros Legionnaire", "backgroundSource" : "GGR" }
+{ "name" : "Wall of Fire", "background" : "Rakdos Cultist", "backgroundSource" : "GGR" }
+{ "name" : "Wind Wall", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Water Breathing", "background" : "Simic Scientist", "backgroundSource" : "GGR" }
+{ "name" : "Zone of Truth", "background" : "Orzhov Representative", "backgroundSource" : "GGR" }

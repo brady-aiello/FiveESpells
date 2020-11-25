@@ -1,0 +1,68 @@
+{ "name" : "Animal Friendship", "conditionInflict" : "charmed" }
+{ "name" : "Antipathy/Sympathy", "conditionInflict" : "frightened" }
+{ "name" : "Awaken", "conditionInflict" : "charmed" }
+{ "name" : "Astral Projection", "conditionInflict" : "unconscious" }
+{ "name" : "Banishment", "conditionInflict" : "incapacitated" }
+{ "name" : "Blindness/Deafness", "conditionInflict" : "blinded" }
+{ "name" : "Blindness/Deafness", "conditionInflict" : "deafened" }
+{ "name" : "Charm Person", "conditionInflict" : "charmed" }
+{ "name" : "Color Spray", "conditionInflict" : "blinded" }
+{ "name" : "Command", "conditionInflict" : "prone" }
+{ "name" : "Contagion", "conditionInflict" : "blinded" }
+{ "name" : "Contagion", "conditionInflict" : "stunned" }
+{ "name" : "Contagion", "conditionInflict" : "poisoned" }
+{ "name" : "Divine Word", "conditionInflict" : "blinded" }
+{ "name" : "Divine Word", "conditionInflict" : "deafened" }
+{ "name" : "Divine Word", "conditionInflict" : "stunned" }
+{ "name" : "Dominate Monster", "conditionInflict" : "charmed" }
+{ "name" : "Dominate Beast", "conditionInflict" : "charmed" }
+{ "name" : "Entangle", "conditionInflict" : "restrained" }
+{ "name" : "Earthquake", "conditionInflict" : "prone" }
+{ "name" : "Dominate Person", "conditionInflict" : "charmed" }
+{ "name" : "Eyebite", "conditionInflict" : "frightened" }
+{ "name" : "Eyebite", "conditionInflict" : "unconscious" }
+{ "name" : "Fear", "conditionInflict" : "frightened" }
+{ "name" : "Flesh to Stone", "conditionInflict" : "petrified" }
+{ "name" : "Flesh to Stone", "conditionInflict" : "restrained" }
+{ "name" : "Geas", "conditionInflict" : "charmed" }
+{ "name" : "Grease", "conditionInflict" : "prone" }
+{ "name" : "Greater Invisibility", "conditionInflict" : "invisible" }
+{ "name" : "Holy Aura", "conditionInflict" : "blinded" }
+{ "name" : "Hold Monster", "conditionInflict" : "paralyzed" }
+{ "name" : "Hypnotic Pattern", "conditionInflict" : "charmed" }
+{ "name" : "Hypnotic Pattern", "conditionInflict" : "incapacitated" }
+{ "name" : "Hold Person", "conditionInflict" : "paralyzed" }
+{ "name" : "Imprisonment", "conditionInflict" : "restrained" }
+{ "name" : "Invisibility", "conditionInflict" : "invisible" }
+{ "name" : "Mass Suggestion", "conditionInflict" : "charmed" }
+{ "name" : "Meld into Stone", "conditionInflict" : "prone" }
+{ "name" : "Mislead", "conditionInflict" : "blinded" }
+{ "name" : "Mislead", "conditionInflict" : "deafened" }
+{ "name" : "Mislead", "conditionInflict" : "invisible" }
+{ "name" : "Modify Memory", "conditionInflict" : "charmed" }
+{ "name" : "Modify Memory", "conditionInflict" : "incapacitated" }
+{ "name" : "Phantasmal Killer", "conditionInflict" : "frightened" }
+{ "name" : "Power Word Stun", "conditionInflict" : "stunned" }
+{ "name" : "Prismatic Spray", "conditionInflict" : "blinded" }
+{ "name" : "Prismatic Spray", "conditionInflict" : "petrified" }
+{ "name" : "Prismatic Spray", "conditionInflict" : "restrained" }
+{ "name" : "Project Image", "conditionInflict" : "blinded" }
+{ "name" : "Project Image", "conditionInflict" : "deafened" }
+{ "name" : "Prismatic Wall", "conditionInflict" : "blinded" }
+{ "name" : "Prismatic Wall", "conditionInflict" : "petrified" }
+{ "name" : "Prismatic Wall", "conditionInflict" : "restrained" }
+{ "name" : "Sequester", "conditionInflict" : "invisible" }
+{ "name" : "Silence", "conditionInflict" : "deafened" }
+{ "name" : "Sleep", "conditionInflict" : "unconscious" }
+{ "name" : "Sleet Storm", "conditionInflict" : "prone" }
+{ "name" : "Storm of Vengeance", "conditionInflict" : "deafened" }
+{ "name" : "Sunburst", "conditionInflict" : "blinded" }
+{ "name" : "Sunbeam", "conditionInflict" : "blinded" }
+{ "name" : "Telekinesis", "conditionInflict" : "restrained" }
+{ "name" : "Symbol", "conditionInflict" : "frightened" }
+{ "name" : "Symbol", "conditionInflict" : "incapacitated" }
+{ "name" : "Symbol", "conditionInflict" : "stunned" }
+{ "name" : "Symbol", "conditionInflict" : "unconscious" }
+{ "name" : "Weird", "conditionInflict" : "frightened" }
+{ "name" : "Wind Walk", "conditionInflict" : "incapacitated" }
+{ "name" : "Web", "conditionInflict" : "restrained" }

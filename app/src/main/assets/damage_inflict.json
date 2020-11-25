@@ -1,0 +1,106 @@
+{ "name" : "Acid Splash", "damageInflict" : "acid" }
+{ "name" : "Alter Self", "damageInflict" : "bludgeoning" }
+{ "name" : "Alter Self", "damageInflict" : "piercing" }
+{ "name" : "Alter Self", "damageInflict" : "slashing" }
+{ "name" : "Animate Objects", "damageInflict" : "bludgeoning" }
+{ "name" : "Animate Objects", "damageInflict" : "piercing" }
+{ "name" : "Animate Objects", "damageInflict" : "slashing" }
+{ "name" : "Blade Barrier", "damageInflict" : "slashing" }
+{ "name" : "Bestow Curse", "damageInflict" : "necrotic" }
+{ "name" : "Blight", "damageInflict" : "necrotic" }
+{ "name" : "Branding Smite", "damageInflict" : "radiant" }
+{ "name" : "Chain Lightning", "damageInflict" : "lightning" }
+{ "name" : "Burning Hands", "damageInflict" : "fire" }
+{ "name" : "Call Lightning", "damageInflict" : "lightning" }
+{ "name" : "Circle of Death", "damageInflict" : "necrotic" }
+{ "name" : "Chill Touch", "damageInflict" : "necrotic" }
+{ "name" : "Cloudkill", "damageInflict" : "poison" }
+{ "name" : "Cone of Cold", "damageInflict" : "cold" }
+{ "name" : "Contact Other Plane", "damageInflict" : "psychic" }
+{ "name" : "Control Water", "damageInflict" : "bludgeoning" }
+{ "name" : "Delayed Blast Fireball", "damageInflict" : "fire" }
+{ "name" : "Dimension Door", "damageInflict" : "force" }
+{ "name" : "Disintegrate", "damageInflict" : "force" }
+{ "name" : "Divine Favor", "damageInflict" : "radiant" }
+{ "name" : "Eldritch Blast", "damageInflict" : "force" }
+{ "name" : "Dream", "damageInflict" : "psychic" }
+{ "name" : "Earthquake", "damageInflict" : "bludgeoning" }
+{ "name" : "Etherealness", "damageInflict" : "force" }
+{ "name" : "Feeblemind", "damageInflict" : "psychic" }
+{ "name" : "Finger of Death", "damageInflict" : "necrotic" }
+{ "name" : "Fire Bolt", "damageInflict" : "fire" }
+{ "name" : "Fire Storm", "damageInflict" : "fire" }
+{ "name" : "Fire Shield", "damageInflict" : "cold" }
+{ "name" : "Fire Shield", "damageInflict" : "fire" }
+{ "name" : "Flame Blade", "damageInflict" : "fire" }
+{ "name" : "Fireball", "damageInflict" : "fire" }
+{ "name" : "Flame Strike", "damageInflict" : "fire" }
+{ "name" : "Flame Strike", "damageInflict" : "radiant" }
+{ "name" : "Flaming Sphere", "damageInflict" : "fire" }
+{ "name" : "Forbiddance", "damageInflict" : "necrotic" }
+{ "name" : "Forbiddance", "damageInflict" : "radiant" }
+{ "name" : "Geas", "damageInflict" : "psychic" }
+{ "name" : "Glyph of Warding", "damageInflict" : "acid" }
+{ "name" : "Glyph of Warding", "damageInflict" : "cold" }
+{ "name" : "Glyph of Warding", "damageInflict" : "fire" }
+{ "name" : "Glyph of Warding", "damageInflict" : "lightning" }
+{ "name" : "Glyph of Warding", "damageInflict" : "thunder" }
+{ "name" : "Guardian of Faith", "damageInflict" : "radiant" }
+{ "name" : "Guiding Bolt", "damageInflict" : "radiant" }
+{ "name" : "Harm", "damageInflict" : "necrotic" }
+{ "name" : "Hellish Rebuke", "damageInflict" : "fire" }
+{ "name" : "Heat Metal", "damageInflict" : "fire" }
+{ "name" : "Ice Storm", "damageInflict" : "bludgeoning" }
+{ "name" : "Ice Storm", "damageInflict" : "cold" }
+{ "name" : "Incendiary Cloud", "damageInflict" : "fire" }
+{ "name" : "Inflict Wounds", "damageInflict" : "necrotic" }
+{ "name" : "Insect Plague", "damageInflict" : "piercing" }
+{ "name" : "Lightning Bolt", "damageInflict" : "lightning" }
+{ "name" : "Magic Missile", "damageInflict" : "force" }
+{ "name" : "Meld into Stone", "damageInflict" : "bludgeoning" }
+{ "name" : "Meteor Swarm", "damageInflict" : "bludgeoning" }
+{ "name" : "Meteor Swarm", "damageInflict" : "fire" }
+{ "name" : "Mind Blank", "damageInflict" : "psychic" }
+{ "name" : "Moonbeam", "damageInflict" : "radiant" }
+{ "name" : "Phantasmal Killer", "damageInflict" : "psychic" }
+{ "name" : "Poison Spray", "damageInflict" : "poison" }
+{ "name" : "Prismatic Spray", "damageInflict" : "acid" }
+{ "name" : "Prismatic Spray", "damageInflict" : "cold" }
+{ "name" : "Prismatic Spray", "damageInflict" : "fire" }
+{ "name" : "Prismatic Spray", "damageInflict" : "lightning" }
+{ "name" : "Prismatic Spray", "damageInflict" : "poison" }
+{ "name" : "Produce Flame", "damageInflict" : "fire" }
+{ "name" : "Prismatic Wall", "damageInflict" : "acid" }
+{ "name" : "Prismatic Wall", "damageInflict" : "cold" }
+{ "name" : "Prismatic Wall", "damageInflict" : "fire" }
+{ "name" : "Prismatic Wall", "damageInflict" : "force" }
+{ "name" : "Prismatic Wall", "damageInflict" : "lightning" }
+{ "name" : "Prismatic Wall", "damageInflict" : "poison" }
+{ "name" : "Ray of Frost", "damageInflict" : "cold" }
+{ "name" : "Sacred Flame", "damageInflict" : "radiant" }
+{ "name" : "Scorching Ray", "damageInflict" : "fire" }
+{ "name" : "Shocking Grasp", "damageInflict" : "lightning" }
+{ "name" : "Shatter", "damageInflict" : "thunder" }
+{ "name" : "Spiritual Weapon", "damageInflict" : "force" }
+{ "name" : "Spirit Guardians", "damageInflict" : "necrotic" }
+{ "name" : "Spirit Guardians", "damageInflict" : "radiant" }
+{ "name" : "Spike Growth", "damageInflict" : "piercing" }
+{ "name" : "Storm of Vengeance", "damageInflict" : "acid" }
+{ "name" : "Storm of Vengeance", "damageInflict" : "bludgeoning" }
+{ "name" : "Storm of Vengeance", "damageInflict" : "cold" }
+{ "name" : "Storm of Vengeance", "damageInflict" : "lightning" }
+{ "name" : "Storm of Vengeance", "damageInflict" : "thunder" }
+{ "name" : "Sunburst", "damageInflict" : "radiant" }
+{ "name" : "Sunbeam", "damageInflict" : "radiant" }
+{ "name" : "Symbol", "damageInflict" : "necrotic" }
+{ "name" : "Thunderwave", "damageInflict" : "thunder" }
+{ "name" : "Vicious Mockery", "damageInflict" : "psychic" }
+{ "name" : "Vampiric Touch", "damageInflict" : "necrotic" }
+{ "name" : "Wall of Thorns", "damageInflict" : "piercing" }
+{ "name" : "Wall of Thorns", "damageInflict" : "slashing" }
+{ "name" : "Wall of Ice", "damageInflict" : "cold" }
+{ "name" : "Wall of Fire", "damageInflict" : "fire" }
+{ "name" : "Weird", "damageInflict" : "psychic" }
+{ "name" : "Wind Wall", "damageInflict" : "bludgeoning" }
+{ "name" : "Web", "damageInflict" : "fire" }
+{ "name" : "Wish", "damageInflict" : "necrotic" }

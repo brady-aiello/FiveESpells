@@ -1,0 +1,198 @@
+CREATE TABLE Spell (
+    name TEXT PRIMARY KEY,
+    source TEXT NOT NULL,
+    page INTEGER NOT NULL,
+    srd INTEGER NOT NULL,
+    level INTEGER NOT NULL,
+    school TEXT NOT NULL,
+    rangeType TEXT NOT NULL,
+    rangeDistanceUnit TEXT NOT NULL,
+    rangeDistanceAmt TEXT NOT NULL,
+    v INTEGER NOT NULL,
+    s INTEGER NOT NULL,
+    m INTEGER NOT NULL,
+    durationUnit TEXT NOT NULL,
+    durationAmt INTEGER NOT NULL,
+    durationConcentration INTEGER NOT NULL
+);
+
+insertSpell:
+INSERT OR IGNORE INTO Spell(
+    name,
+    source,
+    page,
+    srd,
+    level,
+    school,
+    rangeType,
+    rangeDistanceUnit,
+    rangeDistanceAmt,
+    v,
+    s,
+    m,
+    durationUnit,
+    durationAmt,
+    durationConcentration
+) VALUES ?;
+
+CREATE TABLE Material (
+    name TEXT PRIMARY KEY,
+    material TEXT NOT NULL,
+    FOREIGN KEY (name) REFERENCES Spell(name)
+);
+
+insertMaterial:
+INSERT OR IGNORE INTO Material(
+    name,
+    material
+) VALUES ?;
+
+CREATE TABLE Entry (
+    name TEXT,
+    entryName TEXT,
+    entry TEXT NOT NULL,
+    FOREIGN KEY (name) REFERENCES Spell(name)
+);
+
+insertEntry:
+INSERT OR IGNORE INTO Entry(
+    name,
+    entryName,
+    entry
+) VALUES ?;
+
+CREATE TABLE EntryHigherLevel (
+    name TEXT,
+    entryHigherLevelName TEXT NOT NULL,
+    entryHigherLevel TEXT NOT NULL,
+    FOREIGN KEY (name) REFERENCES Spell(name)
+);
+
+insertEntryHigherLevel:
+INSERT OR IGNORE INTO EntryHigherLevel(
+    name,
+    entryHigherLevel,
+    entryHigherLevelName
+) VALUES ?;
+
+CREATE TABLE ConditionInflicts(
+    name TEXT NOT NULL,
+    conditionInflict TEXT NOT NULL,
+    FOREIGN KEY (name) REFERENCES Spell(name)
+);
+
+insertConditionInflicts:
+INSERT OR IGNORE INTO ConditionInflicts(
+    name,
+    conditionInflict
+) VALUES ?;
+
+CREATE TABLE DamageInflicts(
+    name TEXT NOT NULL,
+    damageInflict TEXT NOT NULL,
+    FOREIGN KEY (name) REFERENCES Spell(name)
+);
+
+insertDamageInflicts:
+INSERT OR IGNORE INTO DamageInflicts(
+    name,
+    damageInflict
+) VALUES ?;
+
+getDamageInflictsForSpell:
+SELECT damageInflict FROM DamageInflicts WHERE name = :spellName;
+
+getSpellsWithDamageInflicts:
+SELECT name FROM DamageInflicts WHERE damageInflict LIKE('%' || :damageInflicts || '%');
+
+
+CREATE TABLE Background(
+    name TEXT NOT NULL,
+    background TEXT NOT NULL,
+    backgroundSource TEXT NOT NULL,
+    FOREIGN KEY (name) REFERENCES Spell(name)
+);
+
+insertBackground:
+INSERT OR IGNORE INTO Background(
+    name,
+    background,
+    backgroundSource
+) VALUES ?;
+
+getBackgroundsThatCanCastSpell:
+SELECT background FROM Background WHERE name = :spellName;
+
+getSpellsAvailableToBackground:
+SELECT name FROM Background WHERE background = :background;
+
+CREATE TABLE Class(
+    name TEXT NOT NULL,
+    className TEXT NOT NULL,
+    classSource TEXT NOT NULL,
+    FOREIGN KEY (name) REFERENCES Spell(name)
+);
+
+insertClass:
+INSERT OR IGNORE INTO Class(
+    name,
+    className,
+    classSource
+) VALUES ?;
+
+getClassesThatCanCastSpell:
+SELECT className FROM Class WHERE name = :className;
+
+getSpellsAvailableToClass:
+SELECT name FROM Class WHERE className = :className;
+
+CREATE TABLE Race(
+    name TEXT NOT NULL,
+    race TEXT NOT NULL,
+    raceSource TEXT NOT NULL,
+    raceBaseName TEXT,
+    raceBaseSource TEXT,
+    FOREIGN KEY (name) REFERENCES Spell(name)
+);
+
+insertRace:
+INSERT OR IGNORE INTO Race(
+    name,
+    race,
+    raceSource,
+    raceBaseName,
+    raceBaseSource
+) VALUES ?;
+
+getRacesThatCanCastSpell:
+SELECT race FROM Race WHERE name = ?;
+
+getSpellsAvailableToRace:
+SELECT name FROM Race WHERE race = ?;
+
+CREATE TABLE Subclass(
+    name TEXT NOT NULL,
+    subclassBaseName TEXT NOT NULL,
+    subclassBaseSource TEXT NOT NULL,
+    subclassName TEXT NOT NULL,
+    subclassSource TEXT NOT NULL,
+    FOREIGN KEY (name) REFERENCES Spell(name)
+);
+
+insertSubclass:
+INSERT OR IGNORE INTO Subclass(
+    name,
+    subclassBaseName,
+    subclassBaseSource,
+    subclassName,
+    subclassSource
+) VALUES ?;
+
+getSubclassesThatCanCastSpell:
+SELECT subclassName FROM Subclass WHERE name = ?;
+
+getSpellsAvailableToSubclass:
+SELECT name FROM Subclass WHERE subclassName = ?;
+
+getSpellsSortedByName:
+SELECT * FROM Spell ORDER BY name ASC;
