@@ -4,9 +4,12 @@ import android.content.Context
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
 import androidx.work.*
+import com.bradyaiello.fiveespells.models.SpellInMemory
 import com.bradyaiello.fiveespells.repository.SpellRepository
 import com.bradyaiello.fiveespells.work.PopulateDBWorker
 import dagger.hilt.android.qualifiers.ApplicationContext
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
 
@@ -14,6 +17,11 @@ class MainViewModel @ViewModelInject constructor(
     private val repository: SpellRepository,
     @ApplicationContext private val context: Context
     ): ViewModel() {
+
+
+    @ExperimentalCoroutinesApi
+    val spellStateFlow: Flow<DataState<List<SpellInMemory>>> =
+        repository.getSpellsAsc().stateIn(viewModelScope, SharingStarted.Lazily, DataState.Loading)
 
     private var _dbPopulateProgress = MutableLiveData(0F)
     var dbPopulateProgress: LiveData<Float> = _dbPopulateProgress
@@ -50,6 +58,7 @@ class MainViewModel @ViewModelInject constructor(
                     }
             }
         }
+
     }
 
 }

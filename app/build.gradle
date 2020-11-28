@@ -69,7 +69,7 @@ dependencies {
     implementation("androidx.ui:ui-tooling:$compose_version")
 
     // Async
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2")
 
     // DB
     implementation("com.squareup.sqldelight:android-driver:1.4.4")
