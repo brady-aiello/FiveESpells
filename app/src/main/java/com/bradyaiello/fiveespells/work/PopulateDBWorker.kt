@@ -7,11 +7,12 @@ import androidx.hilt.Assisted
 import androidx.hilt.work.WorkerInject
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
+import androidx.work.workDataOf
 import com.bradyaiello.fiveespells.Database
 import com.bradyaiello.fiveespells.models.*
 import com.squareup.moshi.Moshi
+import kotlinx.coroutines.*
 import kotlinx.coroutines.Dispatchers.IO
-import kotlinx.coroutines.withContext
 import java.io.BufferedReader
 import java.io.InputStream
 import java.io.InputStreamReader
@@ -22,35 +23,30 @@ class PopulateDBWorker @WorkerInject constructor(
     private val moshi: Moshi,
     private val spellDatabase: Database
 ) : CoroutineWorker(appContext, params) {
+
+    private var totalRowsInserted = 0
+
     companion object {
+        private const val totalRows = 3485
         const val TAG = "PopulateDBWorker"
-        const val PROGRESS_BACKGROUND_TABLE = "ProgressBackgroundTable"
-        const val PROGRESS_CLASS_TABLE = "ProgressClassTable"
-        const val PROGRESS_CONDITION_INFLICTS_TABLE = "ProgressConditionInflictsTable"
-        const val PROGRESS_DAMAGE_INFLICTS_TABLE = "ProgressDamageInflictsTable"
-        const val PROGRESS_ENTRY_TABLE = "ProgressEntryTable"
-        const val PROGRESS_ENTRY_HIGHER_LEVEL_TABLE = "ProgressEntryTable"
-        const val PROGRESS_MATERIAL_TABLE = "ProgressMaterialTable"
-        const val PROGRESS_RACE_TABLE = "ProgressRaceTable"
-        const val PROGRESS_SUBCLASS_TABLE = "ProgressSubclassTable"
-        const val PROGRESS_SPELL_TABLE = "ProgressSpellTable"
+        const val PROGRESS = "ProgressWholeTable"
     }
 
-    sealed class TableType{
-        object Background: TableType()
-        object Class: TableType()
-        object ConditionInflict: TableType()
-        object DamageInflict: TableType()
-        object Entry: TableType()
-        object EntryHigherLevel: TableType()
-        object Material: TableType()
-        object Race: TableType()
-        object Subclass: TableType()
-        object Spell: TableType()
+    sealed class TableType {
+        object Background : TableType()
+        object Class : TableType()
+        object ConditionInflict : TableType()
+        object DamageInflict : TableType()
+        object Entry : TableType()
+        object EntryHigherLevel : TableType()
+        object Material : TableType()
+        object Race : TableType()
+        object Subclass : TableType()
+        object Spell : TableType()
     }
 
     private fun getInputStream(assetManager: AssetManager, tableType: TableType): InputStream {
-        val filePath = when(tableType) {
+        val filePath = when (tableType) {
             TableType.Spell -> "main_spell_table.json"
             TableType.Entry -> "entries.json"
             TableType.Material -> "materials.json"
@@ -68,11 +64,11 @@ class PopulateDBWorker @WorkerInject constructor(
     private suspend fun getJsonAndInsert(tableType: TableType, line: String) {
         try {
 
-            when(tableType) {
+            when (tableType) {
                 TableType.Spell -> {
                     val spellInMemory: SpellInMemory? =
                         moshi.adapter(SpellInMemory::class.java)
-                        .fromJson(line)
+                            .fromJson(line)
                     spellInMemory?.apply {
                         val spell = spellInMemory.toSpell()
                         spellDatabase.spellQueries.insertSpell(spell)
@@ -81,7 +77,7 @@ class PopulateDBWorker @WorkerInject constructor(
                 TableType.Entry -> {
                     val entryInMemory: EntryInMemory? =
                         moshi.adapter(EntryInMemory::class.java)
-                        .fromJson(line)
+                            .fromJson(line)
                     entryInMemory?.apply {
                         val entry = entryInMemory.toEntry()
                         spellDatabase.spellQueries.insertEntry(entry)
@@ -90,7 +86,7 @@ class PopulateDBWorker @WorkerInject constructor(
                 TableType.Material -> {
                     val materialInMemory: MaterialInMemory? =
                         moshi.adapter(MaterialInMemory::class.java)
-                        .fromJson(line)
+                            .fromJson(line)
                     materialInMemory?.apply {
                         val material = materialInMemory.toMaterial()
                         spellDatabase.spellQueries.insertMaterial(material)
@@ -167,28 +163,27 @@ class PopulateDBWorker @WorkerInject constructor(
 
     private suspend fun populateTable(
         assetManager: AssetManager,
-        size: Int,
-        tableType: TableType): Result {
+        tableType: TableType
+    ): Result {
 
         try {
             val inputStream = getInputStream(assetManager, tableType)
             val reader = BufferedReader(InputStreamReader(inputStream))
             var line: String? = reader.readLine()
-            var insertedItems = 0
-            while(!line.isNullOrBlank()) {
+            while (!line.isNullOrBlank()) {
                 Log.d(TAG, "populateTable: $tableType: $line")
                 getJsonAndInsert(tableType, line)
-
-                // TODO(set the progress of the upload for each)
-                /*
-                    if (insertedItems % 5 == 0) {
-                    setProgress(workDataOf(PROGRESS_SPELLS_TABLE to (insertedItems * 100 / size) ))
-                }*/
+                totalRowsInserted++
+                if (totalRowsInserted % 60 == 0) {
+                    val progress = totalRowsInserted.toFloat() / totalRows.toFloat()
+                    setProgress(workDataOf(PROGRESS to progress))
+                }
                 line = reader.readLine()
             }
-            //setProgress(workDataOf(PROGRESS_SPELLS_TABLE to (insertedItems * 100 / size) ))
+            val progress = totalRowsInserted.toFloat() / totalRows.toFloat()
+            val data = workDataOf(PROGRESS to progress)
+            setProgress(data)
             return Result.success()
-
         } catch (e: Exception) {
             Log.d(TAG, "populateTable: $tableType: $e")
         }
@@ -199,19 +194,18 @@ class PopulateDBWorker @WorkerInject constructor(
     override suspend fun doWork(): Result =
         withContext(IO) {
             val assetManager: AssetManager = appContext.applicationContext.assets
-            var status = populateTable(assetManager, 302, TableType.Spell)
-            status = populateTable(assetManager, 168, TableType.Material)
-            // TODO(check status and react accordingly)
-            status = populateTable(assetManager, 855, TableType.Entry)
-            status = populateTable(assetManager, 88, TableType.EntryHigherLevel)
-            status = populateTable(assetManager, 236, TableType.Race)
-            status = populateTable(assetManager, 111, TableType.Background)
-            status = populateTable(assetManager, 824, TableType.Class)
-            status = populateTable(assetManager, 68, TableType.ConditionInflict)
-            status = populateTable(assetManager, 106, TableType.DamageInflict)
-            status = populateTable(assetManager, 727, TableType.Subclass)
+            var result: Result = Result.success()
+            val tableTypes = listOf(TableType.Spell, TableType.Material, TableType.Entry,
+                TableType.EntryHigherLevel, TableType.Race, TableType.Background,
+                TableType.Class, TableType.ConditionInflict, TableType.DamageInflict,
+                TableType.Subclass
+            )
+            tableTypes.forEach {
+                result = populateTable(assetManager, it)
+                if (result != Result.success()) return@withContext result
+            }
 
-            status
+            result
         }
 
 
