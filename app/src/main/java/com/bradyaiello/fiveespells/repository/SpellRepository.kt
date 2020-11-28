@@ -1,16 +1,14 @@
 package com.bradyaiello.fiveespells.repository
 
 import android.content.Context
-import android.content.res.AssetManager
-import android.util.Log
+import com.bradyaiello.fiveespells.DataState
 import com.bradyaiello.fiveespells.Database
 import com.bradyaiello.fiveespells.models.SpellInMemory
-import com.bradyaiello.fiveespells.models.toSpell
+import com.bradyaiello.fiveespells.models.toSpellInMemory
 import com.squareup.moshi.Moshi
 import dagger.hilt.android.qualifiers.ApplicationContext
-import java.io.BufferedReader
-import java.io.InputStream
-import java.io.InputStreamReader
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
 
 class SpellRepository constructor(
     @ApplicationContext private val context: Context,
@@ -21,31 +19,67 @@ class SpellRepository constructor(
         private const val TAG = "SpellRepository"
     }
 
-    suspend fun getSpellsFromFile() {
-        val assetManager: AssetManager = context.applicationContext.assets
-        try {
-            val inputStream: InputStream = assetManager
-                .open("main_spell_table.json")
-            val reader = BufferedReader(InputStreamReader(inputStream))
-            var line: String? = reader.readLine()
-            while(!line.isNullOrBlank()) {
-                Log.d(TAG, "getSpellsFromFile: $line")
-                line = reader.readLine()
-                if (line != null) {
-                    //val spellInMemory = Json.decodeFromString<SpellInMemory>(line)
-                    val spellInMemory: SpellInMemory? = moshi.adapter(SpellInMemory::class.java)
-                        .fromJson(line)
-                    spellInMemory?.apply {
-                        val spell = spellInMemory.toSpell()
-                        spellDatabase.spellQueries.insertSpell(spell)
-                    }
-                }
-            }
+    private suspend fun getBackgroundsCount(): Long {
+        return spellDatabase.spellQueries.getBackgroundsCount().executeAsOne()
+    }
 
-        } catch (e: Exception) {
-            Log.e(TAG, "getSpellsFromFile: $e" )
+    private suspend fun getClassCount(): Long {
+        return spellDatabase.spellQueries.getClassCount().executeAsOne()
+    }
+
+    private suspend fun getConditionInflictsCount(): Long {
+        return spellDatabase.spellQueries.getConditionInflictsCount().executeAsOne()
+    }
+
+    private suspend fun getDamageInflictsCount(): Long {
+        return spellDatabase.spellQueries.getDamageInflictsCount().executeAsOne()
+    }
+
+    private suspend fun getEntriesCount(): Long {
+        return spellDatabase.spellQueries.getEntriesCount().executeAsOne()
+    }
+
+    private suspend fun getEntriesHigherLevelCount(): Long {
+        return spellDatabase.spellQueries.getEntriesHigherLevelCount().executeAsOne()
+    }
+
+    private suspend fun getMaterialsCount(): Long {
+        return spellDatabase.spellQueries.getMaterialsCount().executeAsOne()
+    }
+
+    private suspend fun getRaceCount(): Long {
+        return spellDatabase.spellQueries.getRaceCount().executeAsOne()
+    }
+
+    private suspend fun getSpellsCount(): Long {
+        return spellDatabase.spellQueries.getSpellsCount().executeAsOne()
+    }
+
+    private suspend fun getSubclassCount(): Long {
+        return spellDatabase.spellQueries.getSubclassCount().executeAsOne()
+    }
+
+    suspend fun databaseIsInitialized(): Boolean {
+        return try {
+            val records = getBackgroundsCount() + getClassCount() + getConditionInflictsCount() +
+                    getDamageInflictsCount() + getEntriesCount() + getEntriesHigherLevelCount() +
+                    getMaterialsCount() + getRaceCount() + getSpellsCount() + getSubclassCount()
+            records == 3485L
+        } catch (e: java.lang.Exception) {
+            false
         }
+    }
 
+
+    fun getSpellsAsc(): Flow<DataState<List<SpellInMemory>>> = flow {
+        emit(DataState.Loading)
+        try {
+            val spellsInMemory: List<SpellInMemory> = spellDatabase.spellQueries.getSpellsSortedByName()
+                .executeAsList().map { it.toSpellInMemory() }
+            emit(DataState.Success(spellsInMemory))
+        } catch (e: Exception) {
+            emit(DataState.Error(e))
+        }
     }
 /*    suspend fun insertAllSpells() {
 

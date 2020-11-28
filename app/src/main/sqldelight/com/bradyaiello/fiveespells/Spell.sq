@@ -1,3 +1,4 @@
+-- Spell
 CREATE TABLE Spell (
     name TEXT PRIMARY KEY,
     source TEXT NOT NULL,
@@ -35,6 +36,15 @@ INSERT OR IGNORE INTO Spell(
     durationConcentration
 ) VALUES ?;
 
+getSpellsSortedByName:
+SELECT * FROM Spell ORDER BY name ASC;
+
+getSpellsCount:
+SELECT COUNT(*) FROM Spell;
+
+-- Spell
+-- Material
+
 CREATE TABLE Material (
     name TEXT PRIMARY KEY,
     material TEXT NOT NULL,
@@ -47,6 +57,14 @@ INSERT OR IGNORE INTO Material(
     material
 ) VALUES ?;
 
+getMaterialsForSpell:
+SELECT material FROM Material WHERE name = :spellName;
+
+getMaterialsCount:
+SELECT COUNT(*) FROM Material;
+
+-- Material
+-- Entry
 CREATE TABLE Entry (
     name TEXT,
     entryName TEXT,
@@ -61,6 +79,14 @@ INSERT OR IGNORE INTO Entry(
     entry
 ) VALUES ?;
 
+getEntriesForSpell:
+SELECT entry FROM Entry WHERE name = :spellName;
+
+getEntriesCount:
+SELECT COUNT(*) FROM Entry;
+
+-- Entry
+-- EntryHigherLevel
 CREATE TABLE EntryHigherLevel (
     name TEXT,
     entryHigherLevelName TEXT NOT NULL,
@@ -75,6 +101,18 @@ INSERT OR IGNORE INTO EntryHigherLevel(
     entryHigherLevelName
 ) VALUES ?;
 
+getEntriesHigherLevelForSpell:
+SELECT entryHigherLevel FROM EntryHigherLevel WHERE name = :spellName;
+
+getSpellsWithEntriesHigherLevel:
+SELECT name FROM EntryHigherLevel;
+
+getEntriesHigherLevelCount:
+SELECT COUNT(*) FROM EntryHigherLevel;
+
+-- EntryHigherLevel
+-- ConditionInflicts
+
 CREATE TABLE ConditionInflicts(
     name TEXT NOT NULL,
     conditionInflict TEXT NOT NULL,
@@ -86,6 +124,18 @@ INSERT OR IGNORE INTO ConditionInflicts(
     name,
     conditionInflict
 ) VALUES ?;
+
+getConditionInflictsForSpell:
+SELECT conditionInflict FROM ConditionInflicts WHERE name = :spellName;
+
+getSpellsWithConditionInflicts:
+SELECT name FROM ConditionInflicts WHERE conditionInflict LIKE('%' || :conditionInflicts || '%');
+
+getConditionInflictsCount:
+SELECT COUNT(*) FROM ConditionInflicts;
+
+-- ConditionInflicts
+-- DamageInflicts
 
 CREATE TABLE DamageInflicts(
     name TEXT NOT NULL,
@@ -105,6 +155,11 @@ SELECT damageInflict FROM DamageInflicts WHERE name = :spellName;
 getSpellsWithDamageInflicts:
 SELECT name FROM DamageInflicts WHERE damageInflict LIKE('%' || :damageInflicts || '%');
 
+getDamageInflictsCount:
+SELECT COUNT(*) FROM DamageInflicts;
+
+-- DamageInflicts
+-- Background
 
 CREATE TABLE Background(
     name TEXT NOT NULL,
@@ -126,6 +181,12 @@ SELECT background FROM Background WHERE name = :spellName;
 getSpellsAvailableToBackground:
 SELECT name FROM Background WHERE background = :background;
 
+getBackgroundsCount:
+SELECT COUNT(*) FROM Background;
+
+-- Background
+-- Class
+
 CREATE TABLE Class(
     name TEXT NOT NULL,
     className TEXT NOT NULL,
@@ -145,6 +206,12 @@ SELECT className FROM Class WHERE name = :className;
 
 getSpellsAvailableToClass:
 SELECT name FROM Class WHERE className = :className;
+
+getClassCount:
+SELECT COUNT(*) FROM Class;
+
+-- Class
+-- Race
 
 CREATE TABLE Race(
     name TEXT NOT NULL,
@@ -170,6 +237,12 @@ SELECT race FROM Race WHERE name = ?;
 getSpellsAvailableToRace:
 SELECT name FROM Race WHERE race = ?;
 
+getRaceCount:
+SELECT COUNT(*) FROM Race;
+
+-- Race
+-- Subclass
+
 CREATE TABLE Subclass(
     name TEXT NOT NULL,
     subclassBaseName TEXT NOT NULL,
@@ -194,5 +267,8 @@ SELECT subclassName FROM Subclass WHERE name = ?;
 getSpellsAvailableToSubclass:
 SELECT name FROM Subclass WHERE subclassName = ?;
 
-getSpellsSortedByName:
-SELECT * FROM Spell ORDER BY name ASC;
+getSubclassCount:
+SELECT COUNT(*) FROM Subclass;
+
+-- Subclass
+--
