@@ -17,8 +17,8 @@ import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.ui.tooling.preview.Preview
-import androidx.ui.tooling.preview.PreviewParameter
-import com.bradyaiello.fiveespells.models.SpellInMemory
+import com.bradyaiello.fiveespells.models.SpellInMemoryWithClasses
+import com.bradyaiello.fiveespells.models.getSchool
 import com.bradyaiello.fiveespells.ui.FiveESpellsTheme
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -50,11 +50,11 @@ class MainActivity : AppCompatActivity() {
                                     modifier = Modifier.align(Alignment.CenterHorizontally)
                                 )
                             } else {
-                                val spells by viewModel.spellStateFlow.collectAsState(initial = DataState.Loading)
+                                val spells by viewModel.spellStateFlow.collectAsState()
 
                                 SpellsList(
                                     spells = spells,
-                                    modifier = Modifier.fillMaxSize()
+                                    modifier = Modifier.fillMaxSize(),
                                 )
                             }
                         }
@@ -66,31 +66,71 @@ class MainActivity : AppCompatActivity() {
 }
 
 @Composable
-fun SpellsList(spells: DataState<List<SpellInMemory>>, modifier: Modifier = Modifier) {
+fun SpellsList(
+    spells: DataState<List<SpellInMemoryWithClasses>>,
+    modifier: Modifier = Modifier,
+) {
     when (spells) {
         is DataState.Success -> {
+
             LazyColumnForIndexed(items = spells.data, modifier) { index, item ->
                 Card(elevation = 8.dp, modifier = Modifier.padding(6.dp)) {
-                    Column(modifier = Modifier.padding(6.dp)) {
-                        Text(item.name, modifier.fillMaxWidth().padding(8.dp), fontSize = 22.sp)
+                    ConstraintLayout(modifier = Modifier.padding(6.dp)) {
+                        val (name, level, school, classesRef) = createRefs()
+
+
+                        Text(
+                            item.name,
+                            Modifier.fillMaxWidth()
+                                .padding(8.dp)
+                                .constrainAs(name) {
+                                    top.linkTo(parent.top)
+                                    start.linkTo(parent.start)
+                                },
+                            fontSize = 22.sp
+                        )
                         Text(
                             "Level ${item.level}",
-                            modifier.fillMaxWidth().padding(8.dp),
+                            Modifier.wrapContentSize()
+                                .padding(8.dp, 4.dp, 0.dp, 8.dp)
+                                .constrainAs(level) {
+                                    top.linkTo(name.bottom)
+                                    start.linkTo(parent.start)
+                                },
                             fontSize = 16.sp
                         )
+                        Text(
+                            item.getSchool(),
+                            Modifier.wrapContentSize()
+                                .padding(4.dp, 4.dp, 0.dp, 8.dp)
+                                .constrainAs(school) {
+                                    bottom.linkTo(level.bottom)
+                                    start.linkTo(level.end)
+                                },
+                            fontSize = 16.sp
+                        )
+                        Text(
+                            item.classes,
+                            Modifier.wrapContentSize()
+                                .padding(0.dp, 4.dp, 4.dp, 8.dp)
+                                .constrainAs(classesRef) {
+                                    bottom.linkTo(level.bottom)
+                                    end.linkTo(parent.end)
+                                },
+                            fontSize = 16.sp
+                        )
+
                     }
-
                 }
-
-
             }
+
         }
+    }
 /*        is DataState.Error -> TODO()
         DataState.Empty -> TODO()
         DataState.Loading -> TODO()*/
-    }
-
 }
+
 
 
 @Composable
@@ -104,7 +144,8 @@ fun SpellsProgressIndicator(progress: Float, modifier: Modifier = Modifier) {
         modifier = Modifier.fillMaxWidth().wrapContentHeight()
     )
 
-    Text("Initializing Database...",
+    Text(
+        "Initializing Database...",
         modifier = modifier
             .padding(8.dp)
     )
@@ -114,7 +155,6 @@ fun SpellsProgressIndicator(progress: Float, modifier: Modifier = Modifier) {
 @Composable
 fun PreviewSpellsProgressIndicator() =
     SpellsProgressIndicator(progress = 0.40F)
-
 
 
 @Composable

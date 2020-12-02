@@ -39,6 +39,41 @@ INSERT OR IGNORE INTO Spell(
 getSpellsSortedByName:
 SELECT * FROM Spell ORDER BY name ASC;
 
+-- getSpellsWithClassesSortedByName:
+-- SELECT
+-- *, GROUP_CONCAT(className, ", ") classes
+-- FROM Spell JOIN Class ON Spell.name = Class.name
+-- GROUP BY Spell.name
+-- ORDER BY Spell.name;
+
+CREATE VIEW spellsWithClasses AS
+   SELECT
+    Spell.name,
+    source,
+    page,
+    srd,
+    level,
+    school,
+    rangeType,
+    rangeDistanceUnit,
+    rangeDistanceAmt,
+    v,
+    s,
+    m,
+    durationUnit,
+    durationAmt,
+    durationConcentration,
+    Class.className
+    FROM Spell JOIN Class ON Spell.name = Class.name
+    ORDER BY Spell.name, Class.className ASC;
+
+getSpellsWithClassesSortedByName:
+SELECT
+*, GROUP_CONCAT(className, ", ") classes
+FROM spellsWithClasses
+GROUP BY spellsWithClasses.name
+ORDER BY spellsWithClasses.name ASC;
+
 getSpellsCount:
 SELECT COUNT(*) FROM Spell;
 
@@ -200,6 +235,9 @@ INSERT OR IGNORE INTO Class(
     className,
     classSource
 ) VALUES ?;
+
+getClasses:
+SELECT * FROM Class ORDER BY className ASC;
 
 getClassesThatCanCastSpell:
 SELECT className FROM Class WHERE name = :className;

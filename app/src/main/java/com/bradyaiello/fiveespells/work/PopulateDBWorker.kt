@@ -204,7 +204,11 @@ class PopulateDBWorker @WorkerInject constructor(
                 result = populateTable(assetManager, it)
                 if (result != Result.success()) return@withContext result
             }
-
+            try {
+                spellDatabase.spellQueries.getSpellsWithClassesSortedByName().executeAsList()
+            } catch (e: Exception) {
+                return@withContext Result.failure()
+            }
             result
         }
 

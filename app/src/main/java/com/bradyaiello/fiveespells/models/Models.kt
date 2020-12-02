@@ -22,6 +22,26 @@ data class SpellInMemory(
     val durationConcentration: Boolean
 )
 
+@JsonClass(generateAdapter = true)
+data class SpellInMemoryWithClasses(
+    val name: String,
+    val source: String,
+    val page: Long,
+    val srd: Boolean,
+    val level: Long,
+    val school: String,
+    val rangeType: String,
+    val rangeDistanceUnit: String,
+    val rangeDistanceAmt: String,
+    val v: Boolean,
+    val s: Boolean,
+    val m: Boolean,
+    val durationUnit: String,
+    val durationAmt: Long,
+    val durationConcentration: Boolean,
+    val classes: String
+)
+
 fun Boolean.toLong(): Long = if (this) 1L else 0L
 
 fun Long.toBoolean(): Boolean = this == 1L
@@ -44,6 +64,26 @@ fun SpellInMemory.toSpell() =
         durationUnit,
         durationAmt,
         durationConcentration.toLong()
+    )
+
+fun GetSpellsWithClassesSortedByName.toSpellInMemoryWithClasses() =
+    SpellInMemoryWithClasses(
+        name,
+        source,
+        page,
+        srd.toBoolean(),
+        level,
+        school,
+        rangeType,
+        rangeDistanceUnit,
+        rangeDistanceAmt,
+        v.toBoolean(),
+        s.toBoolean(),
+        m.toBoolean(),
+        durationUnit,
+        durationAmt,
+        durationConcentration.toBoolean(),
+        classes
     )
 
 fun Spell.toSpellInMemory() =
@@ -113,6 +153,11 @@ data class ClassInMemory(
     val classSource: String
 )
 
+/*data class SpellWithClassesInMemory(
+    val name: String,
+    val classes: List<String>
+)*/
+
 fun ClassInMemory.toClass() = Class(
     name, className, classSource
 )
@@ -161,3 +206,16 @@ data class RaceInMemory(
 
 fun RaceInMemory.toRace() = Race(name, race, raceSource, raceBaseName, raceBaseSource)
 
+fun SpellInMemoryWithClasses.getSchool(): String {
+    return when (this.school) {
+        "A" -> "abjuration"
+        "C" -> "conjuration"
+        "D" -> "divination"
+        "E" -> "enchantment"
+        "I" -> "illusion"
+        "N" -> "necromancy"
+        "T" -> "transmutation"
+        "V" -> "evocation"
+        else -> "no school"
+    }
+}

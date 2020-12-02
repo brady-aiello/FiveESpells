@@ -3,8 +3,8 @@ package com.bradyaiello.fiveespells.repository
 import android.content.Context
 import com.bradyaiello.fiveespells.DataState
 import com.bradyaiello.fiveespells.Database
-import com.bradyaiello.fiveespells.models.SpellInMemory
-import com.bradyaiello.fiveespells.models.toSpellInMemory
+import com.bradyaiello.fiveespells.models.SpellInMemoryWithClasses
+import com.bradyaiello.fiveespells.models.toSpellInMemoryWithClasses
 import com.squareup.moshi.Moshi
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.Flow
@@ -18,6 +18,8 @@ class SpellRepository constructor(
     companion object {
         private const val TAG = "SpellRepository"
     }
+
+    val spellClasses: HashMap<String, List<String>> = HashMap()
 
     private suspend fun getBackgroundsCount(): Long {
         return spellDatabase.spellQueries.getBackgroundsCount().executeAsOne()
@@ -71,16 +73,32 @@ class SpellRepository constructor(
     }
 
 
-    fun getSpellsAsc(): Flow<DataState<List<SpellInMemory>>> = flow {
+    fun getSpellsAsc(): Flow<DataState<List<SpellInMemoryWithClasses>>> = flow {
         emit(DataState.Loading)
         try {
-            val spellsInMemory: List<SpellInMemory> = spellDatabase.spellQueries.getSpellsSortedByName()
-                .executeAsList().map { it.toSpellInMemory() }
+            val spellsInMemory: List<SpellInMemoryWithClasses> = spellDatabase
+                .spellQueries
+                .getSpellsWithClassesSortedByName()
+                .executeAsList()
+                .map { it.toSpellInMemoryWithClasses() }
+
             emit(DataState.Success(spellsInMemory))
         } catch (e: Exception) {
             emit(DataState.Error(e))
         }
     }
+
+    suspend fun getSpellClasses(spellName: String): Pair<String, List<String>> {
+        return if (spellName in spellClasses.keys) {
+            Pair(spellName, spellClasses[spellName]!!)
+        } else {
+            val classes = spellDatabase.spellQueries.getClassesThatCanCastSpell(spellName)
+                .executeAsList()
+            spellClasses[spellName] = classes
+            Pair(spellName, classes)
+        }
+    }
+
 /*    suspend fun insertAllSpells() {
 
         spellDatabase.spellQueries.insertSpell()
