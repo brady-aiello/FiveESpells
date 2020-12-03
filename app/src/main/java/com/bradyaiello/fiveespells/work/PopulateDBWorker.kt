@@ -194,22 +194,27 @@ class PopulateDBWorker @WorkerInject constructor(
     override suspend fun doWork(): Result =
         withContext(IO) {
             val assetManager: AssetManager = appContext.applicationContext.assets
-            var result: Result = Result.success()
+            //var result: Result = Result.success()
             val tableTypes = listOf(TableType.Spell, TableType.Material, TableType.Entry,
                 TableType.EntryHigherLevel, TableType.Race, TableType.Background,
                 TableType.Class, TableType.ConditionInflict, TableType.DamageInflict,
                 TableType.Subclass
             )
+            val jobs = mutableListOf<Deferred<Result>>()
             tableTypes.forEach {
-                result = populateTable(assetManager, it)
-                if (result != Result.success()) return@withContext result
+                jobs.add( async(IO) { populateTable(assetManager, it) })
             }
+            val results = jobs.awaitAll()
+            results.forEach {
+                result -> if (result != Result.success()) return@withContext result
+            }
+
             try {
                 spellDatabase.spellQueries.getSpellsWithClassesSortedByName().executeAsList()
             } catch (e: Exception) {
                 return@withContext Result.failure()
             }
-            result
+            Result.success()
         }
 
 

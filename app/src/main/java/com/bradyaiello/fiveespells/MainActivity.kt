@@ -1,5 +1,7 @@
 package com.bradyaiello.fiveespells
 
+import android.content.Context
+import android.content.res.Resources
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -13,7 +15,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.setContent
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.ui.tooling.preview.Preview
@@ -55,6 +59,8 @@ class MainActivity : AppCompatActivity() {
                                 SpellsList(
                                     spells = spells,
                                     modifier = Modifier.fillMaxSize(),
+                                    this@MainActivity,
+                                    theme
                                 )
                             }
                         }
@@ -69,15 +75,22 @@ class MainActivity : AppCompatActivity() {
 fun SpellsList(
     spells: DataState<List<SpellInMemoryWithClasses>>,
     modifier: Modifier = Modifier,
+    context: Context,
+    theme: Resources.Theme
 ) {
     when (spells) {
         is DataState.Success -> {
-
             LazyColumnForIndexed(items = spells.data, modifier) { index, item ->
                 Card(elevation = 8.dp, modifier = Modifier.padding(6.dp)) {
                     ConstraintLayout(modifier = Modifier.padding(6.dp)) {
-                        val (name, level, school, classesRef) = createRefs()
-
+                        val (
+                            name,
+                            level,
+                            school,
+                            classesRef,
+                            iconConditionInflictsRef,
+                            iconDamageInflictsRef
+                        ) = createRefs()
 
                         Text(
                             item.name,
@@ -119,7 +132,28 @@ fun SpellsList(
                                 },
                             fontSize = 16.sp
                         )
-
+                        val iconConditionInflict = vectorResource(id = R.drawable.charmed)
+                        val iconDamageInflict = vectorResource(id = R.drawable.blinded)
+                        Icon(
+                            asset = iconDamageInflict,
+                            Modifier.wrapContentSize()
+                                .padding(4.dp)
+                                .constrainAs(iconDamageInflictsRef) {
+                                    top.linkTo(parent.top)
+                                    end.linkTo(parent.end)
+                                },
+                            Color.Blue
+                        )
+                        Icon(
+                            asset = iconConditionInflict,
+                            Modifier.wrapContentSize()
+                                .padding(4.dp)
+                                .constrainAs(iconConditionInflictsRef) {
+                                    top.linkTo(parent.top)
+                                    end.linkTo(iconDamageInflictsRef.start)
+                                },
+                            Color.Unspecified
+                        )
                     }
                 }
             }
