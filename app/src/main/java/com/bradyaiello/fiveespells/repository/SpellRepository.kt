@@ -3,8 +3,8 @@ package com.bradyaiello.fiveespells.repository
 import android.content.Context
 import com.bradyaiello.fiveespells.DataState
 import com.bradyaiello.fiveespells.Database
-import com.bradyaiello.fiveespells.models.SpellInMemoryWithClasses
-import com.bradyaiello.fiveespells.models.toSpellInMemoryWithClasses
+import com.bradyaiello.fiveespells.models.SpellInMemory
+import com.bradyaiello.fiveespells.models.toSpellInMemory
 import com.squareup.moshi.Moshi
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.Flow
@@ -73,14 +73,16 @@ class SpellRepository constructor(
     }
 
 
-    fun getSpellsAsc(): Flow<DataState<List<SpellInMemoryWithClasses>>> = flow {
+    fun getSpellsAsc(): Flow<DataState<List<SpellInMemory>>> = flow {
         emit(DataState.Loading)
         try {
-            val spellsInMemory: List<SpellInMemoryWithClasses> = spellDatabase
+            val spellsInMemory: List<SpellInMemory> = spellDatabase
                 .spellQueries
-                .getSpellsWithClassesSortedByName()
+                .getSpellsSortedByName()
                 .executeAsList()
-                .map { it.toSpellInMemoryWithClasses() }
+                .map {
+                    it.toSpellInMemory()
+                }
 
             emit(DataState.Success(spellsInMemory))
         } catch (e: Exception) {

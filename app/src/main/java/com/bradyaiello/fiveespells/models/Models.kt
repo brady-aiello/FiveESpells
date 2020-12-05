@@ -3,6 +3,7 @@ package com.bradyaiello.fiveespells.models
 import com.bradyaiello.fiveespells.*
 import com.squareup.moshi.JsonClass
 
+
 @JsonClass(generateAdapter = true)
 data class SpellInMemory(
     val name: String,
@@ -11,25 +12,8 @@ data class SpellInMemory(
     val srd: Boolean,
     val level: Long,
     val school: String,
-    val rangeType: String,
-    val rangeDistanceUnit: String,
-    val rangeDistanceAmt: String,
-    val v: Boolean,
-    val s: Boolean,
-    val m: Boolean,
-    val durationUnit: String,
-    val durationAmt: Long,
-    val durationConcentration: Boolean
-)
-
-@JsonClass(generateAdapter = true)
-data class SpellInMemoryWithClasses(
-    val name: String,
-    val source: String,
-    val page: Long,
-    val srd: Boolean,
-    val level: Long,
-    val school: String,
+    val savingThrow: String?,
+    val ritual: Boolean,
     val rangeType: String,
     val rangeDistanceUnit: String,
     val rangeDistanceAmt: String,
@@ -39,7 +23,11 @@ data class SpellInMemoryWithClasses(
     val durationUnit: String,
     val durationAmt: Long,
     val durationConcentration: Boolean,
-    val classes: String
+    val classes: String,
+    val conditionInflicts: String?,
+    val timeNumber: Long,
+    val timeUnit: String,
+    val damageInflicts: String?
 )
 
 fun Boolean.toLong(): Long = if (this) 1L else 0L
@@ -55,6 +43,8 @@ fun SpellInMemory.toSpell() =
         srd.toLong(),
         level,
         school,
+        savingThrow,
+        ritual.toLong(),
         rangeType,
         rangeDistanceUnit,
         rangeDistanceAmt,
@@ -63,28 +53,14 @@ fun SpellInMemory.toSpell() =
         m.toLong(),
         durationUnit,
         durationAmt,
-        durationConcentration.toLong()
+        durationConcentration.toLong(),
+        classes,
+        conditionInflicts,
+        timeNumber,
+        timeUnit,
+        damageInflicts
     )
 
-fun GetSpellsWithClassesSortedByName.toSpellInMemoryWithClasses() =
-    SpellInMemoryWithClasses(
-        name,
-        source,
-        page,
-        srd.toBoolean(),
-        level,
-        school,
-        rangeType,
-        rangeDistanceUnit,
-        rangeDistanceAmt,
-        v.toBoolean(),
-        s.toBoolean(),
-        m.toBoolean(),
-        durationUnit,
-        durationAmt,
-        durationConcentration.toBoolean(),
-        classes
-    )
 
 fun Spell.toSpellInMemory() =
     SpellInMemory(
@@ -94,6 +70,8 @@ fun Spell.toSpellInMemory() =
         srd.toBoolean(),
         level,
         school,
+        savingThrow,
+        ritual == 1L,
         rangeType,
         rangeDistanceUnit,
         rangeDistanceAmt,
@@ -102,7 +80,12 @@ fun Spell.toSpellInMemory() =
         m.toBoolean(),
         durationUnit,
         durationAmt,
-        durationConcentration.toBoolean()
+        durationConcentration.toBoolean(),
+        classes,
+        conditionInflicts,
+        timeNumber,
+        timeUnit,
+        damageInflicts
     )
 
 @JsonClass(generateAdapter = true)
@@ -153,11 +136,6 @@ data class ClassInMemory(
     val classSource: String
 )
 
-/*data class SpellWithClassesInMemory(
-    val name: String,
-    val classes: List<String>
-)*/
-
 fun ClassInMemory.toClass() = Class(
     name, className, classSource
 )
@@ -206,7 +184,7 @@ data class RaceInMemory(
 
 fun RaceInMemory.toRace() = Race(name, race, raceSource, raceBaseName, raceBaseSource)
 
-fun SpellInMemoryWithClasses.getSchool(): String {
+fun SpellInMemory.getSchool(): String {
     return when (this.school) {
         "A" -> "abjuration"
         "C" -> "conjuration"

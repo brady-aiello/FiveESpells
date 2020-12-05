@@ -6,6 +6,8 @@ CREATE TABLE Spell (
     srd INTEGER NOT NULL,
     level INTEGER NOT NULL,
     school TEXT NOT NULL,
+    savingThrow TEXT,
+    ritual INTEGER NOT NULL,
     rangeType TEXT NOT NULL,
     rangeDistanceUnit TEXT NOT NULL,
     rangeDistanceAmt TEXT NOT NULL,
@@ -14,7 +16,12 @@ CREATE TABLE Spell (
     m INTEGER NOT NULL,
     durationUnit TEXT NOT NULL,
     durationAmt INTEGER NOT NULL,
-    durationConcentration INTEGER NOT NULL
+    durationConcentration INTEGER NOT NULL,
+    classes TEXT NOT NULL,
+    conditionInflicts TEXT,
+    timeNumber INTEGER NOT NULL,
+    timeUnit TEXT NOT NULL,
+    damageInflicts TEXT
 );
 
 insertSpell:
@@ -25,35 +32,8 @@ INSERT OR IGNORE INTO Spell(
     srd,
     level,
     school,
-    rangeType,
-    rangeDistanceUnit,
-    rangeDistanceAmt,
-    v,
-    s,
-    m,
-    durationUnit,
-    durationAmt,
-    durationConcentration
-) VALUES ?;
-
-getSpellsSortedByName:
-SELECT * FROM Spell ORDER BY name ASC;
-
--- getSpellsWithClassesSortedByName:
--- SELECT
--- *, GROUP_CONCAT(className, ", ") classes
--- FROM Spell JOIN Class ON Spell.name = Class.name
--- GROUP BY Spell.name
--- ORDER BY Spell.name;
-
-CREATE VIEW spellsWithClasses AS
-   SELECT
-    Spell.name,
-    source,
-    page,
-    srd,
-    level,
-    school,
+    savingThrow,
+    ritual,
     rangeType,
     rangeDistanceUnit,
     rangeDistanceAmt,
@@ -63,16 +43,17 @@ CREATE VIEW spellsWithClasses AS
     durationUnit,
     durationAmt,
     durationConcentration,
-    Class.className
-    FROM Spell JOIN Class ON Spell.name = Class.name
-    ORDER BY Spell.name, Class.className ASC;
+    classes,
+    conditionInflicts,
+    timeNumber,
+    timeUnit,
+    damageInflicts
+) VALUES ?;
 
-getSpellsWithClassesSortedByName:
-SELECT
-*, GROUP_CONCAT(className, ", ") classes
-FROM spellsWithClasses
-GROUP BY spellsWithClasses.name
-ORDER BY spellsWithClasses.name ASC;
+getSpellsSortedByName:
+SELECT * FROM Spell ORDER BY name ASC;
+
+
 
 getSpellsCount:
 SELECT COUNT(*) FROM Spell;
@@ -309,4 +290,3 @@ getSubclassCount:
 SELECT COUNT(*) FROM Subclass;
 
 -- Subclass
---

@@ -18,10 +18,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.ui.tooling.preview.Preview
-import com.bradyaiello.fiveespells.models.SpellInMemoryWithClasses
+import com.bradyaiello.fiveespells.models.SpellInMemory
 import com.bradyaiello.fiveespells.models.getSchool
 import com.bradyaiello.fiveespells.ui.FiveESpellsTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -73,7 +74,7 @@ class MainActivity : AppCompatActivity() {
 
 @Composable
 fun SpellsList(
-    spells: DataState<List<SpellInMemoryWithClasses>>,
+    spells: DataState<List<SpellInMemory>>,
     modifier: Modifier = Modifier,
     context: Context,
     theme: Resources.Theme
@@ -130,7 +131,10 @@ fun SpellsList(
                                     bottom.linkTo(level.bottom)
                                     end.linkTo(parent.end)
                                 },
-                            fontSize = 16.sp
+                            fontSize = 16.sp,
+                            overflow = TextOverflow.Clip,
+                            maxLines = 2,
+                            softWrap = true
                         )
                         val iconConditionInflict = vectorResource(id = R.drawable.charmed)
                         val iconDamageInflict = vectorResource(id = R.drawable.blinded)

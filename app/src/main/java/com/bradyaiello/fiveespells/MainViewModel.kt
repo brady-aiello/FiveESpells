@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
 import androidx.work.*
-import com.bradyaiello.fiveespells.models.SpellInMemoryWithClasses
+import com.bradyaiello.fiveespells.models.SpellInMemory
 import com.bradyaiello.fiveespells.repository.SpellRepository
 import com.bradyaiello.fiveespells.work.PopulateDBWorker
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -21,7 +21,7 @@ class MainViewModel @ViewModelInject constructor(
 
 
     @ExperimentalCoroutinesApi
-    val spellStateFlow: StateFlow<DataState<List<SpellInMemoryWithClasses>>> =
+    val spellStateFlow: StateFlow<DataState<List<SpellInMemory>>> =
         repository.getSpellsAsc().stateIn(viewModelScope, SharingStarted.Lazily, DataState.Loading)
 
 
