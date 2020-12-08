@@ -1,11 +1,12 @@
 package com.bradyaiello.fiveespells.models
 
+import androidx.compose.ui.res.vectorResource
 import com.bradyaiello.fiveespells.*
 import com.squareup.moshi.JsonClass
 
 
 @JsonClass(generateAdapter = true)
-data class SpellInMemory(
+data class TextSpellInMemory(
     val name: String,
     val source: String,
     val page: Long,
@@ -30,12 +31,37 @@ data class SpellInMemory(
     val damageInflicts: String?
 )
 
+data class SpellInMemory(
+    val name: String,
+    val source: String,
+    val page: Long,
+    val srd: Boolean,
+    val level: Long,
+    val school: String,
+    val savingThrow: String?,
+    val ritual: Boolean,
+    val rangeType: String,
+    val rangeDistanceUnit: String,
+    val rangeDistanceAmt: String,
+    val v: Boolean,
+    val s: Boolean,
+    val m: Boolean,
+    val durationUnit: String,
+    val durationAmt: Long,
+    val durationConcentration: Boolean,
+    val classes: List<String>,
+    val conditionInflicts: List<ConditionInflict> = listOf(),
+    val timeNumber: Long,
+    val timeUnit: String,
+    val damageInflicts: List<DamageInflict> = listOf()
+)
+
 fun Boolean.toLong(): Long = if (this) 1L else 0L
 
 fun Long.toBoolean(): Boolean = this == 1L
 
 
-fun SpellInMemory.toSpell() =
+fun TextSpellInMemory.toSpell() =
     Spell(
         name,
         source,
@@ -81,12 +107,12 @@ fun Spell.toSpellInMemory() =
         durationUnit,
         durationAmt,
         durationConcentration.toBoolean(),
-        classes,
-        conditionInflicts,
+        classes.split(", "),
+        conditionInflicts?.split(", ")?.map { it.toConditionInflict() } ?: listOf(),
         timeNumber,
         timeUnit,
-        damageInflicts
-    )
+        damageInflicts?.split(", ")?.map { it.toDamageInflict() } ?: listOf()
+        )
 
 @JsonClass(generateAdapter = true)
 data class MaterialInMemory(
@@ -197,3 +223,111 @@ fun SpellInMemory.getSchool(): String {
         else -> "no school"
     }
 }
+
+fun String.toDamageInflict(): DamageInflict =
+    when(this) {
+        "acid" -> DamageInflict.Acid
+        "bludgeoning" -> DamageInflict.Bludgeoning
+        "cold" -> DamageInflict.Cold
+        "fire" -> DamageInflict.Fire
+        "force" -> DamageInflict.Force
+        "lightning" -> DamageInflict.Lightning
+        "necrotic" -> DamageInflict.Necrotic
+        "piercing" -> DamageInflict.Piercing
+        "poison" -> DamageInflict.Poison
+        "psychic" -> DamageInflict.Psychic
+        "radiant" -> DamageInflict.Radiant
+        "slashing" -> DamageInflict.Slashing
+        "thunder" -> DamageInflict.Thunder
+        else -> {
+            DamageInflict.Acid
+        }
+    }
+
+sealed class DamageInflict(val type: String) {
+    object Acid: DamageInflict("acid") // Sword / Skull eating away
+    object Bludgeoning: DamageInflict("bludgeoning")
+    object Cold: DamageInflict("cold")
+    object Fire: DamageInflict("fire")
+    object Force: DamageInflict("force")
+    object Lightning: DamageInflict("lightning")
+    object Necrotic: DamageInflict("necrotic")
+    object Piercing: DamageInflict("piercing")
+    object Poison: DamageInflict("poison")
+    object Psychic: DamageInflict("psychic")
+    object Radiant: DamageInflict("radiant")
+    object Slashing: DamageInflict("slashing")
+    object Thunder: DamageInflict("thunder")
+}
+
+fun DamageInflict.toVectorResource(): Int =
+    when(this) {
+        DamageInflict.Acid -> R.drawable.acid
+        DamageInflict.Bludgeoning -> R.drawable.bludgeoning
+        DamageInflict.Cold -> R.drawable.cold
+        DamageInflict.Fire -> R.drawable.fire
+        DamageInflict.Force -> R.drawable.force
+        DamageInflict.Lightning -> R.drawable.lightning
+        DamageInflict.Necrotic -> R.drawable.necrotic
+        DamageInflict.Piercing -> R.drawable.piercing
+        DamageInflict.Poison -> R.drawable.poison
+        DamageInflict.Psychic -> R.drawable.psychic
+        DamageInflict.Radiant -> R.drawable.radiant
+        DamageInflict.Slashing -> R.drawable.slashing
+        DamageInflict.Thunder -> R.drawable.thunder
+    }
+
+fun ConditionInflict.toVectorResource(): Int =
+    when(this) {
+        ConditionInflict.Blinded -> R.drawable.blinded
+        ConditionInflict.Charmed -> R.drawable.charmed
+        ConditionInflict.Deafened -> R.drawable.deafened
+        ConditionInflict.Frightened -> R.drawable.frightened
+        ConditionInflict.Incapacitated -> R.drawable.turtle
+        ConditionInflict.Invisible -> R.drawable.invisible
+        ConditionInflict.Paralyzed -> R.drawable.paralyzed
+        ConditionInflict.Petrified -> R.drawable.petrified
+        ConditionInflict.Poisoned -> R.drawable.poisoned
+        ConditionInflict.Prone -> R.drawable.prone
+        ConditionInflict.Restrained -> R.drawable.restrained
+        ConditionInflict.Stunned -> R.drawable.stunned
+        ConditionInflict.Unconscious -> R.drawable.unconscious
+    }
+
+fun String.toConditionInflict(): ConditionInflict =
+    when(this) {
+        "blinded" -> ConditionInflict.Blinded
+        "charmed" -> ConditionInflict.Charmed
+        "deafened" -> ConditionInflict.Deafened
+        "frightened" -> ConditionInflict.Frightened
+        "incapacitated" -> ConditionInflict.Incapacitated
+        "invisible" -> ConditionInflict.Invisible
+        "paralyzed" -> ConditionInflict.Paralyzed
+        "petrified" -> ConditionInflict.Petrified
+        "poisoned" -> ConditionInflict.Poisoned
+        "prone" -> ConditionInflict.Prone
+        "restrained" -> ConditionInflict.Restrained
+        "stunned" -> ConditionInflict.Stunned
+        "unconscious" -> ConditionInflict.Unconscious
+        else -> {
+            ConditionInflict.Blinded
+        }
+    }
+
+sealed class ConditionInflict(val type: String) {
+    object Blinded: ConditionInflict("blinded")
+    object Charmed: ConditionInflict("charmed")
+    object Deafened: ConditionInflict("deafened")
+    object Frightened: ConditionInflict("frightened")
+    object Incapacitated: ConditionInflict("incapacitated")
+    object Invisible: ConditionInflict("invisible")
+    object Paralyzed: ConditionInflict("paralyzed")
+    object Petrified: ConditionInflict("petrified")
+    object Poisoned: ConditionInflict("poisoned")
+    object Prone: ConditionInflict("prone")
+    object Restrained: ConditionInflict("restrained")
+    object Stunned: ConditionInflict("stunned")
+    object Unconscious: ConditionInflict("unconscious")
+}
+
+

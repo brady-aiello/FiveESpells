@@ -1,7 +1,5 @@
 package com.bradyaiello.fiveespells
 
-import android.content.Context
-import android.content.res.Resources
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -24,6 +22,7 @@ import androidx.compose.ui.unit.sp
 import androidx.ui.tooling.preview.Preview
 import com.bradyaiello.fiveespells.models.SpellInMemory
 import com.bradyaiello.fiveespells.models.getSchool
+import com.bradyaiello.fiveespells.models.toVectorResource
 import com.bradyaiello.fiveespells.ui.FiveESpellsTheme
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -59,9 +58,7 @@ class MainActivity : AppCompatActivity() {
 
                                 SpellsList(
                                     spells = spells,
-                                    modifier = Modifier.fillMaxSize(),
-                                    this@MainActivity,
-                                    theme
+                                    modifier = Modifier.fillMaxSize()
                                 )
                             }
                         }
@@ -75,9 +72,7 @@ class MainActivity : AppCompatActivity() {
 @Composable
 fun SpellsList(
     spells: DataState<List<SpellInMemory>>,
-    modifier: Modifier = Modifier,
-    context: Context,
-    theme: Resources.Theme
+    modifier: Modifier = Modifier
 ) {
     when (spells) {
         is DataState.Success -> {
@@ -123,8 +118,17 @@ fun SpellsList(
                                 },
                             fontSize = 16.sp
                         )
+                        val itemClasses = item.classes
+                        val classesText = itemClasses.take(3).toMutableList()
+
+
+                        if (item.classes.size > 3) {
+                            classesText += "..."
+                        }
+                        val classesString = classesText.toString()
+
                         Text(
-                            item.classes,
+                            classesString.substring(1, classesString.length - 1),
                             Modifier.wrapContentSize()
                                 .padding(0.dp, 4.dp, 4.dp, 8.dp)
                                 .constrainAs(classesRef) {
@@ -136,28 +140,44 @@ fun SpellsList(
                             maxLines = 2,
                             softWrap = true
                         )
-                        val iconConditionInflict = vectorResource(id = R.drawable.charmed)
-                        val iconDamageInflict = vectorResource(id = R.drawable.blinded)
-                        Icon(
-                            asset = iconDamageInflict,
-                            Modifier.wrapContentSize()
-                                .padding(4.dp)
-                                .constrainAs(iconDamageInflictsRef) {
-                                    top.linkTo(parent.top)
-                                    end.linkTo(parent.end)
-                                },
-                            Color.Blue
-                        )
-                        Icon(
-                            asset = iconConditionInflict,
-                            Modifier.wrapContentSize()
-                                .padding(4.dp)
-                                .constrainAs(iconConditionInflictsRef) {
-                                    top.linkTo(parent.top)
-                                    end.linkTo(iconDamageInflictsRef.start)
-                                },
-                            Color.Unspecified
-                        )
+
+                        val damageInflictsList = item.damageInflicts
+                        if (damageInflictsList.isNotEmpty()) {
+                            val iconDamageInflict =
+                                vectorResource(id = damageInflictsList [0].toVectorResource())
+
+                            Icon(
+                                asset = iconDamageInflict,
+                                Modifier.wrapContentSize()
+                                    .padding(4.dp)
+                                    .constrainAs(iconDamageInflictsRef) {
+                                        top.linkTo(parent.top)
+                                        end.linkTo(parent.end)
+                                    },
+                                Color.Unspecified
+                            )
+                        }
+                        val conditionInflictsList = item.conditionInflicts
+                        if (conditionInflictsList.isNotEmpty()) {
+                            val iconConditionInflict =
+                                vectorResource(id = conditionInflictsList [0].toVectorResource())
+
+                            Icon(
+                                asset = iconConditionInflict,
+                                Modifier.wrapContentSize()
+                                    .padding(4.dp)
+                                    .constrainAs(iconConditionInflictsRef) {
+                                        top.linkTo(parent.top)
+
+                                        if (damageInflictsList.isEmpty()) {
+                                            end.linkTo(parent.end)
+                                        } else {
+                                            end.linkTo(iconDamageInflictsRef.start)
+                                        }
+                                    },
+                                Color.Unspecified
+                            )
+                        }
                     }
                 }
             }

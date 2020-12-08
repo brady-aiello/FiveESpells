@@ -66,11 +66,11 @@ class PopulateDBWorker @WorkerInject constructor(
 
             when (tableType) {
                 TableType.Spell -> {
-                    val spellInMemory: SpellInMemory? =
-                        moshi.adapter(SpellInMemory::class.java)
+                    val textSpellInMemory: TextSpellInMemory? =
+                        moshi.adapter(TextSpellInMemory::class.java)
                             .fromJson(line)
-                    spellInMemory?.apply {
-                        val spell = spellInMemory.toSpell()
+                    textSpellInMemory?.apply {
+                        val spell = textSpellInMemory.toSpell()
                         spellDatabase.spellQueries.insertSpell(spell)
                     }
                 }
@@ -211,6 +211,4 @@ class PopulateDBWorker @WorkerInject constructor(
 
             Result.success()
         }
-
-
 }
