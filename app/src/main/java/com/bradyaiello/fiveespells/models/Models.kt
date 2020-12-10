@@ -22,7 +22,6 @@ data class TextSpellInMemory(
     val rangeDistanceAmt: String,
     val v: Boolean,
     val s: Boolean,
-    val m: Boolean,
     val durationUnit: String,
     val durationAmt: Long,
     val durationConcentration: Boolean,
@@ -30,6 +29,10 @@ data class TextSpellInMemory(
     val conditionInflicts: String?,
     val damageInflicts: String?,
     val entries: String,
+    val materials: String?,
+    val materialsCost: Long,
+    val materialsConsumed: Boolean,
+    val races: String?,
     val entriesHigherLevel: String?
 )
 
@@ -49,7 +52,6 @@ data class SpellInMemory(
     val rangeDistanceAmt: String,
     val v: Boolean,
     val s: Boolean,
-    val m: Boolean,
     val durationUnit: String,
     val durationAmt: Long,
     val durationConcentration: Boolean,
@@ -57,6 +59,10 @@ data class SpellInMemory(
     val conditionInflicts: List<ConditionInflict> = listOf(),
     val damageInflicts: List<DamageInflict> = listOf(),
     val entries: String,
+    val materials: String?,
+    val materialsCost: Long,
+    val materialsConsumed: Boolean,
+    val races: List<String> = listOf(),
     val entriesHigherLevel: String?
 )
 
@@ -82,7 +88,6 @@ fun TextSpellInMemory.toSpell() =
         rangeDistanceAmt,
         v.toLong(),
         s.toLong(),
-        m.toLong(),
         durationUnit,
         durationAmt,
         durationConcentration.toLong(),
@@ -90,6 +95,10 @@ fun TextSpellInMemory.toSpell() =
         conditionInflicts,
         damageInflicts,
         entries,
+        materials,
+        materialsCost,
+        materialsConsumed.toLong(),
+        races,
         entriesHigherLevel
     )
 
@@ -111,7 +120,6 @@ fun Spell.toSpellInMemory() =
         rangeDistanceAmt,
         v.toBoolean(),
         s.toBoolean(),
-        m.toBoolean(),
         durationUnit,
         durationAmt,
         durationConcentration.toBoolean(),
@@ -119,6 +127,10 @@ fun Spell.toSpellInMemory() =
         conditionInflicts?.split(", ")?.map { it.toConditionInflict() } ?: listOf(),
         damageInflicts?.split(", ")?.map { it.toDamageInflict() } ?: listOf(),
         entries,
+        materials,
+        materialsCost,
+        materialsConsumed == 1L,
+        races?.split(", ") ?: listOf(),
         entriesHigherLevel
         )
 

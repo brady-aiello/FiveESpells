@@ -15,7 +15,6 @@ CREATE TABLE Spell (
     rangeDistanceAmt TEXT NOT NULL,
     v INTEGER NOT NULL,
     s INTEGER NOT NULL,
-    m INTEGER NOT NULL,
     durationUnit TEXT NOT NULL,
     durationAmt INTEGER NOT NULL,
     durationConcentration INTEGER NOT NULL,
@@ -23,6 +22,10 @@ CREATE TABLE Spell (
     conditionInflicts TEXT,
     damageInflicts TEXT,
     entries TEXT NOT NULL,
+    materials TEXT,
+    materialsCost INTEGER NOT NULL,
+    materialsConsumed INTEGER NOT NULL,
+    races TEXT,
     entriesHigherLevel TEXT
 );
 
@@ -43,14 +46,18 @@ INSERT OR IGNORE INTO Spell(
     rangeDistanceAmt,
     v,
     s,
-    m,
     durationUnit,
     durationAmt,
     durationConcentration,
     classes,
+    races,
     conditionInflicts,
     damageInflicts,
     entries,
+    materials,
+    materialsCost,
+    materialsConsumed,
+    races,
     entriesHigherLevel
 ) VALUES ?;
 
