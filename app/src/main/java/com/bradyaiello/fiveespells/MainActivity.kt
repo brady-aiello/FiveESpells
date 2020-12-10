@@ -3,13 +3,16 @@ package com.bradyaiello.fiveespells
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.animation.animate
+import androidx.compose.animation.*
+import androidx.compose.animation.core.FastOutLinearInEasing
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.TweenSpec
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumnForIndexed
 import androidx.compose.material.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
+import androidx.compose.runtime.*
+import androidx.compose.runtime.State
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -35,6 +38,7 @@ class MainActivity : AppCompatActivity() {
 
     private val viewModel: MainViewModel by viewModels()
 
+    @ExperimentalAnimationApi
     @ExperimentalCoroutinesApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -69,9 +73,16 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
+@ExperimentalAnimationApi
 @Composable
 fun SpellCard(spell: SpellInMemory) {
-    Card(elevation = 8.dp, modifier = Modifier.padding(6.dp)) {
+    val opened = remember { mutableStateOf(false) }
+
+    Card(
+        elevation = 8.dp,
+        modifier = Modifier.padding(6.dp)
+            .clickable(onClick = { opened.value = !opened.value })
+    ) {
         ConstraintLayout(modifier = Modifier.padding(6.dp)) {
             val (
                 name,
@@ -79,7 +90,8 @@ fun SpellCard(spell: SpellInMemory) {
                 school,
                 classesRef,
                 iconConditionInflictsRef,
-                iconDamageInflictsRef
+                iconDamageInflictsRef,
+                entriesRef
             ) = createRefs()
 
             Text(
@@ -137,7 +149,7 @@ fun SpellCard(spell: SpellInMemory) {
             val damageInflictsList = spell.damageInflicts
             if (damageInflictsList.isNotEmpty()) {
                 val iconDamageInflict =
-                    vectorResource(id = damageInflictsList [0].toVectorResource())
+                    vectorResource(id = damageInflictsList[0].toVectorResource())
 
                 Icon(
                     asset = iconDamageInflict,
@@ -153,7 +165,7 @@ fun SpellCard(spell: SpellInMemory) {
             val conditionInflictsList = spell.conditionInflicts
             if (conditionInflictsList.isNotEmpty()) {
                 val iconConditionInflict =
-                    vectorResource(id = conditionInflictsList [0].toVectorResource())
+                    vectorResource(id = conditionInflictsList[0].toVectorResource())
 
                 Icon(
                     asset = iconConditionInflict,
@@ -171,10 +183,59 @@ fun SpellCard(spell: SpellInMemory) {
                     Color.Unspecified
                 )
             }
+ /*           val enter =
+                remember { fadeIn(animSpec = TweenSpec(300, easing = FastOutLinearInEasing)) }
+            val exit = remember { fadeOut(animSpec = TweenSpec(100, easing = FastOutSlowInEasing)) }*/
+            val enter =
+                remember { expandVertically(animSpec = TweenSpec(200, easing = FastOutLinearInEasing)) }
+            val exit = remember { shrinkVertically(animSpec = TweenSpec(200, easing = FastOutSlowInEasing)) }
+            Box(
+                Modifier
+                    .constrainAs(entriesRef) {
+                        top.linkTo(level.bottom)
+                        start.linkTo(parent.start)
+                        end.linkTo(parent.end)
+                    }) {
+                AnimatedVisibility(
+                    visible = opened.value,
+                    initiallyVisible = false,
+                    enter = enter,
+                    exit = exit,
+                ) {
+                    SpellDetails(spell = spell)
+                }
+            }
         }
     }
 }
 
+@Composable
+fun SpellDetails(spell: SpellInMemory) {
+    Column(modifier = Modifier.fillMaxSize()) {
+        Text(
+            spell.entries,
+            Modifier.fillMaxWidth()
+                .padding(4.dp, 4.dp, 4.dp, 4.dp),
+            fontSize = 16.sp,
+            softWrap = true
+        )
+        val entriesHigherLevel = spell.entriesHigherLevels
+
+        entriesHigherLevel?.let {
+            Text(
+                it,
+                Modifier.fillMaxWidth()
+                    .padding(4.dp, 4.dp, 4.dp, 4.dp),
+                fontSize = 16.sp,
+                softWrap = true
+            )
+        }
+    }
+
+}
+
+
+@ExperimentalAnimationApi
 @Composable
 fun SpellsList(
     spells: DataState<List<SpellInMemory>>,
@@ -192,7 +253,6 @@ fun SpellsList(
         DataState.Empty -> TODO()
         DataState.Loading -> TODO()*/
 }
-
 
 
 @Composable

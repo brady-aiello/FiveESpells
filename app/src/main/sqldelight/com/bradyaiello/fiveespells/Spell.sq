@@ -26,7 +26,7 @@ CREATE TABLE Spell (
     materialsCost INTEGER NOT NULL,
     materialsConsumed INTEGER NOT NULL,
     races TEXT,
-    entriesHigherLevel TEXT
+    entriesHigherLevels TEXT
 );
 
 insertSpell:
@@ -58,7 +58,7 @@ INSERT OR IGNORE INTO Spell(
     materialsCost,
     materialsConsumed,
     races,
-    entriesHigherLevel
+    entriesHigherLevels
 ) VALUES ?;
 
 getSpellsSortedByName:
