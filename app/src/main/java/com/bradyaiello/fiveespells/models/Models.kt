@@ -15,6 +15,8 @@ data class TextSpellInMemory(
     val school: String,
     val savingThrow: String?,
     val ritual: Boolean,
+    val timeNumber: Long,
+    val timeUnit: String,
     val rangeType: String,
     val rangeDistanceUnit: String,
     val rangeDistanceAmt: String,
@@ -26,9 +28,9 @@ data class TextSpellInMemory(
     val durationConcentration: Boolean,
     val classes: String,
     val conditionInflicts: String?,
-    val timeNumber: Long,
-    val timeUnit: String,
-    val damageInflicts: String?
+    val damageInflicts: String?,
+    val entries: String,
+    val entriesHigherLevel: String?
 )
 
 data class SpellInMemory(
@@ -40,6 +42,8 @@ data class SpellInMemory(
     val school: String,
     val savingThrow: String?,
     val ritual: Boolean,
+    val timeNumber: Long,
+    val timeUnit: String,
     val rangeType: String,
     val rangeDistanceUnit: String,
     val rangeDistanceAmt: String,
@@ -51,9 +55,9 @@ data class SpellInMemory(
     val durationConcentration: Boolean,
     val classes: List<String>,
     val conditionInflicts: List<ConditionInflict> = listOf(),
-    val timeNumber: Long,
-    val timeUnit: String,
-    val damageInflicts: List<DamageInflict> = listOf()
+    val damageInflicts: List<DamageInflict> = listOf(),
+    val entries: String,
+    val entriesHigherLevel: String?
 )
 
 fun Boolean.toLong(): Long = if (this) 1L else 0L
@@ -71,6 +75,8 @@ fun TextSpellInMemory.toSpell() =
         school,
         savingThrow,
         ritual.toLong(),
+        timeNumber,
+        timeUnit,
         rangeType,
         rangeDistanceUnit,
         rangeDistanceAmt,
@@ -82,9 +88,9 @@ fun TextSpellInMemory.toSpell() =
         durationConcentration.toLong(),
         classes,
         conditionInflicts,
-        timeNumber,
-        timeUnit,
-        damageInflicts
+        damageInflicts,
+        entries,
+        entriesHigherLevel
     )
 
 
@@ -98,6 +104,8 @@ fun Spell.toSpellInMemory() =
         school,
         savingThrow,
         ritual == 1L,
+        timeNumber,
+        timeUnit,
         rangeType,
         rangeDistanceUnit,
         rangeDistanceAmt,
@@ -109,9 +117,9 @@ fun Spell.toSpellInMemory() =
         durationConcentration.toBoolean(),
         classes.split(", "),
         conditionInflicts?.split(", ")?.map { it.toConditionInflict() } ?: listOf(),
-        timeNumber,
-        timeUnit,
-        damageInflicts?.split(", ")?.map { it.toDamageInflict() } ?: listOf()
+        damageInflicts?.split(", ")?.map { it.toDamageInflict() } ?: listOf(),
+        entries,
+        entriesHigherLevel
         )
 
 @JsonClass(generateAdapter = true)

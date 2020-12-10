@@ -8,6 +8,8 @@ CREATE TABLE Spell (
     school TEXT NOT NULL,
     savingThrow TEXT,
     ritual INTEGER NOT NULL,
+    timeNumber INTEGER NOT NULL,
+    timeUnit TEXT NOT NULL,
     rangeType TEXT NOT NULL,
     rangeDistanceUnit TEXT NOT NULL,
     rangeDistanceAmt TEXT NOT NULL,
@@ -19,9 +21,9 @@ CREATE TABLE Spell (
     durationConcentration INTEGER NOT NULL,
     classes TEXT NOT NULL,
     conditionInflicts TEXT,
-    timeNumber INTEGER NOT NULL,
-    timeUnit TEXT NOT NULL,
-    damageInflicts TEXT
+    damageInflicts TEXT,
+    entries TEXT NOT NULL,
+    entriesHigherLevel TEXT
 );
 
 insertSpell:
@@ -34,6 +36,8 @@ INSERT OR IGNORE INTO Spell(
     school,
     savingThrow,
     ritual,
+    timeNumber,
+    timeUnit,
     rangeType,
     rangeDistanceUnit,
     rangeDistanceAmt,
@@ -45,9 +49,9 @@ INSERT OR IGNORE INTO Spell(
     durationConcentration,
     classes,
     conditionInflicts,
-    timeNumber,
-    timeUnit,
-    damageInflicts
+    damageInflicts,
+    entries,
+    entriesHigherLevel
 ) VALUES ?;
 
 getSpellsSortedByName:

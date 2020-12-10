@@ -70,6 +70,112 @@ class MainActivity : AppCompatActivity() {
 }
 
 @Composable
+fun SpellCard(spell: SpellInMemory) {
+    Card(elevation = 8.dp, modifier = Modifier.padding(6.dp)) {
+        ConstraintLayout(modifier = Modifier.padding(6.dp)) {
+            val (
+                name,
+                level,
+                school,
+                classesRef,
+                iconConditionInflictsRef,
+                iconDamageInflictsRef
+            ) = createRefs()
+
+            Text(
+                spell.name,
+                Modifier.fillMaxWidth()
+                    .padding(8.dp)
+                    .constrainAs(name) {
+                        top.linkTo(parent.top)
+                        start.linkTo(parent.start)
+                    },
+                fontSize = 22.sp
+            )
+            Text(
+                "Level ${spell.level}",
+                Modifier.wrapContentSize()
+                    .padding(8.dp, 4.dp, 0.dp, 8.dp)
+                    .constrainAs(level) {
+                        top.linkTo(name.bottom)
+                        start.linkTo(parent.start)
+                    },
+                fontSize = 16.sp
+            )
+            Text(
+                spell.getSchool(),
+                Modifier.wrapContentSize()
+                    .padding(4.dp, 4.dp, 0.dp, 8.dp)
+                    .constrainAs(school) {
+                        bottom.linkTo(level.bottom)
+                        start.linkTo(level.end)
+                    },
+                fontSize = 16.sp
+            )
+            val itemClasses = spell.classes
+            val classesText = itemClasses.take(3).toMutableList()
+
+            if (spell.classes.size > 3) {
+                classesText += "..."
+            }
+            val classesString = classesText.toString()
+
+            Text(
+                classesString.substring(1, classesString.length - 1),
+                Modifier.wrapContentSize()
+                    .padding(0.dp, 4.dp, 4.dp, 8.dp)
+                    .constrainAs(classesRef) {
+                        bottom.linkTo(level.bottom)
+                        end.linkTo(parent.end)
+                    },
+                fontSize = 16.sp,
+                overflow = TextOverflow.Clip,
+                maxLines = 2,
+                softWrap = true
+            )
+
+            val damageInflictsList = spell.damageInflicts
+            if (damageInflictsList.isNotEmpty()) {
+                val iconDamageInflict =
+                    vectorResource(id = damageInflictsList [0].toVectorResource())
+
+                Icon(
+                    asset = iconDamageInflict,
+                    Modifier.wrapContentSize()
+                        .padding(4.dp)
+                        .constrainAs(iconDamageInflictsRef) {
+                            top.linkTo(parent.top)
+                            end.linkTo(parent.end)
+                        },
+                    Color.Unspecified
+                )
+            }
+            val conditionInflictsList = spell.conditionInflicts
+            if (conditionInflictsList.isNotEmpty()) {
+                val iconConditionInflict =
+                    vectorResource(id = conditionInflictsList [0].toVectorResource())
+
+                Icon(
+                    asset = iconConditionInflict,
+                    Modifier.wrapContentSize()
+                        .padding(4.dp)
+                        .constrainAs(iconConditionInflictsRef) {
+                            top.linkTo(parent.top)
+
+                            if (damageInflictsList.isEmpty()) {
+                                end.linkTo(parent.end)
+                            } else {
+                                end.linkTo(iconDamageInflictsRef.start)
+                            }
+                        },
+                    Color.Unspecified
+                )
+            }
+        }
+    }
+}
+
+@Composable
 fun SpellsList(
     spells: DataState<List<SpellInMemory>>,
     modifier: Modifier = Modifier
@@ -77,109 +183,7 @@ fun SpellsList(
     when (spells) {
         is DataState.Success -> {
             LazyColumnForIndexed(items = spells.data, modifier) { index, item ->
-                Card(elevation = 8.dp, modifier = Modifier.padding(6.dp)) {
-                    ConstraintLayout(modifier = Modifier.padding(6.dp)) {
-                        val (
-                            name,
-                            level,
-                            school,
-                            classesRef,
-                            iconConditionInflictsRef,
-                            iconDamageInflictsRef
-                        ) = createRefs()
-
-                        Text(
-                            item.name,
-                            Modifier.fillMaxWidth()
-                                .padding(8.dp)
-                                .constrainAs(name) {
-                                    top.linkTo(parent.top)
-                                    start.linkTo(parent.start)
-                                },
-                            fontSize = 22.sp
-                        )
-                        Text(
-                            "Level ${item.level}",
-                            Modifier.wrapContentSize()
-                                .padding(8.dp, 4.dp, 0.dp, 8.dp)
-                                .constrainAs(level) {
-                                    top.linkTo(name.bottom)
-                                    start.linkTo(parent.start)
-                                },
-                            fontSize = 16.sp
-                        )
-                        Text(
-                            item.getSchool(),
-                            Modifier.wrapContentSize()
-                                .padding(4.dp, 4.dp, 0.dp, 8.dp)
-                                .constrainAs(school) {
-                                    bottom.linkTo(level.bottom)
-                                    start.linkTo(level.end)
-                                },
-                            fontSize = 16.sp
-                        )
-                        val itemClasses = item.classes
-                        val classesText = itemClasses.take(3).toMutableList()
-
-
-                        if (item.classes.size > 3) {
-                            classesText += "..."
-                        }
-                        val classesString = classesText.toString()
-
-                        Text(
-                            classesString.substring(1, classesString.length - 1),
-                            Modifier.wrapContentSize()
-                                .padding(0.dp, 4.dp, 4.dp, 8.dp)
-                                .constrainAs(classesRef) {
-                                    bottom.linkTo(level.bottom)
-                                    end.linkTo(parent.end)
-                                },
-                            fontSize = 16.sp,
-                            overflow = TextOverflow.Clip,
-                            maxLines = 2,
-                            softWrap = true
-                        )
-
-                        val damageInflictsList = item.damageInflicts
-                        if (damageInflictsList.isNotEmpty()) {
-                            val iconDamageInflict =
-                                vectorResource(id = damageInflictsList [0].toVectorResource())
-
-                            Icon(
-                                asset = iconDamageInflict,
-                                Modifier.wrapContentSize()
-                                    .padding(4.dp)
-                                    .constrainAs(iconDamageInflictsRef) {
-                                        top.linkTo(parent.top)
-                                        end.linkTo(parent.end)
-                                    },
-                                Color.Unspecified
-                            )
-                        }
-                        val conditionInflictsList = item.conditionInflicts
-                        if (conditionInflictsList.isNotEmpty()) {
-                            val iconConditionInflict =
-                                vectorResource(id = conditionInflictsList [0].toVectorResource())
-
-                            Icon(
-                                asset = iconConditionInflict,
-                                Modifier.wrapContentSize()
-                                    .padding(4.dp)
-                                    .constrainAs(iconConditionInflictsRef) {
-                                        top.linkTo(parent.top)
-
-                                        if (damageInflictsList.isEmpty()) {
-                                            end.linkTo(parent.end)
-                                        } else {
-                                            end.linkTo(iconDamageInflictsRef.start)
-                                        }
-                                    },
-                                Color.Unspecified
-                            )
-                        }
-                    }
-                }
+                SpellCard(spell = item)
             }
 
         }

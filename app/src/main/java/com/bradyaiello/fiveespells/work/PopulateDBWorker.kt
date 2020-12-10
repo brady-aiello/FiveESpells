@@ -201,14 +201,17 @@ class PopulateDBWorker @WorkerInject constructor(
                 TableType.Subclass
             )
             val jobs = mutableListOf<Deferred<Result>>()
-            tableTypes.forEach {
-                jobs.add( async(IO) { populateTable(assetManager, it) })
+            val numSpells = spellDatabase.spellQueries.getSpellsCount().executeAsOne()
+            if (numSpells < 302L) {
+                tableTypes.forEach {
+                    jobs.add(async(IO) { populateTable(assetManager, it) })
+                }
+                val results = jobs.awaitAll()
+                results.forEach { result ->
+                    if (result != Result.success()) return@withContext result
+                }
             }
-            val results = jobs.awaitAll()
-            results.forEach {
-                result -> if (result != Result.success()) return@withContext result
-            }
-
             Result.success()
+
         }
 }
