@@ -63,7 +63,8 @@ data class SpellInMemory(
     val materialsCost: Long,
     val materialsConsumed: Boolean,
     val races: List<String> = listOf(),
-    val entriesHigherLevels: String?
+    val entriesHigherLevels: String?,
+    var expanded: Boolean
 )
 
 fun Boolean.toLong(): Long = if (this) 1L else 0L
@@ -131,7 +132,8 @@ fun Spell.toSpellInMemory() =
         materialsCost,
         materialsConsumed == 1L,
         races?.split(", ") ?: listOf(),
-        entriesHigherLevels
+        entriesHigherLevels,
+        expanded = false
         )
 
 @JsonClass(generateAdapter = true)

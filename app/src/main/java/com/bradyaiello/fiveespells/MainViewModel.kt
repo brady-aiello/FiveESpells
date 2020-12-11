@@ -10,7 +10,7 @@ import com.bradyaiello.fiveespells.work.PopulateDBWorker
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
@@ -19,11 +19,8 @@ class MainViewModel @ViewModelInject constructor(
     @ApplicationContext private val context: Context
     ): ViewModel() {
 
-
-    @ExperimentalCoroutinesApi
-    val spellStateFlow: StateFlow<DataState<List<SpellInMemory>>> =
-        repository.getSpellsAsc().stateIn(viewModelScope, SharingStarted.Lazily, DataState.Loading)
-
+    private val _spellLiveData: MutableLiveData<DataState<List<SpellInMemory>>> = MutableLiveData(DataState.Loading)
+    val spellLiveData: LiveData<DataState<List<SpellInMemory>>> = _spellLiveData
 
     private var _dbPopulateProgress = MutableLiveData(0F)
     var dbPopulateProgress: LiveData<Float> = _dbPopulateProgress
@@ -33,11 +30,35 @@ class MainViewModel @ViewModelInject constructor(
         setupDB()
     }
 
+    companion object {
+        private const val TAG = "MainViewModel"
+    }
+
+    @ExperimentalCoroutinesApi
+    fun expandToggle(name: String) {
+        when(val dataState = spellLiveData.value) {
+            is DataState.Success -> {
+                val spells = dataState.data.toMutableList()
+                val spell: SpellInMemory = spells.find { it.name == name }!!
+                spell.expanded = !spell.expanded
+                val newList: MutableList<SpellInMemory> = mutableListOf()
+                newList.addAll(spells)
+                _spellLiveData.postValue(DataState.Success(newList))
+            }
+        }
+    }
+
+    @ExperimentalCoroutinesApi
     private fun setupDB() {
+
         viewModelScope.launch {
             val initialized = repository.databaseIsInitialized()
             if (initialized) {
                 _dbPopulateProgress.postValue(1.0F)
+                repository.getSpellsAsc().stateIn(viewModelScope, SharingStarted.Eagerly, DataState.Loading).collect{
+                    _spellLiveData.postValue(it)
+                }
+
             } else {
                 val insertSpellsWorkRequest =
                     OneTimeWorkRequest.from(PopulateDBWorker::class.java)

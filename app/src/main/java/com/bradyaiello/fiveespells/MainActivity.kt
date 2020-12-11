@@ -9,7 +9,7 @@ import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.TweenSpec
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumnForIndexed
+import androidx.compose.foundation.lazy.LazyColumnFor
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.State
@@ -22,6 +22,7 @@ import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.observe
 import androidx.ui.tooling.preview.Preview
 import com.bradyaiello.fiveespells.models.SpellInMemory
 import com.bradyaiello.fiveespells.models.getSchool
@@ -45,6 +46,17 @@ class MainActivity : AppCompatActivity() {
 
         setContent {
             val progress by viewModel.dbPopulateProgress.observeAsState()
+            val liveDataSpellsByState = remember {
+                mutableStateOf<DataState<List<SpellInMemory>>>(
+                    DataState.Loading,
+                    referentialEqualityPolicy()
+                )
+            }
+
+            // This onChanged listener will always be invoked after a change.
+            viewModel.spellLiveData.observe(owner = this, onChanged = {
+                liveDataSpellsByState.value = it
+            })
 
             FiveESpellsTheme {
                 // A surface container using the 'background' color from the theme
@@ -58,12 +70,10 @@ class MainActivity : AppCompatActivity() {
                                     modifier = Modifier.align(Alignment.CenterHorizontally)
                                 )
                             } else {
-                                val spells by viewModel.spellStateFlow.collectAsState()
 
                                 SpellsList(
-                                    spells = spells,
-                                    modifier = Modifier.fillMaxSize()
-                                )
+                                    spellsState = liveDataSpellsByState,
+                                    modifier = Modifier.fillMaxSize(), viewModel::expandToggle)
                             }
                         }
                     }
@@ -75,13 +85,12 @@ class MainActivity : AppCompatActivity() {
 
 @ExperimentalAnimationApi
 @Composable
-fun SpellCard(spell: SpellInMemory) {
-    val opened = remember { mutableStateOf(false) }
+fun SpellCard(spell: SpellInMemory, expandToggle: (String) -> Unit) { // onClickExpander: () -> Unit) {
 
     Card(
         elevation = 8.dp,
         modifier = Modifier.padding(6.dp)
-            .clickable(onClick = { opened.value = !opened.value })
+            .clickable(onClick =  { expandToggle(spell.name) } )
     ) {
         ConstraintLayout(modifier = Modifier.padding(6.dp)) {
             val (
@@ -183,9 +192,7 @@ fun SpellCard(spell: SpellInMemory) {
                     Color.Unspecified
                 )
             }
- /*           val enter =
-                remember { fadeIn(animSpec = TweenSpec(300, easing = FastOutLinearInEasing)) }
-            val exit = remember { fadeOut(animSpec = TweenSpec(100, easing = FastOutSlowInEasing)) }*/
+
             val enter =
                 remember { expandVertically(animSpec = TweenSpec(200, easing = FastOutLinearInEasing)) }
             val exit = remember { shrinkVertically(animSpec = TweenSpec(200, easing = FastOutSlowInEasing)) }
@@ -197,8 +204,8 @@ fun SpellCard(spell: SpellInMemory) {
                         end.linkTo(parent.end)
                     }) {
                 AnimatedVisibility(
-                    visible = opened.value,
-                    initiallyVisible = false,
+                    visible = spell.expanded,
+                    initiallyVisible = spell.expanded,
                     enter = enter,
                     exit = exit,
                 ) {
@@ -238,13 +245,14 @@ fun SpellDetails(spell: SpellInMemory) {
 @ExperimentalAnimationApi
 @Composable
 fun SpellsList(
-    spells: DataState<List<SpellInMemory>>,
-    modifier: Modifier = Modifier
-) {
-    when (spells) {
+    spellsState: State<DataState<List<SpellInMemory>>>,
+    modifier: Modifier = Modifier,
+    expandToggle: (String) -> Unit
+    ) {
+    when (val spells = spellsState.value) {
         is DataState.Success -> {
-            LazyColumnForIndexed(items = spells.data, modifier) { index, item ->
-                SpellCard(spell = item)
+            LazyColumnFor(items = spells.data, modifier) { item ->
+                SpellCard(spell = item, expandToggle)
             }
 
         }
