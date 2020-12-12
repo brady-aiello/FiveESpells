@@ -14,6 +14,7 @@ import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
+@ExperimentalCoroutinesApi
 class MainViewModel @ViewModelInject constructor(
     private val repository: SpellRepository,
     @ApplicationContext private val context: Context

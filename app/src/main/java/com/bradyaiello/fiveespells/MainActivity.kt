@@ -22,12 +22,12 @@ import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.observe
 import androidx.ui.tooling.preview.Preview
 import com.bradyaiello.fiveespells.models.SpellInMemory
 import com.bradyaiello.fiveespells.models.getSchool
 import com.bradyaiello.fiveespells.models.toVectorResource
 import com.bradyaiello.fiveespells.ui.FiveESpellsTheme
+import com.bradyaiello.fiveespells.utils.observeAsStateWithPolicy
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
@@ -46,17 +46,10 @@ class MainActivity : AppCompatActivity() {
 
         setContent {
             val progress by viewModel.dbPopulateProgress.observeAsState()
-            val liveDataSpellsByState = remember {
-                mutableStateOf<DataState<List<SpellInMemory>>>(
-                    DataState.Loading,
-                    referentialEqualityPolicy()
-                )
-            }
-
-            // This onChanged listener will always be invoked after a change.
-            viewModel.spellLiveData.observe(owner = this, onChanged = {
-                liveDataSpellsByState.value = it
-            })
+            val liveDataSpellsByState = viewModel.spellLiveData.observeAsStateWithPolicy(
+                initial = DataState.Loading,
+                referentialEqualityPolicy()
+            )
 
             FiveESpellsTheme {
                 // A surface container using the 'background' color from the theme
