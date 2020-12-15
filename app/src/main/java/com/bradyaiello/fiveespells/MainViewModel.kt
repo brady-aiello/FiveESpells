@@ -64,24 +64,7 @@ class MainViewModel @ViewModelInject constructor(
             val initialized = repository.databaseIsInitialized()
             if (initialized) {
                 _dbPopulateProgress.postValue(1.0F)
-                repository
-                    .getSpellsAsc()
-                    .stateIn(viewModelScope, SharingStarted.Eagerly, DataState.Loading)
-                    .collect{ dataStateForSpells ->
-                        _spellLiveData.postValue(dataStateForSpells)
-                        when(dataStateForSpells) {
-                            is DataState.Success -> {
-                                val expanded: List<Boolean> = List(dataStateForSpells.data.size){
-                                    false
-                                }
-                                _spellsExpanded.postValue(DataState.Success(expanded))
-                            }
-/*                            is DataState.Error -> TODO()
-                            DataState.Empty -> TODO()
-                            DataState.Loading -> TODO()*/
-                        }
-
-                    }
+                getSpells()
 
             } else {
                 val insertSpellsWorkRequest =
@@ -98,13 +81,38 @@ class MainViewModel @ViewModelInject constructor(
                 dbPopulateProgress =
                     Transformations.map(workManager.getWorkInfoByIdLiveData(insertSpellsWorkRequest.id)) {
                         if (it.state == WorkInfo.State.SUCCEEDED) {
-                            1.0F
+                            viewModelScope.launch {
+                                getSpells()
+                            }
+                            return@map 1.0F
                         } else {
-                            it.progress.getFloat(PopulateDBWorker.PROGRESS, 0F)
+                            return@map it.progress.getFloat(PopulateDBWorker.PROGRESS, 0F)
                         }
                     }
+
             }
         }
+    }
+
+    private suspend fun getSpells() {
+        repository
+            .getSpellsAsc()
+            .stateIn(viewModelScope, SharingStarted.Eagerly, DataState.Loading)
+            .collect{ dataStateForSpells ->
+                _spellLiveData.postValue(dataStateForSpells)
+                when(dataStateForSpells) {
+                    is DataState.Success -> {
+                        val expanded: List<Boolean> = List(dataStateForSpells.data.size){
+                            false
+                        }
+                        _spellsExpanded.postValue(DataState.Success(expanded))
+                    }
+/*                            is DataState.Error -> TODO()
+                        DataState.Empty -> TODO()
+                        DataState.Loading -> TODO()*/
+                }
+
+            }
     }
 
 }

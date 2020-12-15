@@ -49,7 +49,9 @@ class MainActivity : AppCompatActivity() {
             val progress by viewModel.dbPopulateProgress.observeAsState()
 
             val spellsState: State<DataState<List<SpellInMemory>>> =
-                viewModel.spellLiveData.observeAsStateWithPolicy(DataState.Loading)
+                viewModel.spellLiveData.observeAsStateWithPolicy(DataState.Loading,
+                        referentialEqualityPolicy()
+                )
 
             val spellsExpandedState: State<DataState<List<Boolean>>> =
                 viewModel.spellsExpanded.observeAsStateWithPolicy(DataState.Loading)
@@ -65,15 +67,15 @@ class MainActivity : AppCompatActivity() {
                                     progress = it,
                                     modifier = Modifier.align(Alignment.CenterHorizontally)
                                 )
-                            } else {
-
-                                SpellsList(
-                                    spellsState = spellsState,
-                                    spellsExpandedState = spellsExpandedState,
-                                    modifier = Modifier.fillMaxSize(),
-                                    expandToggle =  viewModel::expandToggle)
                             }
                         }
+
+                        SpellsList(
+                                spellsState = spellsState,
+                                spellsExpandedState = spellsExpandedState,
+                                modifier = Modifier.fillMaxSize(),
+                                expandToggle =  viewModel::expandToggle
+                        )
                     }
                 }
             }
