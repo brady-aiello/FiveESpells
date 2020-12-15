@@ -5,16 +5,13 @@ import com.bradyaiello.fiveespells.DataState
 import com.bradyaiello.fiveespells.Database
 import com.bradyaiello.fiveespells.models.SpellInMemory
 import com.bradyaiello.fiveespells.models.toSpellInMemory
-import com.squareup.moshi.Moshi
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
 class SpellRepository constructor(
     @ApplicationContext private val context: Context,
-    private val spellDatabase: Database,
-    private val moshi: Moshi
-){
+    private val spellDatabase: Database){
     companion object {
         private const val TAG = "SpellRepository"
     }
@@ -72,7 +69,6 @@ class SpellRepository constructor(
         }
     }
 
-
     fun getSpellsAsc(): Flow<DataState<List<SpellInMemory>>> = flow {
         emit(DataState.Loading)
         try {
@@ -89,20 +85,4 @@ class SpellRepository constructor(
             emit(DataState.Error(e))
         }
     }
-
-    suspend fun getSpellClasses(spellName: String): Pair<String, List<String>> {
-        return if (spellName in spellClasses.keys) {
-            Pair(spellName, spellClasses[spellName]!!)
-        } else {
-            val classes = spellDatabase.spellQueries.getClassesThatCanCastSpell(spellName)
-                .executeAsList()
-            spellClasses[spellName] = classes
-            Pair(spellName, classes)
-        }
-    }
-
-/*    suspend fun insertAllSpells() {
-
-        spellDatabase.spellQueries.insertSpell()
-    }*/
 }

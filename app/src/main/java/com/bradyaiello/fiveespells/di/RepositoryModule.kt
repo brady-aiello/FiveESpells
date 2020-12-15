@@ -3,7 +3,6 @@ package com.bradyaiello.fiveespells.di
 import android.content.Context
 import com.bradyaiello.fiveespells.Database
 import com.bradyaiello.fiveespells.repository.SpellRepository
-import com.squareup.moshi.Moshi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -20,8 +19,7 @@ object RepositoryModule {
     fun provideSpellRepository(
         @ApplicationContext context: Context,
         spellDatabase: Database,
-        moshi: Moshi
     ): SpellRepository = SpellRepository(
-        context, spellDatabase, moshi
+        context, spellDatabase
     )
 }

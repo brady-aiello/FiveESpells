@@ -9,7 +9,7 @@ import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.TweenSpec
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumnFor
+import androidx.compose.foundation.lazy.LazyColumnForIndexed
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.State
@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         private const val TAG = "MainActivity"
     }
 
+    @ExperimentalCoroutinesApi
     private val viewModel: MainViewModel by viewModels()
 
     @ExperimentalAnimationApi
@@ -46,16 +47,18 @@ class MainActivity : AppCompatActivity() {
 
         setContent {
             val progress by viewModel.dbPopulateProgress.observeAsState()
-            val liveDataSpellsByState = viewModel.spellLiveData.observeAsStateWithPolicy(
-                initial = DataState.Loading,
-                referentialEqualityPolicy()
-            )
+
+            val spellsState: State<DataState<List<SpellInMemory>>> =
+                viewModel.spellLiveData.observeAsStateWithPolicy(DataState.Loading)
+
+            val spellsExpandedState: State<DataState<List<Boolean>>> =
+                viewModel.spellsExpanded.observeAsStateWithPolicy(DataState.Loading)
 
             FiveESpellsTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                     Column(modifier = Modifier.fillMaxSize()) {
-
+                       TopAppBar(title = { Text(text = "5e Spells") })
                         progress?.let {
                             if (it < 1.0F) {
                                 SpellsProgressIndicator(
@@ -65,8 +68,10 @@ class MainActivity : AppCompatActivity() {
                             } else {
 
                                 SpellsList(
-                                    spellsState = liveDataSpellsByState,
-                                    modifier = Modifier.fillMaxSize(), viewModel::expandToggle)
+                                    spellsState = spellsState,
+                                    spellsExpandedState = spellsExpandedState,
+                                    modifier = Modifier.fillMaxSize(),
+                                    expandToggle =  viewModel::expandToggle)
                             }
                         }
                     }
@@ -78,12 +83,15 @@ class MainActivity : AppCompatActivity() {
 
 @ExperimentalAnimationApi
 @Composable
-fun SpellCard(spell: SpellInMemory, expandToggle: (String) -> Unit) { // onClickExpander: () -> Unit) {
+fun SpellCard(spell: SpellInMemory, expanded: Boolean = false, ndx: Int, expandToggle: (Int) -> Unit) { // onClickExpander: () -> Unit) {
 
     Card(
         elevation = 8.dp,
         modifier = Modifier.padding(6.dp)
-            .clickable(onClick =  { expandToggle(spell.name) } )
+        .clickable(onClick =  {
+            expandToggle(ndx)
+        } )
+        //.clickable(onClick =  { expandToggle(spell.name) } )
     ) {
         ConstraintLayout(modifier = Modifier.padding(6.dp)) {
             val (
@@ -127,9 +135,9 @@ fun SpellCard(spell: SpellInMemory, expandToggle: (String) -> Unit) { // onClick
                 fontSize = 16.sp
             )
             val itemClasses = spell.classes
-            val classesText = itemClasses.take(3).toMutableList()
+            val classesText = itemClasses.take(2).toMutableList()
 
-            if (spell.classes.size > 3) {
+            if (spell.classes.size > 2) {
                 classesText += "..."
             }
             val classesString = classesText.toString()
@@ -152,25 +160,23 @@ fun SpellCard(spell: SpellInMemory, expandToggle: (String) -> Unit) { // onClick
             if (damageInflictsList.isNotEmpty()) {
                 val iconDamageInflict =
                     vectorResource(id = damageInflictsList[0].toVectorResource())
-
                 Icon(
-                    asset = iconDamageInflict,
-                    Modifier.wrapContentSize()
-                        .padding(4.dp)
-                        .constrainAs(iconDamageInflictsRef) {
-                            top.linkTo(parent.top)
-                            end.linkTo(parent.end)
-                        },
-                    Color.Unspecified
+                    imageVector = iconDamageInflict,
+                    modifier = Modifier.wrapContentSize()
+                    .padding(4.dp)
+                    .constrainAs(iconDamageInflictsRef) {
+                        top.linkTo(parent.top)
+                        end.linkTo(parent.end)
+                    },
+                    tint = Color.Unspecified
                 )
             }
             val conditionInflictsList = spell.conditionInflicts
             if (conditionInflictsList.isNotEmpty()) {
                 val iconConditionInflict =
                     vectorResource(id = conditionInflictsList[0].toVectorResource())
-
                 Icon(
-                    asset = iconConditionInflict,
+                    imageVector = iconConditionInflict,
                     Modifier.wrapContentSize()
                         .padding(4.dp)
                         .constrainAs(iconConditionInflictsRef) {
@@ -182,9 +188,10 @@ fun SpellCard(spell: SpellInMemory, expandToggle: (String) -> Unit) { // onClick
                                 end.linkTo(iconDamageInflictsRef.start)
                             }
                         },
-                    Color.Unspecified
+                    tint = Color.Unspecified
                 )
             }
+
 
             val enter =
                 remember { expandVertically(animSpec = TweenSpec(200, easing = FastOutLinearInEasing)) }
@@ -197,12 +204,14 @@ fun SpellCard(spell: SpellInMemory, expandToggle: (String) -> Unit) { // onClick
                         end.linkTo(parent.end)
                     }) {
                 AnimatedVisibility(
-                    visible = spell.expanded,
-                    initiallyVisible = spell.expanded,
+                    visible = expanded,
+                    initiallyVisible = expanded,
                     enter = enter,
                     exit = exit,
                 ) {
-                    SpellDetails(spell = spell)
+                    if (expanded) {
+                        SpellDetails(spell = spell)
+                    }
                 }
             }
         }
@@ -239,15 +248,21 @@ fun SpellDetails(spell: SpellInMemory) {
 @Composable
 fun SpellsList(
     spellsState: State<DataState<List<SpellInMemory>>>,
+    spellsExpandedState: State<DataState<List<Boolean>>>,
     modifier: Modifier = Modifier,
-    expandToggle: (String) -> Unit
+    expandToggle: (Int) -> Unit
     ) {
-    when (val spells = spellsState.value) {
+    when (val spellsDataStateValue = spellsState.value) {
         is DataState.Success -> {
-            LazyColumnFor(items = spells.data, modifier) { item ->
-                SpellCard(spell = item, expandToggle)
+            val spellsExpandedStateValue = spellsExpandedState.value
+            if (spellsExpandedStateValue is DataState.Success) {
+                val expandedList = spellsExpandedStateValue.data
+                LazyColumnForIndexed(items = spellsDataStateValue.data, modifier) { ndx, item ->
+                        SpellCard(spell = item, expandedList[ndx], ndx) {
+                            expandToggle(ndx)
+                        }
+                }
             }
-
         }
     }
 /*        is DataState.Error -> TODO()

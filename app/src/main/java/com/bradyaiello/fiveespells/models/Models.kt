@@ -1,6 +1,5 @@
 package com.bradyaiello.fiveespells.models
 
-import androidx.compose.ui.res.vectorResource
 import com.bradyaiello.fiveespells.*
 import com.squareup.moshi.JsonClass
 
@@ -63,9 +62,8 @@ data class SpellInMemory(
     val materialsCost: Long,
     val materialsConsumed: Boolean,
     val races: List<String> = listOf(),
-    val entriesHigherLevels: String?,
-    var expanded: Boolean
-)
+    val entriesHigherLevels: String?
+    )
 
 fun Boolean.toLong(): Long = if (this) 1L else 0L
 
@@ -103,7 +101,6 @@ fun TextSpellInMemory.toSpell() =
         entriesHigherLevels
     )
 
-
 fun Spell.toSpellInMemory() =
     SpellInMemory(
         name,
@@ -132,9 +129,8 @@ fun Spell.toSpellInMemory() =
         materialsCost,
         materialsConsumed == 1L,
         races?.split(", ") ?: listOf(),
-        entriesHigherLevels,
-        expanded = false
-        )
+        entriesHigherLevels
+    )
 
 @JsonClass(generateAdapter = true)
 data class MaterialInMemory(

@@ -211,7 +211,7 @@ class PopulateDBWorker @WorkerInject constructor(
                     if (result != Result.success()) return@withContext result
                 }
             }
+            spellDatabase.spellQueries.createSpellsView()
             Result.success()
-
         }
 }

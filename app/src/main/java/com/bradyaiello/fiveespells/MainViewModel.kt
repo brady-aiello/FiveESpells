@@ -23,6 +23,9 @@ class MainViewModel @ViewModelInject constructor(
     private val _spellLiveData: MutableLiveData<DataState<List<SpellInMemory>>> = MutableLiveData(DataState.Loading)
     val spellLiveData: LiveData<DataState<List<SpellInMemory>>> = _spellLiveData
 
+    private val _spellsExpanded: MutableLiveData<DataState<List<Boolean>>> = MutableLiveData(DataState.Loading)
+    val spellsExpanded: LiveData<DataState<List<Boolean>>> = _spellsExpanded
+
     private var _dbPopulateProgress = MutableLiveData(0F)
     var dbPopulateProgress: LiveData<Float> = _dbPopulateProgress
         private set
@@ -36,16 +39,21 @@ class MainViewModel @ViewModelInject constructor(
     }
 
     @ExperimentalCoroutinesApi
-    fun expandToggle(name: String) {
-        when(val dataState = spellLiveData.value) {
+    fun expandToggle(index: Int) {
+        when(spellLiveData.value) {
             is DataState.Success -> {
-                val spells = dataState.data.toMutableList()
-                val spell: SpellInMemory = spells.find { it.name == name }!!
-                spell.expanded = !spell.expanded
-                val newList: MutableList<SpellInMemory> = mutableListOf()
-                newList.addAll(spells)
-                _spellLiveData.postValue(DataState.Success(newList))
+                val expandedDataState = _spellsExpanded.value
+                if (expandedDataState is DataState.Success) {
+                    val tempExpanded = expandedDataState.data.toMutableList()
+                    tempExpanded[index] = !tempExpanded[index]
+                    val newExpanded = tempExpanded.toList()
+                    _spellsExpanded.postValue(DataState.Success(newExpanded))
+                }
             }
+/*            is DataState.Error -> TODO()
+            DataState.Empty -> TODO()
+            DataState.Loading -> TODO()
+            null -> TODO()*/
         }
     }
 
@@ -56,9 +64,24 @@ class MainViewModel @ViewModelInject constructor(
             val initialized = repository.databaseIsInitialized()
             if (initialized) {
                 _dbPopulateProgress.postValue(1.0F)
-                repository.getSpellsAsc().stateIn(viewModelScope, SharingStarted.Eagerly, DataState.Loading).collect{
-                    _spellLiveData.postValue(it)
-                }
+                repository
+                    .getSpellsAsc()
+                    .stateIn(viewModelScope, SharingStarted.Eagerly, DataState.Loading)
+                    .collect{ dataStateForSpells ->
+                        _spellLiveData.postValue(dataStateForSpells)
+                        when(dataStateForSpells) {
+                            is DataState.Success -> {
+                                val expanded: List<Boolean> = List(dataStateForSpells.data.size){
+                                    false
+                                }
+                                _spellsExpanded.postValue(DataState.Success(expanded))
+                            }
+/*                            is DataState.Error -> TODO()
+                            DataState.Empty -> TODO()
+                            DataState.Loading -> TODO()*/
+                        }
+
+                    }
 
             } else {
                 val insertSpellsWorkRequest =
