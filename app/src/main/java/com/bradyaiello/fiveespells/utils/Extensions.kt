@@ -9,7 +9,7 @@ import androidx.lifecycle.Observer
 fun <R, T : R> LiveData<T>.observeAsStateWithPolicy(
     initial: R,
     snapshotMutationPolicy: SnapshotMutationPolicy<R> =
-        structuralEqualityPolicy()
+            structuralEqualityPolicy()
 ): State<R> {
     val lifecycleOwner = AmbientLifecycleOwner.current
     val state = remember { mutableStateOf(initial, snapshotMutationPolicy) }

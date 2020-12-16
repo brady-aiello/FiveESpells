@@ -348,4 +348,41 @@ sealed class ConditionInflict(val type: String) {
     object Unconscious: ConditionInflict("unconscious")
 }
 
+val classes = listOf(
+        "Any",
+        "Artificer",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Paladin",
+        "Ranger",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+)
 
+val levels = (0..10).toList().map { it.toString() }
+
+val backgrounds = listOf(
+        "Any",
+        "Azorius Functionary",
+        "Boros Legionnaire",
+        "Dimir Operative",
+        "Golgari Agent",
+        "Gruul Anarch",
+        "Izzet Engineer",
+        "Orzhov Representative",
+        "Rakdos Cultist",
+        "Selesnya Initiate",
+        "Simic Scientist"
+)
+
+sealed class StateEvent() {
+    object PopulateDatabase: StateEvent()
+    object GetSpells: StateEvent()
+    class FilterSpells(
+            val className: String,
+            val lowestLevel: Int,
+            val highestLevel: Int
+            ): StateEvent()
+}

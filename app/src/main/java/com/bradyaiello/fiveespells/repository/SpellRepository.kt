@@ -85,4 +85,29 @@ class SpellRepository constructor(
             emit(DataState.Error(e))
         }
     }
+
+    fun filterSpells(
+            className: String,
+            lowestLevel: Int,
+            highestLevel: Int
+    ): Flow<DataState<List<SpellInMemory>>> = flow {
+        emit(DataState.Loading)
+        try {
+            val spellsInMemory: List<SpellInMemory> = spellDatabase
+                    .spellQueries
+                    .filterSpells(
+                            className = className,
+                            lowestLevel = lowestLevel.toLong(),
+                            highestLevel = highestLevel.toLong()
+                    )
+                    .executeAsList()
+                    .map {
+                        it.toSpellInMemory()
+                    }
+
+            emit(DataState.Success(spellsInMemory))
+        } catch (e: Exception) {
+            emit(DataState.Error(e))
+        }
+    }
 }

@@ -68,6 +68,9 @@ SELECT * FROM Spell;
 getSpellsSortedByName:
 SELECT * FROM Spells ORDER BY name ASC;
 
+filterSpells:
+SELECT * FROM Spells WHERE classes LIKE ('%' || :className || '%') AND level BETWEEN :lowestLevel AND :highestLevel;
+
 getSpellByName:
 SELECT * FROM Spell WHERE name = :name LIMIT 1;
 

@@ -5,6 +5,7 @@ import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
 import androidx.work.*
 import com.bradyaiello.fiveespells.models.SpellInMemory
+import com.bradyaiello.fiveespells.models.StateEvent
 import com.bradyaiello.fiveespells.repository.SpellRepository
 import com.bradyaiello.fiveespells.work.PopulateDBWorker
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -91,6 +92,45 @@ class MainViewModel @ViewModelInject constructor(
                     }
 
             }
+        }
+    }
+
+    fun setStateEvent(stateEvent: StateEvent) {
+        when(stateEvent) {
+            is StateEvent.PopulateDatabase -> {}
+            is StateEvent.GetSpells -> {}
+            is StateEvent.FilterSpells -> {
+                filterSpells(
+                        stateEvent.className,
+                        stateEvent.lowestLevel,
+                        stateEvent.highestLevel
+                )
+            }
+        }
+    }
+
+
+    private fun filterSpells(
+            className: String = "*",
+            lowestLevel: Int = 0,
+            highestLevel: Int = 10) {
+        viewModelScope.launch {
+            repository
+                    .filterSpells(className, lowestLevel, highestLevel)
+                    .collect { dataStateForSpells ->
+                        _spellLiveData.postValue(dataStateForSpells)
+                        when (dataStateForSpells) {
+                            is DataState.Success -> {
+                                val expanded: List<Boolean> = List(dataStateForSpells.data.size) {
+                                    false
+                                }
+                                _spellsExpanded.postValue(DataState.Success(expanded))
+                            }
+/*                            is DataState.Error -> TODO()
+                        DataState.Empty -> TODO()
+                        DataState.Loading -> TODO()*/
+                        }
+                    }
         }
     }
 
